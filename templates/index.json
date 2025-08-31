@@ -1,1 +1,872 @@
-{"sections":{"slideshow":{"type":"slideshow","blocks":{"slide-1":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/hero-test.jpg","content_max_width":640,"mobile_text_position":"place-self-center text-center","desktop_text_position":"sm:place-self-center-start sm:text-start","subheading":"","title":"Unattended Retail, All in One Place","heading_tag":"h0","button_text":"Shop the Renvo Marketplace","button_link":"shopify:\/\/collections\/all","text_color":"#ffffff","button_background":"#ffffff","button_text_color":"#000000","overlay_color":"#000000","overlay_opacity":30,"background":"","background_gradient":""}}},"block_order":["slide-1"],"settings":{"full_width":true,"allow_transparent_header":true,"show_initial_transition":false,"image_size":"auto","controls_type":"numbers","transition_type":"fade_with_text","autoplay":true,"cycle_speed":6,"background":"#f2f2f2","background_gradient":"linear-gradient(60deg, rgba(60, 65, 68, 1), rgba(23, 29, 33, 1) 98%)"}},"image-link-blocks":{"type":"image-link-blocks","blocks":{"1664424046b00c932c-0":{"type":"item","settings":{"stretch_image":true,"link_text":"","link_url":"","background":"","text_color":"#ffffff","overlay_color":"#000000","overlay_opacity":0}},"1664424046b00c932c-1":{"type":"item","settings":{"stretch_image":true,"link_text":"","link_url":"","background":"","text_color":"#ffffff","overlay_color":"#000000","overlay_opacity":0}},"1664424046b00c932c-2":{"type":"item","settings":{"stretch_image":true,"link_text":"","link_url":"","background":"","text_color":"#ffffff","overlay_color":"#000000","overlay_opacity":0}},"1664424046b00c932c-3":{"type":"item","settings":{"stretch_image":true,"link_text":"","link_url":"","background":"","text_color":"#ffffff","overlay_color":"#000000","overlay_opacity":0}}},"block_order":["1664424046b00c932c-0","1664424046b00c932c-1","1664424046b00c932c-2","1664424046b00c932c-3"],"disabled":true,"settings":{"full_width":false,"block_size":"large","subheading":"","title":"","content":"","link_url":"","link_text":"","background":"","background_gradient":"","text_color":"","heading_color":"","heading_gradient":""}},"media_grid_wTKaQw":{"type":"media-grid","blocks":{"image_peCkfB":{"type":"image","settings":{"title":"Promote your products","heading_tag":"h4","link_url":"","link_text":"","mobile_text_position":"place-self-center text-center","desktop_column_span":2,"desktop_row_span":1,"desktop_text_position":"sm:place-self-center sm:text-center","background":"#000000","background_gradient":"","text_color":"#ffffff","text_gradient":"","button_background":"#000000","button_text_color":"#ffffff","overlay_color":"#000000","overlay_opacity":0}},"image_4F78b6":{"type":"image","settings":{"title":"Promote your products","heading_tag":"h4","link_url":"","link_text":"","mobile_text_position":"place-self-center text-center","desktop_column_span":2,"desktop_row_span":2,"desktop_text_position":"sm:place-self-center sm:text-center","background":"#000000","background_gradient":"","text_color":"#ffffff","text_gradient":"","button_background":"#000000","button_text_color":"#ffffff","overlay_color":"#000000","overlay_opacity":0}},"image_zLwdhz":{"type":"image","settings":{"title":"Promote your products","heading_tag":"h4","link_url":"","link_text":"","mobile_text_position":"place-self-center text-center","desktop_column_span":2,"desktop_row_span":1,"desktop_text_position":"sm:place-self-center sm:text-center","background":"#000000","background_gradient":"","text_color":"#ffffff","text_gradient":"","button_background":"#000000","button_text_color":"#ffffff","overlay_color":"#000000","overlay_opacity":0}},"image_VCKkre":{"type":"image","settings":{"title":"Promote your products","heading_tag":"h4","link_url":"","link_text":"","mobile_text_position":"place-self-center text-center","desktop_column_span":1,"desktop_row_span":1,"desktop_text_position":"sm:place-self-center sm:text-center","background":"#000000","background_gradient":"","text_color":"#ffffff","text_gradient":"","button_background":"#000000","button_text_color":"#ffffff","overlay_color":"#000000","overlay_opacity":0}}},"block_order":["image_peCkfB","image_4F78b6","image_zLwdhz","image_VCKkre"],"disabled":true,"name":"Media grid","settings":{"full_width":true,"reduce_width":false,"desktop_row_height":290,"mobile_row_height":150,"background":"","background_gradient":""}},"collection-list":{"type":"collection-list","blocks":{"collection-1":{"type":"collection","settings":{"collection":"","image":"shopify:\/\/shop_images\/800x600_1.png","subheading":"","title":"Vending Machines & Accessories","url":"","heading_tag":"h4","text_position":"place-self-center-start text-start","text_color":"#ffffff","overlay_color":"#000000","overlay_opacity":30}},"collection-2":{"type":"collection","settings":{"collection":"","image":"shopify:\/\/shop_images\/800x600_1.png","subheading":"","title":"Consumables & White-Label Products","url":"","heading_tag":"h4","text_position":"place-self-center-start text-start","text_color":"#ffffff","overlay_color":"#000000","overlay_opacity":30}},"collection_7XmERz":{"type":"collection","settings":{"collection":"","image":"shopify:\/\/shop_images\/800x600_1.png","subheading":"","title":"Branding & Display Solutions","url":"","heading_tag":"h4","text_position":"place-self-center-start text-start","text_color":"#ffffff","overlay_color":"#000000","overlay_opacity":30}},"collection_9waamV":{"type":"collection","settings":{"collection":"","image":"shopify:\/\/shop_images\/800x600_1.png","subheading":"","title":"Vendor Tools & Analytics","url":"","heading_tag":"h4","text_position":"place-self-center-start text-start","text_color":"#ffffff","overlay_color":"#000000","overlay_opacity":30}}},"block_order":["collection-1","collection-2","collection_7XmERz","collection_9waamV"],"settings":{"full_width":true,"stack_collections":false,"collections_per_row_mobile":"2","collections_per_row":4,"show_progress_bar":false,"subheading":"","title":"Smarter Retail Starts Here","content":"","link_url":"","link_text":"","background":"#ffffff","background_gradient":"","text_color":"","heading_color":"","heading_gradient":""}},"featured_product_L6CLwf":{"type":"featured-product","blocks":{"vendor_d9zh7f":{"type":"vendor","settings":{}},"title_djT6XK":{"type":"title","settings":{"heading_tag":"h2"}},"badges_rm7Gxj":{"type":"badges","settings":{}},"price_kVPBLD":{"type":"price","settings":{"show_taxes_notice":false}},"rating_JmedPb":{"type":"rating","settings":{"show_empty":false}},"separator_4bnXNh":{"type":"separator","settings":{}},"description_taKPQa":{"type":"description","settings":{"icon":"none","icon_width":20,"collapse_content":false}},"variant_picker_LD966W":{"type":"variant_picker","settings":{"hide_sold_out_variants":false,"stack_blocks":true,"selector_style":"block","swatch_selector_style":"swatch","variant_image_options":"","size_chart_page":""}},"quantity_selector_PPnErz":{"type":"quantity_selector","settings":{}},"buy_buttons_pUBH9L":{"type":"buy_buttons","settings":{"show_payment_button":true,"show_gift_card_recipient":true,"atc_button_background":"","atc_button_text_color":"","payment_button_background":"","payment_button_text_color":""}},"pickup_availability_e84tEr":{"type":"pickup_availability","settings":{}}},"block_order":["vendor_d9zh7f","title_djT6XK","badges_rm7Gxj","price_kVPBLD","rating_JmedPb","separator_4bnXNh","description_taKPQa","variant_picker_LD966W","quantity_selector_PPnErz","buy_buttons_pUBH9L","pickup_availability_e84tEr"],"disabled":true,"name":"Featured product","settings":{"full_width":true,"product":"","desktop_media_width":55,"desktop_media_layout":"carousel_thumbnails_left","mobile_media_size":"expanded","mobile_carousel_control":"floating_dots","enable_video_autoplay":true,"enable_video_looping":false,"enable_image_zoom":true,"max_image_zoom_level":3,"background":"","background_gradient":"","text_color":"","input_background":"rgba(0,0,0,0)","input_text_color":""}},"text_with_icons_DejWkL":{"type":"text-with-icons","blocks":{"item_girmgC":{"type":"item","settings":{"icon":"picto-coupon","mobile_icon_width":24,"icon_width":32,"icon_background_type":"circle","icon_background":"","icon_color":"","title":"Browse and Compare","content":"<p>Smart machines, products, and services—all in one streamlined place.<\/p>"}},"item_jBQpri":{"type":"item","settings":{"icon":"picto-coupon","mobile_icon_width":24,"icon_width":32,"icon_background_type":"circle","icon_background":"","icon_color":"","title":"Stock & Customize","content":"<p>Easily source, bundle, and brand. No middlemen, no pitch decks.<\/p>"}},"item_p8Bkdx":{"type":"item","settings":{"icon":"picto-coupon","mobile_icon_width":24,"icon_width":32,"icon_background_type":"circle","icon_background":"","icon_color":"","title":"Track & Scale","content":"<p>Recurring orders and self-serve vendor tools let you grow efficiently.<\/p>"}}},"block_order":["item_girmgC","item_jBQpri","item_p8Bkdx"],"name":"Text with icons","settings":{"full_width":true,"stack_on_mobile":false,"title":"Helping You Run Retail That Runs Itself","heading_tag":"h5","text_alignment":"center","icon_spacing":"small","background":"#f0f0f0","background_gradient":"","text_color":""}},"image-with-text-overlay":{"type":"image-with-text-overlay","blocks":{"1664424230c4756b0e-1":{"type":"heading","settings":{"text":"Built for Builders","heading_tag":"h1"}},"1664424230c4756b0e-2":{"type":"richtext","settings":{"content":"<ul><li>Independent vending operators<\/li><li>Multi-machine fleet owners<\/li><li>First-time vending startups<\/li><li>White-label product creators<\/li><li>B2B brands exploring new channels<\/li><li>Retailers adding automated points of sale<\/li><\/ul>"}},"button_DVTyyM":{"type":"button","settings":{"style":"fill","size":"lg","text":"Become a Vendor","url":"","background":"#000000","text_color":"#ffffff"}}},"block_order":["1664424230c4756b0e-1","1664424230c4756b0e-2","button_DVTyyM"],"settings":{"full_width":true,"allow_transparent_header":false,"enable_parallax":false,"image_size":"auto","mobile_text_position":"place-self-center-start text-start","desktop_text_position":"sm:place-self-center-start sm:text-start","text_color":"#ffffff","overlay_color":"#000000","overlay_opacity":30}},"multi_column_BFb7p6":{"type":"multi-column","blocks":{"item_heXVKm":{"type":"item","settings":{"show_controls":false,"column_size":"3","title":"Browse & Compare","heading_tag":"h4","content":"<p>Smart vending machines, consumables, and retail display solutions—ready to order when you need them.<\/p>","link_url":"","link_text":"","link_style":"link"}},"item_mBzVgd":{"type":"item","settings":{"show_controls":false,"column_size":"3","title":"Stock & Customize","heading_tag":"h4","content":"<p>Choose from a growing catalog of white-label goods and branding services to make your setup stand out.<\/p>","link_url":"","link_text":"","link_style":"link"}},"item_qppNAT":{"type":"item","settings":{"show_controls":false,"column_size":"3","title":"Track & Scale","heading_tag":"h4","content":"<p>Built-in tools for recurring orders, vendor management, and growing your unattended business without more headcount.<\/p>","link_url":"","link_text":"","link_style":"link"}}},"block_order":["item_heXVKm","item_mBzVgd","item_qppNAT"],"disabled":true,"name":"Multi-column","settings":{"full_width":true,"stack_on_mobile":true,"gap":"large","text_alignment":"center","subheading":"How It Works","title":"Helping You Run Retail That Runs Itself","content":"<p><\/p><p><\/p>","background":"","background_gradient":"","text_color":""}},"featured-collection":{"type":"featured-collection","disabled":true,"settings":{"collection":"beach-essentials","products":[],"full_width":true,"stack_products":false,"show_progress_bar":false,"products_count":6,"products_per_row_mobile":"2","products_per_row_desktop":4,"subheading":"","title":"Summertime Necessities","content":"","link_url":"","link_text":"View all","background":"","background_gradient":"","text_color":"","heading_color":"","heading_gradient":"","product_card_background":"","product_card_text_color":""}},"impact-text":{"type":"impact-text","blocks":{"1664424181b38582d5-0":{"type":"item","settings":{"title":"100%","subheading":"Showcase a benefit of your product","content":"","button_text":"","button_url":"","animate_impact_text":false,"animate_impact_text_duration":2}},"item_pcFJYQ":{"type":"item","settings":{"title":"100%","subheading":"Showcase a benefit of your product","content":"","button_text":"","button_url":"","animate_impact_text":false,"animate_impact_text_duration":2}}},"block_order":["1664424181b38582d5-0","item_pcFJYQ"],"disabled":true,"settings":{"full_width":true,"stack_mobile":true,"text_alignment":"center","impact_text_style":"fill","text_divider":"line","impact_text_size_ratio":1,"background":"","background_gradient":"","heading_text_color":"","heading_gradient":"linear-gradient(180deg, rgba(26, 26, 26, 0.2), rgba(26, 26, 26, 0) 100%)","text_color":"","button_background":"","button_text_color":""}},"scrolling-text":{"type":"scrolling-text","disabled":true,"settings":{"full_width":true,"text":"Promotion text","text_size":"large","text_style":"fill","scrolling_mode":"auto","scrolling_speed":5,"background":"","background_gradient":"","text_color":"","text_gradient":""}},"logo_list_UaQXjk":{"type":"logo-list","blocks":{"logo_P8Kfe4":{"type":"logo","settings":{"logo_width":120,"link":""}},"logo_rWBGXB":{"type":"logo","settings":{"logo_width":120,"link":""}},"logo_mdriPx":{"type":"logo","settings":{"logo_width":120,"link":""}},"logo_e8CnLj":{"type":"logo","settings":{"logo_width":120,"link":""}},"logo_6yNUtm":{"type":"logo","settings":{"logo_width":120,"link":""}},"logo_YhVcme":{"type":"logo","settings":{"logo_width":120,"link":""}},"logo_nKmPLR":{"type":"logo","settings":{"logo_width":120,"link":""}}},"block_order":["logo_P8Kfe4","logo_rWBGXB","logo_mdriPx","logo_e8CnLj","logo_6yNUtm","logo_YhVcme","logo_nKmPLR"],"name":"Logo list","settings":{"full_width":true,"stack_mobile":true,"title":"Featured Brands","content":"","text_alignment":"start","items_per_row":7,"background":"","background_gradient":"","text_color":"","heading_color":"","heading_gradient":"","logo_item_background":"","logo_item_border":""}},"press":{"type":"press","blocks":{"quote_QCf3Jr":{"type":"quote","settings":{"logo_width":100,"author":"","content":"Renvo saved me time on sourcing and branding—I can focus on locations and growth.","show_rating":false,"rating":5}},"16644243327ba53d2a-0":{"type":"quote","settings":{"logo_width":100,"author":"","content":"I restock less and sell more.","show_rating":false,"rating":5}},"16644243327ba53d2a-1":{"type":"quote","settings":{"logo_width":100,"author":"","content":"I launched a white-label tea brand in vending machines in under a month.","show_rating":false,"rating":4}}},"block_order":["quote_QCf3Jr","16644243327ba53d2a-0","16644243327ba53d2a-1"],"settings":{"full_width":true,"content_size":"medium","background":"#ffffff","background_gradient":"","text_color":"","heading_color":"","heading_gradient":"","logo_item_background":"","logo_item_border":""}},"image_with_text_overlay_ddCpzJ":{"type":"image-with-text-overlay","blocks":{"subheading_H4enye":{"type":"subheading","settings":{"text":"Get Started"}},"heading_ggxf3p":{"type":"heading","settings":{"text":"Ready to Stock Smarter?","heading_tag":"h1"}},"richtext_j7N3Ew":{"type":"richtext","settings":{"content":"<p>Whether you’re launching or scaling, Renvo connects you to the machines, products, and branding to make it happen.<\/p>"}},"button_PCmedt":{"type":"button","settings":{"style":"fill","size":"lg","text":"Explore the Marketplace","url":"","background":"","text_color":""}},"button_m3PNNH":{"type":"button","settings":{"style":"fill","size":"lg","text":"Become a Vendor","url":"","background":"#666666","text_color":"#cccccc"}}},"block_order":["subheading_H4enye","heading_ggxf3p","richtext_j7N3Ew","button_PCmedt","button_m3PNNH"],"settings":{"full_width":true,"allow_transparent_header":false,"enable_parallax":false,"image_size":"auto","mobile_text_position":"place-self-center text-center","desktop_text_position":"sm:place-self-center-start sm:text-start","text_color":"#ffffff","overlay_color":"#000000","overlay_opacity":30}},"media-grid":{"type":"media-grid","blocks":{"item-1":{"type":"image","settings":{"title":"Promote your products","heading_tag":"h4","link_url":"","link_text":"","mobile_text_position":"place-self-center text-center","desktop_column_span":2,"desktop_row_span":2,"desktop_text_position":"sm:place-self-center sm:text-center","background":"#000000","background_gradient":"","text_color":"#ffffff","text_gradient":"","button_background":"#000000","button_text_color":"#ffffff","overlay_color":"#000000","overlay_opacity":0}},"item-2":{"type":"image","settings":{"title":"Promote your products","heading_tag":"h4","link_url":"","link_text":"","mobile_text_position":"place-self-center text-center","desktop_column_span":1,"desktop_row_span":1,"desktop_text_position":"sm:place-self-center sm:text-center","background":"#000000","background_gradient":"","text_color":"#ffffff","text_gradient":"","button_background":"#000000","button_text_color":"#ffffff","overlay_color":"#000000","overlay_opacity":0}},"item-3":{"type":"image","settings":{"title":"Promote your products","heading_tag":"h4","link_url":"","link_text":"","mobile_text_position":"place-self-center text-center","desktop_column_span":1,"desktop_row_span":1,"desktop_text_position":"sm:place-self-center sm:text-center","background":"#000000","background_gradient":"","text_color":"#ffffff","text_gradient":"","button_background":"#000000","button_text_color":"#ffffff","overlay_color":"#000000","overlay_opacity":0}},"29246d34-c6e0-4373-84f6-b15e57736a00":{"type":"image","settings":{"title":"Promote your products","heading_tag":"h4","link_url":"","link_text":"","mobile_text_position":"place-self-center text-center","desktop_column_span":2,"desktop_row_span":1,"desktop_text_position":"sm:place-self-center sm:text-center","background":"#000000","background_gradient":"","text_color":"#ffffff","text_gradient":"","button_background":"#000000","button_text_color":"#ffffff","overlay_color":"#000000","overlay_opacity":0}}},"block_order":["item-1","item-2","item-3","29246d34-c6e0-4373-84f6-b15e57736a00"],"disabled":true,"settings":{"full_width":true,"reduce_width":false,"desktop_row_height":290,"mobile_row_height":150,"background":"","background_gradient":""}},"before-after-image":{"type":"before-after-image","disabled":true,"settings":{"full_width":true,"subheading":"","title":"Before\/after","content":"<p>Showcase your product benefit by using before\/after image comparison.<\/p>","expand_image":false,"text_position":"center","before_after_text_position":"bottom","before_text":"Before","after_text":"After","drag_initial_position":50,"background":"","background_gradient":"","text_color":"","before_text_color":"#ffffff","after_text_color":"#ffffff","drag_cursor_background":"#ffffff","drag_cursor_color":"#000000"}},"hot-spots":{"type":"hot-spots","blocks":{"1664424434f5b7d0e0-0":{"type":"item","settings":{"horizontal_position":24,"vertical_position":70,"horizontal_position_mobile":24,"vertical_position_mobile":70,"icon_width":32,"title":"Feature name","content":"<p>Share useful information about your product features.<\/p>"}},"1664424434f5b7d0e0-1":{"type":"item","settings":{"horizontal_position":62,"vertical_position":14,"horizontal_position_mobile":62,"vertical_position_mobile":14,"icon_width":32,"title":"Feature name","content":"<p>Share useful information about your product features.<\/p>"}},"1664424434f5b7d0e0-2":{"type":"item","settings":{"horizontal_position":83,"vertical_position":75,"horizontal_position_mobile":83,"vertical_position_mobile":75,"icon_width":32,"title":"Feature name","content":"<p>Share useful information about your product features.<\/p>"}},"item_DVptP8":{"type":"item","settings":{"horizontal_position":22,"vertical_position":17,"horizontal_position_mobile":46,"vertical_position_mobile":30,"icon_width":32,"title":"Feature name","content":"<p>Share useful information about your product features.<\/p>"}}},"block_order":["1664424434f5b7d0e0-0","1664424434f5b7d0e0-1","1664424434f5b7d0e0-2","item_DVptP8"],"disabled":true,"settings":{"full_width":true,"title":"","content":"","button_text":"","button_url":"","desktop_text_position":"place-self-start text-start","image_background":"","image_background_gradient":"","overlay_color":"#000000","overlay_opacity":0,"overlay_text_color":"#ffffff","overlay_button_background":"","overlay_button_text_color":"","hot_spot_dot_background":"#ffffff","hot_spot_dot_text_color":"#000000","hot_spot_content_background":"#ffffff","hot_spot_content_text_color":"#000000","hot_spot_content_opacity":90,"hot_spot_content_blur_radius":3}},"multiple-images-with-text":{"type":"multiple-images-with-text","blocks":{"1664424486a2b084ab-0":{"type":"item","settings":{"image_rotation_degrees":-2,"subheading":"","title":"Heading 1","content":"<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>","button_url":"","button_text":""}},"1664424486a2b084ab-1":{"type":"item","settings":{"image_rotation_degrees":1.5,"subheading":"","title":"Heading 2","content":"<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>","button_url":"","button_text":""}}},"block_order":["1664424486a2b084ab-0","1664424486a2b084ab-1"],"disabled":true,"settings":{"full_width":true,"images_layout":"scattered","collage_images_alignment":"middle","background":"","background_gradient":"","text_color":"","button_background":"","button_text_color":""}},"featured-product":{"type":"featured-product","blocks":{"vendor":{"type":"vendor","settings":{}},"title":{"type":"title","settings":{"heading_tag":"h2"}},"badges":{"type":"badges","settings":{}},"price":{"type":"price","settings":{"show_taxes_notice":false}},"rating":{"type":"rating","settings":{"show_empty":false}},"separator":{"type":"separator","settings":{}},"description":{"type":"description","settings":{"icon":"none","icon_width":20,"collapse_content":false}},"variant-picker":{"type":"variant_picker","settings":{"hide_sold_out_variants":false,"stack_blocks":true,"selector_style":"block","swatch_selector_style":"color","variant_image_options":"","size_chart_page":""}},"quantity-selector":{"type":"quantity_selector","settings":{}},"buy-buttons":{"type":"buy_buttons","settings":{"show_payment_button":true,"show_gift_card_recipient":true,"atc_button_background":"","atc_button_text_color":"","payment_button_background":"","payment_button_text_color":""}}},"block_order":["vendor","title","badges","price","rating","separator","description","variant-picker","quantity-selector","buy-buttons"],"disabled":true,"settings":{"full_width":false,"product":"","desktop_media_width":55,"desktop_media_layout":"carousel_thumbnails_left","mobile_media_size":"expanded","mobile_carousel_control":"floating_dots","enable_video_autoplay":true,"enable_video_looping":false,"enable_image_zoom":true,"max_image_zoom_level":3,"background":"#ffffff","background_gradient":"","text_color":"","input_background":"rgba(0,0,0,0)","input_text_color":""}},"faq":{"type":"faq","blocks":{"166442457738b23caf-0":{"type":"item","settings":{"title":"Do you ship overseas?","content":"<p>Yes, we ship all over the world. Shipping costs will apply, and will be added at checkout. We run discounts and promotions all year, so stay tuned for exclusive deals.<\/p>"}},"166442457738b23caf-1":{"type":"item","settings":{"title":"How long will it take to get my orders?","content":"<p>It depends on where you are. Orders processed here will take 5-7 business days to arrive. Overseas deliveries can take anywhere from 7-16 days. Delivery details will be provided in your confirmation email.<\/p>"}},"166442457738b23caf-2":{"type":"item","settings":{"title":"Any question?","content":"<p>You can contact us through our contact page! We will be happy to assist you.<\/p>"}}},"block_order":["166442457738b23caf-0","166442457738b23caf-1","166442457738b23caf-2"],"disabled":true,"settings":{"full_width":false,"subheading":"","title":"FAQ","content":"<p>Use this text to share information about your product or shipping policies.<\/p>","team_avatar_width":160,"support_hours":"Our customer support is available Monday to Friday: 8am-8:30pm.","answer_time":"Average answer time: 24h","button_text":"","button_url":"","text_position":"start","background":"#ffffff","background_gradient":"","text_color":"","heading_color":"","heading_gradient":"","button_background":"","button_text_color":"","accordion_background":"","accordion_text_color":""}}},"order":["slideshow","image-link-blocks","media_grid_wTKaQw","collection-list","featured_product_L6CLwf","text_with_icons_DejWkL","image-with-text-overlay","multi_column_BFb7p6","featured-collection","impact-text","scrolling-text","logo_list_UaQXjk","press","image_with_text_overlay_ddCpzJ","media-grid","before-after-image","hot-spots","multiple-images-with-text","featured-product","faq"]}
+{
+  "sections": {
+    "section-1": {
+      "type": "slideshow",
+      "blocks": {
+        "block-1": {
+          "type": "image",
+          "settings": {
+            "content_max_width": 640,
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "subheading": "Tell your story",
+            "title": "Slide 1",
+            "heading_tag": "h1",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "block-2": {
+          "type": "image",
+          "settings": {
+            "content_max_width": 780,
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "subheading": "Tell your story",
+            "title": "Slide 2",
+            "heading_tag": "h1",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "block-3": {
+          "type": "image",
+          "settings": {
+            "content_max_width": 780,
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "subheading": "Tell your story",
+            "title": "Slide 3",
+            "heading_tag": "h1",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        }
+      },
+      "block_order": [
+        "block-1",
+        "block-2",
+        "block-3"
+      ],
+      "name": "Slideshow",
+      "settings": {
+        "full_width": false,
+        "allow_transparent_header": true,
+        "show_initial_transition": false,
+        "image_size": "auto",
+        "controls_type": "numbers",
+        "transition_type": "fade_with_text",
+        "autoplay": true,
+        "cycle_speed": 6,
+        "background": "rgba(0,0,0,0)",
+        "background_gradient": "linear-gradient(127deg, rgba(66, 74, 48, 1) 11%, rgba(138, 157, 123, 1) 100%)"
+      }
+    },
+    "section-2": {
+      "type": "image-link-blocks",
+      "blocks": {
+        "block-1": {
+          "type": "item",
+          "settings": {
+            "stretch_image": true,
+            "link_text": "Title 1",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "block-2": {
+          "type": "item",
+          "settings": {
+            "stretch_image": true,
+            "link_text": "Title 2",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "block-3": {
+          "type": "item",
+          "settings": {
+            "stretch_image": true,
+            "link_text": "Title 3",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "block-4": {
+          "type": "item",
+          "settings": {
+            "stretch_image": true,
+            "link_text": "Title 4",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "block-5": {
+          "type": "item",
+          "settings": {
+            "stretch_image": true,
+            "link_text": "Title 5",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "block-1",
+        "block-2",
+        "block-3",
+        "block-4",
+        "block-5"
+      ],
+      "name": "Image link blocks",
+      "settings": {
+        "full_width": false,
+        "block_size": "large",
+        "text_color": "#1a1a1a"
+      }
+    },
+    "section-3": {
+      "type": "scrolling-text",
+      "settings": {
+        "full_width": true,
+        "text": "Scrolling text",
+        "text_size": "large",
+        "text_style": "fill",
+        "scrolling_mode": "auto",
+        "scrolling_speed": 5,
+        "text_gradient": "linear-gradient(90deg, rgba(77, 82, 60, 1), rgba(133, 141, 103, 1) 100%)"
+      }
+    },
+    "section-4": {
+      "type": "collection-list",
+      "blocks": {
+        "block-1": {
+          "type": "collection",
+          "settings": {
+            "heading_tag": "h3",
+            "text_position": "place-self-end-start text-start",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "block-2": {
+          "type": "collection",
+          "settings": {
+            "heading_tag": "h3",
+            "text_position": "place-self-end-start text-start",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "block-3": {
+          "type": "collection",
+          "settings": {
+            "heading_tag": "h3",
+            "text_position": "place-self-end-start text-start",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "block-1",
+        "block-2",
+        "block-3"
+      ],
+      "settings": {
+        "full_width": true,
+        "stack_collections": false,
+        "collections_per_row_mobile": "1",
+        "collections_per_row": 3,
+        "show_progress_bar": false
+      }
+    },
+    "section-5": {
+      "type": "featured-collection",
+      "settings": {
+        "full_width": true,
+        "stack_products": false,
+        "show_progress_bar": false,
+        "products_count": 6,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 4,
+        "title": "Best sellers",
+        "link_url": "shopify://collections/all",
+        "link_text": "View all"
+      }
+    },
+    "section-6": {
+      "type": "impact-text",
+      "blocks": {
+        "block-1": {
+          "type": "item",
+          "settings": {
+            "title": "Text",
+            "subheading": "Share content",
+            "content": "<p>Use this section to share helpful information with your customers. Tell a story, explain a detail, or highlight a unique feature. This is your space to connect and add personality to your store.</p>",
+            "button_text": "Shop all",
+            "button_url": "shopify://collections/all",
+            "animate_impact_text": false,
+            "animate_impact_text_duration": 2
+          }
+        }
+      },
+      "block_order": [
+        "block-1"
+      ],
+      "settings": {
+        "full_width": true,
+        "stack_mobile": true,
+        "text_alignment": "center",
+        "impact_text_style": "fill",
+        "text_divider": "none",
+        "impact_text_size_ratio": 1,
+        "heading_gradient": "linear-gradient(180deg, rgba(26, 26, 26, 0.2), rgba(26, 26, 26, 0) 100%)"
+      }
+    },
+    "section-7": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "block-1": {
+          "type": "subheading",
+          "settings": {
+            "text": "Subheading"
+          }
+        },
+        "block-2": {
+          "type": "heading",
+          "settings": {
+            "text": "Image with text overlay",
+            "heading_tag": "h1"
+          }
+        },
+        "block-3": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "block-1",
+        "block-2",
+        "block-3"
+      ],
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "auto",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
+    },
+    "section-8": {
+      "type": "media-grid",
+      "blocks": {
+        "block-1": {
+          "type": "video",
+          "settings": {
+            "external_video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+            "show_video_controls": false,
+            "title": "Video",
+            "heading_tag": "h3",
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_column_span": 2,
+            "desktop_row_span": 2,
+            "desktop_text_position": "sm:place-self-end-start sm:text-start",
+            "background": "#000000",
+            "text_color": "#ffffff",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "block-2": {
+          "type": "image",
+          "settings": {
+            "title": "Image 1",
+            "heading_tag": "h5",
+            "mobile_text_position": "place-self-end-start text-start",
+            "desktop_column_span": 1,
+            "desktop_row_span": 1,
+            "desktop_text_position": "sm:place-self-end-start sm:text-start",
+            "background": "#000000",
+            "text_color": "#ffffff",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "block-3": {
+          "type": "image",
+          "settings": {
+            "title": "Image 2",
+            "heading_tag": "h5",
+            "mobile_text_position": "place-self-end-start text-start",
+            "desktop_column_span": 1,
+            "desktop_row_span": 1,
+            "desktop_text_position": "sm:place-self-end-start sm:text-start",
+            "background": "#000000",
+            "text_color": "#ffffff",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "block-4": {
+          "type": "image",
+          "settings": {
+            "title": "Image 3",
+            "heading_tag": "h3",
+            "mobile_text_position": "place-self-end-start text-start",
+            "desktop_column_span": 2,
+            "desktop_row_span": 1,
+            "desktop_text_position": "sm:place-self-end-start sm:text-start",
+            "background": "#000000",
+            "text_color": "#ffffff",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "block-1",
+        "block-2",
+        "block-3",
+        "block-4"
+      ],
+      "settings": {
+        "full_width": true,
+        "reduce_width": false,
+        "desktop_row_height": 290,
+        "mobile_row_height": 150
+      }
+    },
+    "section-9": {
+      "type": "before-after-image",
+      "settings": {
+        "full_width": false,
+        "subheading": "Before/after",
+        "title": "Compare images",
+        "content": "<p>Show how your product transforms experiences with a powerful before-and-after.</p>",
+        "expand_image": false,
+        "text_position": "center",
+        "before_after_text_position": "bottom",
+        "before_text": "Before",
+        "after_text": "After",
+        "drag_initial_position": 39,
+        "background": "rgba(0,0,0,0)",
+        "before_text_color": "#ffffff",
+        "after_text_color": "#ffffff",
+        "drag_cursor_background": "#ffffff",
+        "drag_cursor_color": "#000000"
+      }
+    },
+    "section-10": {
+      "type": "press",
+      "blocks": {
+        "block-1": {
+          "type": "quote",
+          "settings": {
+            "logo_width": 120,
+            "content": "Absolutely love it! It exceeded all my expectations. The quality is top-notch, and I\u2019ve already recommended it to several friends.",
+            "show_rating": false,
+            "rating": 4
+          }
+        },
+        "block-2": {
+          "type": "quote",
+          "settings": {
+            "logo_width": 100,
+            "content": "A game-changer \u2014 I noticed the difference right away. It\u2019s rare to find something that delivers exactly what it promises, but this does.",
+            "show_rating": false,
+            "rating": 4
+          }
+        },
+        "block-3": {
+          "type": "quote",
+          "settings": {
+            "logo_width": 100,
+            "content": "Fast delivery, great quality, and amazing support! I had a few questions and the team was incredibly helpful and friendly throughout.",
+            "show_rating": false,
+            "rating": 4
+          }
+        }
+      },
+      "block_order": [
+        "block-1",
+        "block-2",
+        "block-3"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_size": "medium"
+      }
+    },
+    "section-11": {
+      "type": "hot-spots",
+      "blocks": {
+        "block-1": {
+          "type": "item",
+          "settings": {
+            "horizontal_position": 83,
+            "vertical_position": 74,
+            "horizontal_position_mobile": 83,
+            "vertical_position_mobile": 74,
+            "icon_width": 32,
+            "title": "Premium materials",
+            "content": "<p>Built to last with carefully selected, high-quality components.</p>"
+          }
+        },
+        "block-2": {
+          "type": "item",
+          "settings": {
+            "horizontal_position": 61,
+            "vertical_position": 16,
+            "horizontal_position_mobile": 43,
+            "vertical_position_mobile": 24,
+            "icon_width": 32,
+            "title": "Thoughtful design",
+            "content": "<p>Every detail is crafted to enhance usability and style.<br/></p>"
+          }
+        },
+        "block-3": {
+          "type": "item",
+          "settings": {
+            "horizontal_position": 45,
+            "vertical_position": 66,
+            "horizontal_position_mobile": 47,
+            "vertical_position_mobile": 56,
+            "icon_width": 32,
+            "title": "Seamless integration",
+            "content": "<p>Works effortlessly with your lifestyle or existing setup.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "block-1",
+        "block-2",
+        "block-3"
+      ],
+      "settings": {
+        "full_width": true,
+        "title": "Discover the details",
+        "content": "<p>Highlight key features of your product or service by placing hotspots over an image. Use this section to guide your customers and draw attention to what matters most.</p>",
+        "button_text": "Learn more",
+        "desktop_text_position": "place-self-start text-start",
+        "image_background_gradient": "linear-gradient(90deg, rgba(77, 82, 60, 1), rgba(133, 141, 103, 1) 100%)",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0,
+        "overlay_text_color": "#ffffff",
+        "overlay_button_background": "#ffffff",
+        "overlay_button_text_color": "#4d523c",
+        "hot_spot_dot_background": "#ffffff",
+        "hot_spot_dot_text_color": "#000000",
+        "hot_spot_content_background": "#ffffff",
+        "hot_spot_content_text_color": "#000000",
+        "hot_spot_content_opacity": 90,
+        "hot_spot_content_blur_radius": 3
+      }
+    },
+    "section-12": {
+      "type": "impact-text",
+      "blocks": {
+        "block-1": {
+          "type": "item",
+          "settings": {
+            "title": "6",
+            "subheading": "Hours of battery",
+            "content": "<p>Share some key points about your products.</p>",
+            "animate_impact_text": true,
+            "animate_impact_text_duration": 1.6
+          }
+        },
+        "block-2": {
+          "type": "item",
+          "settings": {
+            "title": "12",
+            "subheading": "Meters deep",
+            "content": "<p>Share some key points about your products.</p>",
+            "animate_impact_text": true,
+            "animate_impact_text_duration": 1.6
+          }
+        }
+      },
+      "block_order": [
+        "block-1",
+        "block-2"
+      ],
+      "settings": {
+        "full_width": true,
+        "stack_mobile": true,
+        "text_alignment": "center",
+        "impact_text_style": "fill",
+        "text_divider": "line",
+        "impact_text_size_ratio": 1.5,
+        "background_gradient": "linear-gradient(90deg, rgba(77, 82, 60, 1), rgba(133, 141, 103, 1) 100%)",
+        "heading_text_color": "#ffffff",
+        "text_color": "#ffffff"
+      }
+    },
+    "section-13": {
+      "type": "multiple-images-with-text",
+      "blocks": {
+        "block-1": {
+          "type": "item",
+          "settings": {
+            "image_rotation_degrees": 2,
+            "subheading": "About us",
+            "title": "Designed in New York",
+            "content": "<p>Share some content about the founders, your team and your values. Pair this text with one or multiple images to create impactful visual effect.</p>"
+          }
+        },
+        "block-2": {
+          "type": "item",
+          "settings": {
+            "image_rotation_degrees": -2,
+            "subheading": "Our products",
+            "title": "Superior design",
+            "content": "<p>Share some content abour your products and what make them unique. Pair this text with one or multiple images to create impactful visual effect.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "block-1",
+        "block-2"
+      ],
+      "settings": {
+        "full_width": true,
+        "images_layout": "scattered",
+        "collage_images_alignment": "middle"
+      }
+    },
+    "section-14": {
+      "type": "featured-product",
+      "blocks": {
+        "block-1": {
+          "type": "vendor",
+          "settings": {}
+        },
+        "block-2": {
+          "type": "title",
+          "settings": {
+            "heading_tag": "h2"
+          }
+        },
+        "block-3": {
+          "type": "badges",
+          "settings": {}
+        },
+        "block-4": {
+          "type": "price",
+          "settings": {
+            "show_taxes_notice": false
+          }
+        },
+        "block-5": {
+          "type": "rating",
+          "settings": {
+            "show_empty": false
+          }
+        },
+        "block-6": {
+          "type": "separator",
+          "settings": {}
+        },
+        "block-7": {
+          "type": "description",
+          "settings": {
+            "icon": "none",
+            "icon_width": 20,
+            "collapse_content": false
+          }
+        },
+        "block-8": {
+          "type": "variant_picker",
+          "settings": {
+            "hide_sold_out_variants": false,
+            "stack_blocks": true,
+            "selector_style": "block",
+            "swatch_selector_style": "swatch"
+          }
+        },
+        "block-9": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_payment_button": true,
+            "show_gift_card_recipient": true
+          }
+        },
+        "block-10": {
+          "type": "pickup_availability",
+          "settings": {}
+        },
+        "block-11": {
+          "type": "share_buttons",
+          "settings": {
+            "alignment": "start"
+          }
+        }
+      },
+      "block_order": [
+        "block-1",
+        "block-2",
+        "block-3",
+        "block-4",
+        "block-5",
+        "block-6",
+        "block-7",
+        "block-8",
+        "block-9",
+        "block-10",
+        "block-11"
+      ],
+      "settings": {
+        "full_width": false,
+        "desktop_media_width": 55,
+        "desktop_media_layout": "carousel_thumbnails_left",
+        "mobile_media_size": "expanded",
+        "mobile_carousel_control": "floating_dots",
+        "enable_video_autoplay": true,
+        "enable_video_looping": false,
+        "enable_image_zoom": true,
+        "max_image_zoom_level": 3,
+        "background": "#ffffff",
+        "input_background": "rgba(0,0,0,0)"
+      }
+    },
+    "section-15": {
+      "type": "feature-chart",
+      "blocks": {
+        "block-1": {
+          "type": "headings",
+          "settings": {
+            "heading_1": "Driver",
+            "heading_2": "Weight",
+            "heading_3": "Dimensions",
+            "heading_4": "Battery"
+          }
+        },
+        "block-2": {
+          "type": "values",
+          "settings": {
+            "value_1": "<p>40mm Beryllium</p>",
+            "value_2": "<p>245g</p>",
+            "value_3": "<p>165mm x 190mm x 66mm</p>",
+            "value_4": "<p>24 hours</p>"
+          }
+        },
+        "block-3": {
+          "type": "values",
+          "settings": {
+            "value_1": "<p>40mm Beryllium</p>",
+            "value_2": "<p>205g (On-Ear), 239g (Over-Ear)</p>",
+            "value_3": "<p>190mm x 155mm x 34mm (On-Ear), 200mm x 165mm x 40mm (Over-Ear)</p>",
+            "value_4": "<p>16 hours</p>"
+          }
+        }
+      },
+      "block_order": [
+        "block-1",
+        "block-2",
+        "block-3"
+      ],
+      "settings": {
+        "full_width": true,
+        "subheading": "Compare",
+        "title": "Highlight key differences at a glance",
+        "content": "<p>This section is perfect for showcasing product comparisons side-by-side. Use it to display key features, specifications, and pricing so customers can quickly decide which item fits their needs.</p>",
+        "button_text": "Learn more",
+        "text_position": "start",
+        "max_rows": 5,
+        "view_all_text": "View all",
+        "view_less_text": "View less",
+        "view_product": "View",
+        "show_product_swatch": true
+      }
+    },
+    "section-16": {
+      "type": "revealed-image-on-scroll",
+      "settings": {
+        "title": "Outstanding products with exceptional brands",
+        "text_color_inside": "#ffffff",
+        "text_color_outside": "#000000"
+      }
+    },
+    "section-17": {
+      "type": "timeline",
+      "blocks": {
+        "block-1": {
+          "type": "slide",
+          "settings": {
+            "navigation_label": "2014",
+            "subheading": "The beginning",
+            "title": "Our journey starts with a simple idea"
+          }
+        },
+        "block-2": {
+          "type": "slide",
+          "settings": {
+            "navigation_label": "2017",
+            "subheading": "First Launch",
+            "title": "Introducing our very first product to the world"
+          }
+        },
+        "block-3": {
+          "type": "slide",
+          "settings": {
+            "navigation_label": "2018",
+            "subheading": "Early growth",
+            "title": "Building momentum and expanding the team"
+          }
+        },
+        "block-4": {
+          "type": "slide",
+          "settings": {
+            "navigation_label": "2019",
+            "subheading": "Going global",
+            "title": "Reaching customers across continents"
+          }
+        },
+        "block-5": {
+          "type": "slide",
+          "settings": {
+            "navigation_label": "2020",
+            "subheading": "Milestone achieved",
+            "title": "Celebrating 100,000 happy customers"
+          }
+        },
+        "block-6": {
+          "type": "slide",
+          "settings": {
+            "navigation_label": "2021",
+            "subheading": "Stronger than ever",
+            "title": "Scaling new heights and looking ahead"
+          }
+        }
+      },
+      "block_order": [
+        "block-1",
+        "block-2",
+        "block-3",
+        "block-4",
+        "block-5",
+        "block-6"
+      ],
+      "settings": {
+        "full_width": true
+      }
+    },
+    "section-18": {
+      "type": "faq",
+      "blocks": {
+        "block-1": {
+          "type": "item",
+          "settings": {
+            "title": "Do you ship overseas?",
+            "content": "<p>Yes, we ship all over the world. Shipping costs will apply, and will be added at checkout. We run discounts and promotions all year, so stay tuned for exclusive deals.</p>"
+          }
+        },
+        "block-2": {
+          "type": "item",
+          "settings": {
+            "title": "Do I need to setup an account to place an order?",
+            "content": "<p>You do not need to set up an account to place an order. However creating an account allows you to store your shipping information, see order history, and view your product\u2019s warranty information. Additional features will be added to the account page in the near future.</p>"
+          }
+        },
+        "block-3": {
+          "type": "item",
+          "settings": {
+            "title": "Do you offer gift wrapping",
+            "content": "<p>Yes, we can wrap your item in our signature box with tissue paper, and include a card with your personal message. The option is available during checkout for an additional $5. Please note this service is not available for wireless speaker purchases.</p>"
+          }
+        },
+        "block-4": {
+          "type": "item",
+          "settings": {
+            "title": "How long will it take to get my orders?",
+            "content": "<p>It depends on where you are. Orders processed here will take 5-7 business days to arrive. Overseas deliveries can take anywhere from 7-16 days. Delivery details will be provided in your confirmation email.</p>"
+          }
+        },
+        "block-5": {
+          "type": "item",
+          "settings": {
+            "title": "What is your return policy?",
+            "content": "<p>All products purchased from our website may be returned within 14 days of purchase for a full refund less shipping costs, no questions asked. International return orders may be subject to return shipping fees.\u00a0To initiate such a return please <a href=\"/pages/contact\" title=\"Contact\">contact us</a>.</p>"
+          }
+        },
+        "block-6": {
+          "type": "item",
+          "settings": {
+            "title": "Any question?",
+            "content": "<p>You can contact us through our <a href=\"/pages/contact\" title=\"Contact\">contact page</a>! We will be happy to assist you.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "block-1",
+        "block-2",
+        "block-3",
+        "block-4",
+        "block-5",
+        "block-6"
+      ],
+      "settings": {
+        "full_width": false,
+        "title": "Have a question ? We are here to help.",
+        "content": "<p>Check out the most common questions our customers asked. Still have questions ?\u2028Contact our customer support.</p>",
+        "team_avatar_width": 160,
+        "support_hours": "Our customer support is available monday to friday: 8am-8:30pm.",
+        "answer_time": "Average answer time: 24h",
+        "text_position": "start",
+        "background": "#ffffff"
+      }
+    }
+  },
+  "order": [
+    "section-1",
+    "section-2",
+    "section-3",
+    "section-4",
+    "section-5",
+    "section-6",
+    "section-7",
+    "section-8",
+    "section-9",
+    "section-10",
+    "section-11",
+    "section-12",
+    "section-13",
+    "section-14",
+    "section-15",
+    "section-16",
+    "section-17",
+    "section-18"
+  ]
+}
