@@ -1,28 +1,30 @@
 {%- comment -%}
-  Renders a “Machine model” dropdown from the product metafield:
-  Namespace: custom
-  Key: machine_compatibility
-  Type: list.single_line_text
+  Machine Compatibility selector for Impact (Maestroo) and other OS2.0 themes.
+
+  Expects a product metafield:
+  - Namespace/key: custom.machine_compatibility
+  - Type: list.single_line_text  (List → Text)
+
   Saves selection to: line item property "Machine model"
 
-  Requirements:
-  - Include inside the product form ({{ form | form 'product' }}) so the input posts.
-  - Dawn/OS2.0 form id convention: product-form-{{ section.id }}
+  Notes:
+  - Must be included INSIDE the product form so it posts with add-to-cart.
+  - Script auto-detects the parent form (no Dawn-specific IDs).
 {%- endcomment -%}
 
 {%- assign mc = product.metafields.custom.machine_compatibility -%}
-{%- assign mc_list = mc.value | default: mc -%} {# some themes return .value as array; this keeps it robust #}
+{%- assign mc_list = mc.value | default: mc -%} {# handles themes that expose .value vs direct #}
 
 {%- if mc_list and mc_list.size > 0 -%}
-  <div class="product__block machine-compatibility" data-machine-compatibility>
-    <label class="form__label" for="mc-select-{{ section.id }}">Machine model</label>
+  <div class="renvo-machine-compatibility" data-renvo-mc>
+    <label class="form__label" for="renvo-mc-select-{{ section.id | default: block.id | default: product.id }}">Machine model</label>
 
     <select
-      id="mc-select-{{ section.id }}"
+      id="renvo-mc-select-{{ section.id | default: block.id | default: product.id }}"
       class="select"
       name="properties[Machine model]"
       required
-      aria-describedby="mc-help-{{ section.id }}"
+      aria-describedby="renvo-mc-help-{{ section.id | default: block.id | default: product.id }}"
     >
       <option value="" selected disabled>Select your machine</option>
       {%- for item in mc_list -%}
@@ -30,31 +32,35 @@
       {%- endfor -%}
     </select>
 
-    <div id="mc-help-{{ section.id }}" class="helptext">
+    <div id="renvo-mc-help-{{ section.id | default: block.id | default: product.id }}" class="renvo-mc-help">
       Choose the exact hardware this wrap will fit.
     </div>
-    <p id="mc-error-{{ section.id }}" class="field-error" hidden>Please choose your machine model.</p>
+    <p class="renvo-mc-error" hidden>Please choose your machine model.</p>
   </div>
 
   <script>
     (function() {
-      const form =
-        document.getElementById('product-form-{{ section.id }}') ||
-        document.querySelector('form[action*="/cart/add"]');
+      // Find the nearest form that posts to /cart/add (Impact uses Ajax but still targets this endpoint)
+      const root = document.currentScript.closest('[data-renvo-mc]');
+      if (!root) return;
 
-      const select = document.getElementById('mc-select-{{ section.id }}');
-      const errorEl = document.getElementById('mc-error-{{ section.id }}');
-      const addToCartBtn = form ? form.querySelector('[type="submit"], button[name="add"]') : null;
-
+      const form = root.closest('form[action*="/cart/add"]');
+      const select = root.querySelector('select[name="properties[Machine model]"]');
+      const errorEl = root.querySelector('.renvo-mc-error');
       if (!form || !select) return;
 
-      // Preselect via URL param ?machine=Freestanding%2032
+      // Try to find the primary Add to Cart button within this form
+      const addToCartBtn =
+        form.querySelector('button[type="submit"][name="add"], button[name="add"], [type="submit"][data-add-to-cart], [data-product-add-to-cart]') ||
+        form.querySelector('button[type="submit"], [type="submit"]');
+
+      // Optional: preselect via ?machine= param
       try {
         const params = new URLSearchParams(window.location.search);
         const preset = params.get('machine');
         if (preset) {
           for (const opt of select.options) {
-            if (opt.value.toLowerCase() === preset.toLowerCase()) {
+            if (opt.value && opt.value.toLowerCase() === preset.toLowerCase()) {
               opt.selected = true;
               break;
             }
@@ -65,29 +71,41 @@
       function validate() {
         const valid = !!select.value;
         if (errorEl) errorEl.hidden = valid;
-        if (addToCartBtn) addToCartBtn.disabled = addToCartBtn.disabled ? addToCartBtn.disabled : !valid;
+        // Only gatekeep if a button exists in this form (some quick-views replace buttons dynamically)
+        if (addToCartBtn) {
+          // Respect if theme has disabled state for other reasons (e.g., sold out)
+          const themeDisabled = addToCartBtn.hasAttribute('data-disabled-by-theme');
+          if (!themeDisabled) addToCartBtn.disabled = !valid;
+        }
         return valid;
       }
 
-      // Initial state
-      validate();
+      // Mark if theme disabled it already; we won't override that
+      if (addToCartBtn && addToCartBtn.disabled) {
+        addToCartBtn.setAttribute('data-disabled-by-theme', 'true');
+      }
 
+      // Initial gate
+      validate();
       select.addEventListener('change', validate);
 
-      // Guard form submission (covers Ajax add-to-cart in Dawn)
+      // Guard submission (covers AJAX and native submit)
       form.addEventListener('submit', function(e) {
         if (!validate()) {
           e.preventDefault();
           select.focus();
         }
       }, true);
+
+      // If Impact swaps the form (e.g., in quick view), observe and re-validate on node changes
+      const mo = new MutationObserver(() => validate());
+      mo.observe(form, { childList: true, subtree: true });
     })();
   </script>
 
   <style>
-    .machine-compatibility { margin-block: 0.75rem 1rem; }
-    .machine-compatibility .helptext { font-size: 0.9rem; opacity: 0.8; margin-top: 0.25rem; }
-    .machine-compatibility .field-error { color: #b00020; font-size: 0.9rem; margin-top: 0.4rem; }
-    .machine-compatibility select:invalid { outline: 2px solid transparent; }
+    .renvo-machine-compatibility { margin-block: 0.75rem 1rem; }
+    .renvo-machine-compatibility .renvo-mc-help { font-size: .9rem; opacity: .8; margin-top: .25rem; }
+    .renvo-machine-compatibility .renvo-mc-error { color: #b00020; font-size: .9rem; margin-top: .4rem; }
   </style>
 {%- endif -%}

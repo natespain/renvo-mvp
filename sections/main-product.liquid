@@ -90,9 +90,6 @@
             {%- render 'price-list', product: product, variant: product.selected_or_first_available_variant, form_id: product_form_id -%}
           </div>
 
-          {%- comment -%}Added for wraps specifically. Works with custom snippet of the same name.{%- endcomment -%}
-          {% render 'machine-compatibility' %}
-
           <buy-buttons template="{{ product.template_suffix }}" form="{{ product_form_id }}" force-secondary-button>
             {%- render 'button', type: 'submit', content: button_label, form: product_form_id, background: buy_buttons_block.settings.atc_button_background, text_color: buy_buttons_block.settings.atc_button_text_color, secondary: true -%}
           </buy-buttons>

@@ -32,6 +32,13 @@ Supported variables
 {%- form 'product', product, is: 'product-form', id: form_id -%}
   <input type="hidden" {% if variant_picker_block != blank %}disabled{% endif %} name="id" value="{{ product.selected_or_first_available_variant.id }}">
 
+  {%- comment -%} 
+    Renvo: show machine selector only on main product page, only for Wraps & Displays 
+  {%- endcomment -%}
+  {% if context == 'main_product' and product.type == 'Wraps & Displays' %}
+    {% render 'machine-compatibility', product: product %}
+  {% endif %}
+
   {%- assign button_disabled = false -%}
   {%- assign button_size = button_size | default: 'xl' -%}
 
