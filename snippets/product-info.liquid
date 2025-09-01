@@ -179,6 +179,13 @@ Supported variables
               hide_sold_out_variants: block.settings.hide_sold_out_variants, 
               block: block 
             -%}
+            {%- comment -%} 
+              RENVO customization begins here
+              Show machine selector only on main product page, only for Wraps & Displays 
+            {%- endcomment -%}
+            {%- if context == 'main_product' and product.type == 'Wraps & Displays' -%}
+              {%- render 'machine-compatibility', product: product, product_form_id: product_form_id, section: section -%}
+            {%- endif -%}
           </div>
 
         {%- when 'product_variations' -%}

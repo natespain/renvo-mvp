@@ -13,7 +13,7 @@
 {%- endcomment -%}
 
 {%- assign mc = product.metafields.custom.machine_compatibility -%}
-{%- assign mc_list = mc.value | default: mc -%} {# handles themes that expose .value vs direct #}
+{%- assign mc_list = mc.value | default: mc -%}
 
 {%- if mc_list and mc_list.size > 0 -%}
   <div class="renvo-machine-compatibility" data-renvo-mc>
@@ -23,6 +23,7 @@
       id="renvo-mc-select-{{ section.id | default: block.id | default: product.id }}"
       class="select"
       name="properties[Machine model]"
+      {% if product_form_id %}form="{{ product_form_id }}"{% endif %}
       required
       aria-describedby="renvo-mc-help-{{ section.id | default: block.id | default: product.id }}"
     >
@@ -40,21 +41,24 @@
 
   <script>
     (function() {
-      // Find the nearest form that posts to /cart/add (Impact uses Ajax but still targets this endpoint)
       const root = document.currentScript.closest('[data-renvo-mc]');
       if (!root) return;
 
-      const form = root.closest('form[action*="/cart/add"]');
       const select = root.querySelector('select[name="properties[Machine model]"]');
-      const errorEl = root.querySelector('.renvo-mc-error');
-      if (!form || !select) return;
+      if (!select) return;
 
-      // Try to find the primary Add to Cart button within this form
+      // Prefer explicit form by id (works when selector is outside the form)
+      const formById = document.getElementById('{{ product_form_id | escape }}');
+      // Fallback: nearest form that posts to /cart/add
+      const form = formById || root.closest('form[action*="/cart/add"]');
+      if (!form) return;
+
       const addToCartBtn =
         form.querySelector('button[type="submit"][name="add"], button[name="add"], [type="submit"][data-add-to-cart], [data-product-add-to-cart]') ||
         form.querySelector('button[type="submit"], [type="submit"]');
+      const errorEl = root.querySelector('.renvo-mc-error');
 
-      // Optional: preselect via ?machine= param
+      // Preselect via ?machine=
       try {
         const params = new URLSearchParams(window.location.search);
         const preset = params.get('machine');
@@ -71,41 +75,25 @@
       function validate() {
         const valid = !!select.value;
         if (errorEl) errorEl.hidden = valid;
-        // Only gatekeep if a button exists in this form (some quick-views replace buttons dynamically)
-        if (addToCartBtn) {
-          // Respect if theme has disabled state for other reasons (e.g., sold out)
-          const themeDisabled = addToCartBtn.hasAttribute('data-disabled-by-theme');
-          if (!themeDisabled) addToCartBtn.disabled = !valid;
+        if (addToCartBtn && !addToCartBtn.hasAttribute('data-disabled-by-theme')) {
+          addToCartBtn.disabled = !valid;
         }
         return valid;
       }
 
-      // Mark if theme disabled it already; we won't override that
       if (addToCartBtn && addToCartBtn.disabled) {
         addToCartBtn.setAttribute('data-disabled-by-theme', 'true');
       }
 
-      // Initial gate
       validate();
       select.addEventListener('change', validate);
 
-      // Guard submission (covers AJAX and native submit)
       form.addEventListener('submit', function(e) {
         if (!validate()) {
           e.preventDefault();
           select.focus();
         }
       }, true);
-
-      // If Impact swaps the form (e.g., in quick view), observe and re-validate on node changes
-      const mo = new MutationObserver(() => validate());
-      mo.observe(form, { childList: true, subtree: true });
     })();
   </script>
-
-  <style>
-    .renvo-machine-compatibility { margin-block: 0.75rem 1rem; }
-    .renvo-machine-compatibility .renvo-mc-help { font-size: .9rem; opacity: .8; margin-top: .25rem; }
-    .renvo-machine-compatibility .renvo-mc-error { color: #b00020; font-size: .9rem; margin-top: .4rem; }
-  </style>
 {%- endif -%}
