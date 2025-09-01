@@ -1206,7 +1206,7 @@ var CartCount = class extends HTMLElement {
     this.itemCount = (await fetchCart)["item_count"];
   }
   get itemCount() {
-    return parseInt(this.innerText);
+    return parseInt(this.textContent);
   }
   set itemCount(count) {
     if (this.itemCount === count) {
@@ -1214,14 +1214,14 @@ var CartCount = class extends HTMLElement {
     }
     if (count === 0) {
       animate3(this, { opacity: 0 }, { duration: 0.1 });
-      this.innerText = count;
+      this.textContent = count;
     } else if (this.itemCount === 0) {
       animate3(this, { opacity: 1 }, { duration: 0.1 });
-      this.innerText = count;
+      this.textContent = count;
     } else {
       (async () => {
         await animate3(this.shadowRoot.firstElementChild, { transform: ["translateY(-50%)"], opacity: 0 }, { duration: 0.25, easing: [1, 0, 0, 1] }).finished;
-        this.innerText = count;
+        this.textContent = count;
         animate3(this.shadowRoot.firstElementChild, { transform: ["translateY(50%)", "translateY(0)"], opacity: 1 }, { duration: 0.25, easing: [1, 0, 0, 1] });
       })();
     }
@@ -2249,6 +2249,9 @@ var FacetSortBy = class extends HTMLElement {
     url.searchParams.set("sort_by", event.detail.value);
     url.searchParams.set("section_id", sectionId);
     url.searchParams.delete("page");
+    if (window.themeVariables.settings.pageType === "search") {
+      url.searchParams.set("type", "product");
+    }
     this.dispatchEvent(new CustomEvent("facet:update", {
       bubbles: true,
       detail: {
@@ -3657,27 +3660,27 @@ if (!window.customElements.get("accordion-disclosure")) {
 
 // js/common/navigation/tabs.js
 import { animate as animate8 } from "vendor";
+var _Tabs_instances, setupComponent_fn, onSlotChange_fn;
 var Tabs = class extends HTMLElement {
-  static get observedAttributes() {
-    return ["selected-index"];
-  }
   constructor() {
     super();
+    __privateAdd(this, _Tabs_instances);
     if (!this.shadowRoot) {
       this.attachShadow({ mode: "open" }).appendChild(this.querySelector("template").content.cloneNode(true));
     }
     if (Shopify.designMode) {
       this.addEventListener("shopify:block:select", (event) => this.selectedIndex = this.buttons.indexOf(event.target));
     }
+    this.shadowRoot.addEventListener("slotchange", __privateMethod(this, _Tabs_instances, onSlotChange_fn).bind(this));
     this.addEventListener("keydown", this._handleKeyboard);
+  }
+  static get observedAttributes() {
+    return ["selected-index"];
   }
   connectedCallback() {
     this._abortController = new AbortController();
-    this.buttons = Array.from(this.shadowRoot.querySelector('slot[name="title"]').assignedNodes(), (item) => item.matches("button") && item || item.querySelector("button"));
-    this.panels = Array.from(this.shadowRoot.querySelector('slot[name="content"]').assignedNodes());
-    this.buttons.forEach((button, index) => button.addEventListener("click", () => this.selectedIndex = index, { signal: this._abortController.signal }));
+    __privateMethod(this, _Tabs_instances, setupComponent_fn).call(this);
     this.selectedIndex = this.selectedIndex;
-    this._setupAccessibility();
   }
   disconnectedCallback() {
     this._abortController.abort();
@@ -3694,19 +3697,21 @@ var Tabs = class extends HTMLElement {
     this.style.setProperty("--item-count", this.buttons.length.toString());
   }
   attributeChangedCallback(name, oldValue, newValue) {
-    this.buttons.forEach((button, index) => button.setAttribute("aria-selected", index === parseInt(newValue) ? "true" : "false"));
+    this.buttons?.forEach((button, index) => button.setAttribute("aria-selected", index === parseInt(newValue) ? "true" : "false"));
     if (name === "selected-index" && oldValue !== null && oldValue !== newValue) {
-      this._transition(this.panels[parseInt(oldValue)], this.panels[parseInt(newValue)]);
+      let fromPanel = !this.hasAttribute("external-panels") ? this.panels[parseInt(oldValue)] : document.getElementById(this.buttons[parseInt(oldValue)].getAttribute("controlled-panel"));
+      let toPanel = !this.hasAttribute("external-panels") ? this.panels[parseInt(newValue)] : document.getElementById(this.buttons[parseInt(newValue)].getAttribute("controlled-panel"));
+      this._transition(fromPanel, toPanel);
     }
   }
   _setupAccessibility() {
     const componentID = crypto.randomUUID ? crypto.randomUUID() : Math.floor(Math.random() * 1e4);
-    this.buttons.forEach((button, index) => {
+    this.buttons?.forEach((button, index) => {
       button.setAttribute("role", "tab");
       button.setAttribute("aria-controls", `tab-panel-${componentID}-${index}`);
       button.id = `tab-${componentID}-${index}`;
     });
-    this.panels.forEach((panel, index) => {
+    this.panels?.forEach((panel, index) => {
       panel.setAttribute("role", "tabpanel");
       panel.setAttribute("aria-labelledby", `tab-${componentID}-${index}`);
       panel.id = `tab-panel-${componentID}-${index}`;
@@ -3738,6 +3743,22 @@ var Tabs = class extends HTMLElement {
     toPanel.hidden = false;
     await animate8(toPanel, { opacity: [0, 1] }, { duration: this.animationDuration }).finished;
   }
+};
+_Tabs_instances = new WeakSet();
+setupComponent_fn = function() {
+  this.buttons = Array.from(this.shadowRoot.querySelector('slot[name="title"]').assignedNodes(), (item) => item.matches("button") && item || item.querySelector("button"));
+  this.panels = this.shadowRoot.querySelector('slot[name="content"]') ? Array.from(this.shadowRoot.querySelector('slot[name="content"]').assignedNodes()) : null;
+  this.buttons.forEach((button, index) => button.addEventListener("click", () => this.selectedIndex = index, { signal: this._abortController.signal }));
+  if (this.hasAttribute("external-panels")) {
+    Array.from(this.buttons).forEach((button, index) => {
+      button.setAttribute("aria-selected", (this.selectedIndex === index).toString());
+      document.getElementById(button.getAttribute("controlled-panel")).hidden = !(this.selectedIndex === index);
+    });
+  }
+  this._setupAccessibility();
+};
+onSlotChange_fn = function() {
+  __privateMethod(this, _Tabs_instances, setupComponent_fn).call(this);
 };
 if (!window.customElements.get("x-tabs")) {
   window.customElements.define("x-tabs", Tabs);
@@ -4606,6 +4627,27 @@ if (!window.customElements.get("impact-text")) {
   window.customElements.define("impact-text", ImpactText);
 }
 
+// js/sections/main-search.js
+var SearchResultPanel = class extends HTMLElement {
+  async connectedCallback() {
+    if (!this.hasAttribute("load-from-url")) {
+      return;
+    }
+    const textResponse = await (await fetch(encodeURI(`${this.getAttribute("load-from-url")}&section_id=${extractSectionId(this)}`))).text();
+    const temporaryContent = new DOMParser().parseFromString(textResponse, "text/html");
+    const searchResultsPanel = temporaryContent.querySelector(`#${this.getAttribute("id")}`);
+    if (searchResultsPanel) {
+      this.replaceChildren(...searchResultsPanel.children);
+    } else {
+      document.querySelector(`[controlled-panel="${this.id}"]`).remove();
+      this.remove();
+    }
+  }
+};
+if (!window.customElements.get("search-result-panel")) {
+  window.customElements.define("search-result-panel", SearchResultPanel);
+}
+
 // js/sections/media-grid.js
 import { timeline as timeline12, inView as inView10 } from "vendor";
 var MediaGrid = class extends HTMLElement {
@@ -5261,6 +5303,7 @@ export {
   ScrollShadow,
   ScrollingText,
   SearchDrawer,
+  SearchResultPanel,
   SectionHeader,
   ShareButton,
   ShippingEstimator,

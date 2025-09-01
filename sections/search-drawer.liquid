@@ -9,8 +9,6 @@
       </button>
     </div>
 
-    <input type="hidden" name="type" value="product">
-
     <predictive-search class="predictive-search" section-id="{{ section.id }}">
       {%- if section.settings.search_menu.links.size > 0 -%}
         <div slot="idle">
@@ -101,7 +99,7 @@
 
               {%- if predictive_search.resources.articles.size > 0 -%}
                 <div class="predictive-search__tab-item" slot="title">
-                  <button type="button" class="h5">{{- 'search.general.posts' | t -}}</button>
+                  <button type="button" class="h5">{{- 'search.general.articles' | t -}}</button>
                 </div>
 
                 <div class="predictive-search__tab-content v-stack gap-4 sm:gap-6" slot="content">
@@ -162,7 +160,7 @@
 
               {%- if article_results.size > 0 -%}
                 <div class="predictive-search__tab-item" slot="title">
-                  <button type="button" class="h5">{{- 'search.general.posts' | t -}}</button>
+                  <button type="button" class="h5">{{- 'search.general.articles' | t -}}</button>
                 </div>
 
                 <div class="predictive-search__tab-content v-stack gap-4 sm:gap-6" slot="content">
