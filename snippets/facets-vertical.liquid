@@ -80,6 +80,8 @@ format
 
 {%- comment -%}
 
+RENVO customization begins here
+
 Allow-list of filter labels per collection (metafield: custom.enabled_filters, list of text)
 Example values (one per line): use case, machine compatibility, recurring need, reorder frequency, format
 Note: On search page, collection is not defined — fall back to showing all filters.
@@ -164,7 +166,8 @@ or filter.param_name == 'filter.v.availability' -%}
     
       {%- endif -%} 
       {%- comment -%} 
-
+      
+      RENVO customization ends here
       end allow-list check 
 
       {%- endcomment -%}
