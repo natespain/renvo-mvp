@@ -22,46 +22,49 @@ If empty or undefined, all filters show.
 {%- assign active_values_count = 0 -%}
 
 {%- capture active_facets -%}
-  {%- comment -%}Build allow-list for this collection{%- endcomment -%}
-  {%- assign enabled_list = '' -%}
+
+{%- comment -%}
+Build allow-list for this collection
+{%- endcomment -%}
+
+{%- assign enabled_list = '' -%}
   {%- if collection -%}
     {%- assign enabled_list = collection.metafields.custom.enabled_filters.value -%}
   {%- endif -%}
-  {%- capture enabled_csv -%}{{ enabled_list | join: ',' | downcase | strip }}{%- endcapture -%}
 
+{%- capture enabled_csv -%}{{ enabled_list | join: ',' | downcase | strip }}{%- endcapture -%}
   {%- for filter in results.filters -%}
-    {%- assign label_token = filter.label | downcase | strip -%}
 
-    {%- if enabled_csv == '' or enabled_csv contains label_token or filter.param_name == 'filter.v.availability' -%}
-      {%- if filter.type == 'price_range' -%}
-        {%- if filter.max_value.value != blank or filter.min_value.value != blank -%}
-          <div class="removable-facet">
-            {%- if section.settings.show_filter_group_name -%}
-              {{- filter.label }}: {{ filter.min_value.value | default: 0 | money_without_trailing_zeros }} - {{ filter.max_value.value | default: filter.range_max | money_without_trailing_zeros -}}
-            {%- else -%}
-              {{- filter.min_value.value | default: 0 | money_without_trailing_zeros }} - {{ filter.max_value.value | default: filter.range_max | money_without_trailing_zeros -}}
-            {%- endif -%}
+  {%- assign label_token = filter.label | downcase | strip -%}
 
-            <a href="{{ filter.url_to_remove }}" is="facet-link" class="tap-area" aria-label="{{ 'collection.faceting.remove_filter' | t: name: filter.label }}" data-no-instant>{% render 'icon' with 'delete' %}</a>
-          </div>
+    {%- if filter.type == 'price_range' -%}
+      {%- if filter.max_value.value != blank or filter.min_value.value != blank -%}
+        <div class="removable-facet">
+          {%- if section.settings.show_filter_group_name -%}
+            {{- filter.label }}: {{ filter.min_value.value | default: 0 | money_without_trailing_zeros }} - {{ filter.max_value.value | default: filter.range_max | money_without_trailing_zeros -}}
+          {%- else -%}
+            {{- filter.min_value.value | default: 0 | money_without_trailing_zeros }} - {{ filter.max_value.value | default: filter.range_max | money_without_trailing_zeros -}}
+          {%- endif -%}
 
-          {%- assign active_values_count = active_values_count | plus: 1 -%}
-        {%- endif -%}
-      {%- else -%}
-        {%- for active_value in filter.active_values -%}
-          <div class="removable-facet">
-            {%- if section.settings.show_filter_group_name or filter.type == 'boolean' -%}
-              {{- filter.label }}: {{ active_value.label -}}
-            {%- else -%}
-              {{- active_value.label -}}
-            {%- endif -%}
+          <a href="{{ filter.url_to_remove }}" is="facet-link" class="tap-area" aria-label="{{ 'collection.faceting.remove_filter' | t: name: filter.label }}" data-no-instant>{% render 'icon' with 'delete' %}</a>
+        </div>
 
-            <a href="{{ active_value.url_to_remove }}" is="facet-link" class="tap-area" aria-label="{{ 'collection.faceting.remove_filter' | t: name: active_value.label }}" data-no-instant>{% render 'icon' with 'delete' %}</a>
-          </div>
-
-          {%- assign active_values_count = active_values_count | plus: 1 -%}
-        {%- endfor -%}
+        {%- assign active_values_count = active_values_count | plus: 1 -%}
       {%- endif -%}
+    {%- else -%}
+      {%- for active_value in filter.active_values -%}
+        <div class="removable-facet">
+          {%- if section.settings.show_filter_group_name or filter.type == 'boolean' -%}
+            {{- filter.label }}: {{ active_value.label -}}
+          {%- else -%}
+            {{- active_value.label -}}
+          {%- endif -%}
+
+          <a href="{{ active_value.url_to_remove }}" is="facet-link" class="tap-area" aria-label="{{ 'collection.faceting.remove_filter' | t: name: active_value.label }}" data-no-instant>{% render 'icon' with 'delete' %}</a>
+        </div>
+
+        {%- assign active_values_count = active_values_count | plus: 1 -%}
+      {%- endfor -%}
     {%- endif -%}
   {%- endfor -%}
 
@@ -69,7 +72,7 @@ If empty or undefined, all filters show.
     {%- if request.page_type == 'collection' -%}
       {%- assign default_url = collection.url -%}
     {%- else -%}
-      {%- capture default_url -%}{{ routes.search_url }}?q={{ search.terms }}&type=product&sort_by={{ search.sort_by }}{%- endcapture -%}
+      {%- capture default_url -%}{{ routes.search_url }}?q={{ search.terms }}&sort_by={{ search.sort_by }}{%- endcapture -%}
     {%- endif -%}
 
     <a href="{{ default_url }}" is="facet-link" class="facet-clear-all text-subdued">

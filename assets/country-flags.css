@@ -1,6 +1,6 @@
 .country-flags {
-  background: -webkit-image-set(url("//renvomarket.myshopify.com/cdn/shop/t/10/assets/country-flags.png?v=37230036826556269641755713914") 1x, url("//renvomarket.myshopify.com/cdn/shop/t/10/assets/country-flags-2x.png?v=119388446682176363021755713914") 2x) no-repeat top left;
-  background: image-set(url("//renvomarket.myshopify.com/cdn/shop/t/10/assets/country-flags.png?v=37230036826556269641755713914") 1x, url("//renvomarket.myshopify.com/cdn/shop/t/10/assets/country-flags-2x.png?v=119388446682176363021755713914") 2x) no-repeat top left;
+  background: -webkit-image-set(url("//renvomarket.myshopify.com/cdn/shop/t/14/assets/country-flags.png?v=37230036826556269641756565366") 1x, url("//renvomarket.myshopify.com/cdn/shop/t/14/assets/country-flags-2x.png?v=119388446682176363021756565366") 2x) no-repeat top left;
+  background: image-set(url("//renvomarket.myshopify.com/cdn/shop/t/14/assets/country-flags.png?v=37230036826556269641756565366") 1x, url("//renvomarket.myshopify.com/cdn/shop/t/14/assets/country-flags-2x.png?v=119388446682176363021756565366") 2x) no-repeat top left;
   width: 20px;
   height: 20px;
   flex-shrink: 0;
