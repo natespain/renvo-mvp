@@ -18,8 +18,8 @@
           "type": "item",
           "settings": {
             "icon": "picto-box",
-            "mobile_icon_width": 24,
-            "icon_width": 24,
+            "mobile_icon_width": 36,
+            "icon_width": 52,
             "icon_background_type": "none",
             "icon_background": "",
             "icon_color": "#41b990",
@@ -31,8 +31,8 @@
           "type": "item",
           "settings": {
             "icon": "picto-customer-support",
-            "mobile_icon_width": 24,
-            "icon_width": 48,
+            "mobile_icon_width": 36,
+            "icon_width": 52,
             "icon_background_type": "none",
             "icon_background": "",
             "icon_color": "#41b990",
