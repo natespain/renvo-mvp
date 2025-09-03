@@ -238,7 +238,22 @@
             "collection": "",
             "image": "shopify://shop_images/800x600_1.png",
             "subheading": "",
-            "title": "Vending Machines & Accessories",
+            "title": "Starter Bundles",
+            "url": "shopify://collections/bundles",
+            "heading_tag": "h4",
+            "text_position": "place-self-center-start text-start",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "collection_9waamV": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify://shop_images/800x600_1.png",
+            "subheading": "",
+            "title": "Vending Solutions",
             "url": "",
             "heading_tag": "h4",
             "text_position": "place-self-center-start text-start",
@@ -253,8 +268,8 @@
             "collection": "",
             "image": "shopify://shop_images/800x600_1.png",
             "subheading": "",
-            "title": "Consumables & White-Label Products",
-            "url": "",
+            "title": "Consumables",
+            "url": "shopify://collections/inventory",
             "heading_tag": "h4",
             "text_position": "place-self-center-start text-start",
             "text_color": "#ffffff",
@@ -268,23 +283,8 @@
             "collection": "",
             "image": "shopify://shop_images/800x600_1.png",
             "subheading": "",
-            "title": "Branding & Display Solutions",
-            "url": "",
-            "heading_tag": "h4",
-            "text_position": "place-self-center-start text-start",
-            "text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 30
-          }
-        },
-        "collection_9waamV": {
-          "type": "collection",
-          "settings": {
-            "collection": "",
-            "image": "shopify://shop_images/800x600_1.png",
-            "subheading": "",
-            "title": "Vendor Tools & Analytics",
-            "url": "",
+            "title": "Graphic Wraps",
+            "url": "shopify://collections/wraps-and-displays",
             "heading_tag": "h4",
             "text_position": "place-self-center-start text-start",
             "text_color": "#ffffff",
@@ -295,9 +295,9 @@
       },
       "block_order": [
         "collection-1",
+        "collection_9waamV",
         "collection-2",
-        "collection_7XmERz",
-        "collection_9waamV"
+        "collection_7XmERz"
       ],
       "settings": {
         "full_width": true,
@@ -483,6 +483,37 @@
         "text_color": ""
       }
     },
+    "multiple_images_with_text_V7LQpU": {
+      "type": "multiple-images-with-text",
+      "blocks": {
+        "item_9qxVcT": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Nebula_Vapes-Slim_Wall-rt_qtr.jpg",
+            "image_rotation_degrees": -2,
+            "subheading": "",
+            "title": "Built for Builders",
+            "content": "<ul><li>Independent vending operators</li><li>Multi-machine fleet owners</li><li>First-time vending startups</li><li>White-label product creators</li><li>B2B brands exploring new channels</li><li>Retailers adding automated points of sale</li></ul>",
+            "button_url": "",
+            "button_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "item_9qxVcT"
+      ],
+      "name": "Multiple images with text",
+      "settings": {
+        "full_width": false,
+        "images_layout": "stacked",
+        "collage_images_alignment": "top",
+        "background": "#fdfeff",
+        "background_gradient": "",
+        "text_color": "",
+        "button_background": "",
+        "button_text_color": ""
+      }
+    },
     "image-with-text-overlay": {
       "type": "image-with-text-overlay",
       "blocks": {
@@ -516,6 +547,7 @@
         "1664424230c4756b0e-2",
         "button_DVTyyM"
       ],
+      "disabled": true,
       "settings": {
         "full_width": true,
         "allow_transparent_header": false,
@@ -712,46 +744,22 @@
             "logo_width": 120,
             "link": ""
           }
-        },
-        "logo_6yNUtm": {
-          "type": "logo",
-          "settings": {
-            "logo_width": 120,
-            "link": ""
-          }
-        },
-        "logo_YhVcme": {
-          "type": "logo",
-          "settings": {
-            "logo_width": 120,
-            "link": ""
-          }
-        },
-        "logo_nKmPLR": {
-          "type": "logo",
-          "settings": {
-            "logo_width": 120,
-            "link": ""
-          }
         }
       },
       "block_order": [
         "logo_P8Kfe4",
         "logo_rWBGXB",
         "logo_mdriPx",
-        "logo_e8CnLj",
-        "logo_6yNUtm",
-        "logo_YhVcme",
-        "logo_nKmPLR"
+        "logo_e8CnLj"
       ],
       "name": "Logo list",
       "settings": {
         "full_width": true,
-        "stack_mobile": true,
+        "stack_mobile": false,
         "title": "Featured Brands",
         "content": "",
-        "text_alignment": "start",
-        "items_per_row": 7,
+        "text_alignment": "center",
+        "items_per_row": 4,
         "background": "",
         "background_gradient": "",
         "text_color": "",
@@ -803,7 +811,7 @@
       "settings": {
         "full_width": true,
         "content_size": "medium",
-        "background": "#ffffff",
+        "background": "#fdfeff",
         "background_gradient": "",
         "text_color": "",
         "heading_color": "",
@@ -1286,6 +1294,7 @@
     "collection-list",
     "featured_product_L6CLwf",
     "text_with_icons_DejWkL",
+    "multiple_images_with_text_V7LQpU",
     "image-with-text-overlay",
     "multi_column_BFb7p6",
     "featured-collection",

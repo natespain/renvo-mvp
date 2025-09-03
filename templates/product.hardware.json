@@ -318,6 +318,7 @@
         "item_f6DRDr": {
           "type": "item",
           "settings": {
+            "image": "shopify://shop_images/Nebula_Vapes-Slim_Wall-rt_qtr.jpg",
             "image_rotation_degrees": -2,
             "subheading": "",
             "title": "Heading 1",
@@ -332,10 +333,10 @@
       ],
       "name": "Multiple images with text",
       "settings": {
-        "full_width": true,
+        "full_width": false,
         "images_layout": "stacked",
         "collage_images_alignment": "middle",
-        "background": "",
+        "background": "#fdfeff",
         "background_gradient": "",
         "text_color": "",
         "button_background": "",
