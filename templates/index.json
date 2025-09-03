@@ -335,7 +335,7 @@
             "mobile_icon_width": 24,
             "icon_width": 32,
             "icon_background_type": "circle",
-            "icon_background": "rgba(0,0,0,0)",
+            "icon_background": "#41b990",
             "icon_color": "#1a1b1d",
             "title": "Smart Unattended Retail Solutions",
             "content": "<p>Access self-serve retail systems built to scale – including cutting-edge vending machines with remote monitoring, cashless payments, and inventory management.</p>"
@@ -395,7 +395,7 @@
         "heading_tag": "h5",
         "text_alignment": "center",
         "icon_spacing": "small",
-        "background": "#d9f1e9",
+        "background": "#fefefe",
         "background_gradient": "",
         "text_color": "#1a1b1d"
       }
@@ -433,7 +433,7 @@
             "image": "shopify://shop_images/mega-wall-high-capacity-wall-mounted-vending-kiosk-vtm-vapetm-361710.webp",
             "image_rotation_degrees": 0,
             "subheading": "Scalable Solutions",
-            "title": "We Help You Grow",
+            "title": "Designed for Growth",
             "content": "<p>Start small and grow your operation with flexible solutions that scale with your business. Work with pre-vetted manufacturers and suppliers, ensuring quality and reliability.</p>",
             "button_url": "",
             "button_text": ""
@@ -448,7 +448,7 @@
       "name": "Multiple images with text",
       "settings": {
         "full_width": false,
-        "images_layout": "collage",
+        "images_layout": "stacked",
         "collage_images_alignment": "top",
         "background": "#fdfeff",
         "background_gradient": "",
@@ -695,6 +695,7 @@
         "logo_mdriPx",
         "logo_e8CnLj"
       ],
+      "disabled": true,
       "name": "Logo list",
       "settings": {
         "full_width": true,
@@ -751,6 +752,7 @@
         "16644243327ba53d2a-0",
         "16644243327ba53d2a-1"
       ],
+      "disabled": true,
       "settings": {
         "full_width": true,
         "content_size": "medium",
@@ -775,8 +777,8 @@
         "heading_ggxf3p": {
           "type": "heading",
           "settings": {
-            "text": "Ready to Stock Smarter?",
-            "heading_tag": "h1"
+            "text": "Get started with your unattended retail business today",
+            "heading_tag": "h2"
           }
         },
         "richtext_j7N3Ew": {

@@ -22,7 +22,7 @@
             "icon_width": 24,
             "icon_background_type": "none",
             "icon_background": "",
-            "icon_color": "",
+            "icon_color": "#41b990",
             "title": "Free shipping",
             "content": "<p>Tell your customers about your shipping offer.</p>"
           }
@@ -32,10 +32,10 @@
           "settings": {
             "icon": "picto-customer-support",
             "mobile_icon_width": 24,
-            "icon_width": 24,
+            "icon_width": 48,
             "icon_background_type": "none",
             "icon_background": "",
-            "icon_color": "",
+            "icon_color": "#41b990",
             "title": "Customer service",
             "content": "<p>Tell your customers how they can reach you.</p>"
           }
@@ -52,7 +52,7 @@
         "heading_tag": "h3",
         "text_alignment": "center",
         "icon_spacing": "small",
-        "background": "#d9f1e9",
+        "background": "#fdfeff",
         "background_gradient": "",
         "text_color": "#1a1b1d"
       }
