@@ -15,7 +15,7 @@
         "slide-1": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/hero-image-2_5387a952-cb07-41db-bd0a-b90d31135d8d.jpg",
+            "image": "shopify://shop_images/hero-image-3.jpg",
             "mobile_image": "shopify://shop_images/hero-image-mobile.jpg",
             "content_max_width": 780,
             "mobile_text_position": "place-self-center text-center",
