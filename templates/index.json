@@ -58,7 +58,7 @@
           "type": "collection",
           "settings": {
             "collection": "bundles",
-            "image": "shopify://shop_images/mega-wall-high-capacity-wall-mounted-vending-kiosk-vtm-white-bg.jpg",
+            "image": "shopify://shop_images/hero-image.jpg",
             "subheading": "Starter Bundles",
             "title": "Kits to Get Started",
             "url": "shopify://collections/bundles",
@@ -66,14 +66,14 @@
             "text_position": "place-self-start text-start",
             "text_color": "#ffffff",
             "overlay_color": "#1a1b1d",
-            "overlay_opacity": 60
+            "overlay_opacity": 30
           }
         },
         "collection_9waamV": {
           "type": "collection",
           "settings": {
             "collection": "",
-            "image": "shopify://shop_images/800x600_1.png",
+            "image": "shopify://shop_images/hero-image.jpg",
             "subheading": "Smart Machines",
             "title": "Vending Hardware",
             "url": "",
@@ -88,7 +88,7 @@
           "type": "collection",
           "settings": {
             "collection": "",
-            "image": "shopify://shop_images/800x600_1.png",
+            "image": "shopify://shop_images/hero-image.jpg",
             "subheading": "Consumables",
             "title": "Wholesale Goods to Sell",
             "url": "shopify://collections/inventory",
@@ -103,7 +103,7 @@
           "type": "collection",
           "settings": {
             "collection": "",
-            "image": "shopify://shop_images/800x600_1.png",
+            "image": "shopify://shop_images/hero-image.jpg",
             "subheading": "Wraps and Displays",
             "title": "Graphics That Stand Out",
             "url": "shopify://collections/wraps-and-displays",
