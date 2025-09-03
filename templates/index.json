@@ -124,7 +124,7 @@
       "settings": {
         "full_width": true,
         "stack_collections": false,
-        "collections_per_row_mobile": "2",
+        "collections_per_row_mobile": "1",
         "collections_per_row": 2,
         "show_progress_bar": true,
         "subheading": "",
@@ -148,58 +148,61 @@
             "image": "shopify://shop_images/mega-wall-high-capacity-wall-mounted-vending-kiosk-vtm-white-bg.jpg",
             "show_controls": false,
             "column_size": "4",
+            "title": "Starter Bundles",
+            "heading_tag": "h4",
+            "content": "<p>Kits to get started with your unattended retail business.</p>",
+            "link_url": "shopify://collections/bundles",
+            "link_text": "Shop Bundles",
+            "link_style": "button"
+          }
+        },
+        "item_yjc3Uc": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/mega-wall-high-capacity-wall-mounted-vending-kiosk-vtm-white-bg.jpg",
+            "show_controls": false,
+            "column_size": "4",
             "title": "Column title",
             "heading_tag": "h4",
             "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
-            "link_url": "shopify://collections/bundles",
-            "link_text": "Shop Bundles",
+            "link_url": "shopify://collections/hardware",
+            "link_text": "Shop Hardware",
             "link_style": "button"
           }
         },
         "item_PFcpTF": {
           "type": "item",
           "settings": {
+            "image": "shopify://shop_images/mega-wall-high-capacity-wall-mounted-vending-kiosk-vtm-white-bg.jpg",
             "show_controls": false,
             "column_size": "4",
             "title": "Column title",
             "heading_tag": "h4",
             "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
-            "link_url": "",
-            "link_text": "",
-            "link_style": "link"
-          }
-        },
-        "item_yjc3Uc": {
-          "type": "item",
-          "settings": {
-            "show_controls": false,
-            "column_size": "4",
-            "title": "Column title",
-            "heading_tag": "h4",
-            "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
-            "link_url": "",
-            "link_text": "",
-            "link_style": "link"
+            "link_url": "shopify://collections/inventory",
+            "link_text": "Shop Consumables",
+            "link_style": "button"
           }
         },
         "item_3WgLw4": {
           "type": "item",
           "settings": {
+            "image": "shopify://shop_images/mega-wall-high-capacity-wall-mounted-vending-kiosk-vtm-white-bg.jpg",
             "show_controls": false,
             "column_size": "4",
             "title": "Column title",
             "heading_tag": "h4",
             "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
-            "link_url": "",
-            "link_text": "",
-            "link_style": "link"
+            "link_url": "shopify://collections/wraps-and-displays",
+            "link_text": "Shop Wraps",
+            "link_style": "button"
           }
         }
       },
       "block_order": [
         "item_RLVTVT",
-        "item_PFcpTF",
         "item_yjc3Uc",
+        "item_PFcpTF",
         "item_3WgLw4"
       ],
       "disabled": true,
@@ -208,7 +211,7 @@
       ],
       "name": "Multi-column",
       "settings": {
-        "full_width": true,
+        "full_width": false,
         "stack_on_mobile": false,
         "gap": "medium",
         "text_alignment": "start",
@@ -332,11 +335,11 @@
           "type": "item",
           "settings": {
             "icon": "picto-like",
-            "mobile_icon_width": 24,
-            "icon_width": 32,
-            "icon_background_type": "circle",
+            "mobile_icon_width": 36,
+            "icon_width": 44,
+            "icon_background_type": "none",
             "icon_background": "#41b990",
-            "icon_color": "#1a1b1d",
+            "icon_color": "#41b990",
             "title": "Smart Unattended Retail Solutions",
             "content": "<p>Access self-serve retail systems built to scale – including cutting-edge vending machines with remote monitoring, cashless payments, and inventory management.</p>"
           }
@@ -345,11 +348,11 @@
           "type": "item",
           "settings": {
             "icon": "picto-box",
-            "mobile_icon_width": 24,
-            "icon_width": 32,
-            "icon_background_type": "circle",
+            "mobile_icon_width": 36,
+            "icon_width": 44,
+            "icon_background_type": "none",
             "icon_background": "rgba(0,0,0,0)",
-            "icon_color": "#1a1b1d",
+            "icon_color": "#41b990",
             "title": "Curated Product Catalog",
             "content": "<p>Browse and source vending-ready consumables and white-label snacks and drinks from trusted providers, all optimized for unattended retail.</p>"
           }
@@ -358,11 +361,11 @@
           "type": "item",
           "settings": {
             "icon": "picto-money",
-            "mobile_icon_width": 24,
-            "icon_width": 32,
-            "icon_background_type": "circle",
+            "mobile_icon_width": 36,
+            "icon_width": 44,
+            "icon_background_type": "none",
             "icon_background": "rgba(0,0,0,0)",
-            "icon_color": "#1a1b1d",
+            "icon_color": "#41b990",
             "title": "White-Label Branding Services",
             "content": "<p>Custom branding and display kits to build brand recognition and make your vending operations or micro markets stand out.</p>"
           }
@@ -371,11 +374,11 @@
           "type": "item",
           "settings": {
             "icon": "picto-customer-support",
-            "mobile_icon_width": 24,
-            "icon_width": 32,
-            "icon_background_type": "circle",
+            "mobile_icon_width": 36,
+            "icon_width": 44,
+            "icon_background_type": "none",
             "icon_background": "",
-            "icon_color": "#1a1b1d",
+            "icon_color": "#41b990",
             "title": "Trusted Partner Network",
             "content": "<p>Connect with a network of trusted suppliers, technicians, and service providers across the industry.</p>"
           }
@@ -389,12 +392,12 @@
       ],
       "name": "Text with icons",
       "settings": {
-        "full_width": true,
+        "full_width": false,
         "stack_on_mobile": false,
         "title": "Everything You Need in One Marketplace",
         "heading_tag": "h5",
         "text_alignment": "center",
-        "icon_spacing": "small",
+        "icon_spacing": "large",
         "background": "#fefefe",
         "background_gradient": "",
         "text_color": "#1a1b1d"
@@ -444,6 +447,9 @@
         "item_9qxVcT",
         "item_DCwA63",
         "item_tTP8Di"
+      ],
+      "custom_css": [
+        ".h1 {color: #41b990;}"
       ],
       "name": "Multiple images with text",
       "settings": {
@@ -821,12 +827,13 @@
         "full_width": true,
         "allow_transparent_header": false,
         "enable_parallax": false,
-        "image_size": "auto",
+        "image_size": "lg",
+        "image": "shopify://shop_images/hero-image-2_5387a952-cb07-41db-bd0a-b90d31135d8d.jpg",
         "mobile_text_position": "place-self-center text-center",
         "desktop_text_position": "sm:place-self-center-start sm:text-start",
         "text_color": "#ffffff",
         "overlay_color": "#000000",
-        "overlay_opacity": 30
+        "overlay_opacity": 0
       }
     },
     "media-grid": {
