@@ -52,9 +52,9 @@
         "heading_tag": "h3",
         "text_alignment": "center",
         "icon_spacing": "small",
-        "background": "",
+        "background": "#70c699",
         "background_gradient": "",
-        "text_color": ""
+        "text_color": "#1a1b1d"
       }
     },
     "footer": {
