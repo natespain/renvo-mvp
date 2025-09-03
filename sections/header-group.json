@@ -43,7 +43,7 @@
       "settings": {
         "enable_sticky": true,
         "hide_on_scroll": false,
-        "logo": "shopify://shop_images/renvo-logo-white.svg",
+        "logo": "shopify://shop_images/renvo-logo-rgb-color.svg",
         "logo_max_width": 120,
         "logo_mobile_max_width": 100,
         "menu": "main-menu",
@@ -58,6 +58,7 @@
         "show_country_flag": true,
         "show_country_name": false,
         "transparent_header_text_color": "#ffffff",
+        "transparent_logo": "shopify://shop_images/renvo-logo-white.svg",
         "reduce_padding": false,
         "background_opacity": 100,
         "background_blur_radius": 0
