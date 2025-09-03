@@ -61,8 +61,8 @@
             "subheading": "",
             "title": "Starter Bundles",
             "url": "shopify://collections/bundles",
-            "heading_tag": "h4",
-            "text_position": "place-self-center-start text-start",
+            "heading_tag": "h3",
+            "text_position": "place-self-start text-start",
             "text_color": "#ffffff",
             "overlay_color": "#000000",
             "overlay_opacity": 30
@@ -76,8 +76,8 @@
             "subheading": "",
             "title": "Vending Solutions",
             "url": "",
-            "heading_tag": "h4",
-            "text_position": "place-self-center-start text-start",
+            "heading_tag": "h3",
+            "text_position": "place-self-start text-start",
             "text_color": "#ffffff",
             "overlay_color": "#000000",
             "overlay_opacity": 30
@@ -91,8 +91,8 @@
             "subheading": "",
             "title": "Consumables",
             "url": "shopify://collections/inventory",
-            "heading_tag": "h4",
-            "text_position": "place-self-center-start text-start",
+            "heading_tag": "h3",
+            "text_position": "place-self-start text-start",
             "text_color": "#ffffff",
             "overlay_color": "#000000",
             "overlay_opacity": 30
@@ -106,8 +106,8 @@
             "subheading": "",
             "title": "Graphic Wraps",
             "url": "shopify://collections/wraps-and-displays",
-            "heading_tag": "h4",
-            "text_position": "place-self-center-start text-start",
+            "heading_tag": "h3",
+            "text_position": "place-self-start text-start",
             "text_color": "#ffffff",
             "overlay_color": "#000000",
             "overlay_opacity": 30
@@ -125,7 +125,7 @@
         "stack_collections": false,
         "collections_per_row_mobile": "2",
         "collections_per_row": 2,
-        "show_progress_bar": false,
+        "show_progress_bar": true,
         "subheading": "",
         "title": "Smarter Retail Starts Here",
         "content": "<p>Renvo is the first B2B marketplace built for unattended retail. Whether you’re running one vending machine or scaling a full fleet, Renvo helps you stock smarter, brand better, and grow faster. From smart vending machines to white-label snacks and sleek display kits, everything you need is just a click away.</p>",
@@ -249,12 +249,12 @@
         "item_girmgC": {
           "type": "item",
           "settings": {
-            "icon": "picto-coupon",
+            "icon": "picto-like",
             "mobile_icon_width": 24,
             "icon_width": 32,
             "icon_background_type": "circle",
-            "icon_background": "",
-            "icon_color": "",
+            "icon_background": "#41b990",
+            "icon_color": "#184032",
             "title": "Browse and Compare",
             "content": "<p>Smart machines, products, and services—all in one streamlined place.</p>"
           }
@@ -262,12 +262,12 @@
         "item_jBQpri": {
           "type": "item",
           "settings": {
-            "icon": "picto-coupon",
+            "icon": "picto-box",
             "mobile_icon_width": 24,
             "icon_width": 32,
             "icon_background_type": "circle",
-            "icon_background": "",
-            "icon_color": "",
+            "icon_background": "#41b990",
+            "icon_color": "#184032",
             "title": "Stock & Customize",
             "content": "<p>Easily source, bundle, and brand. No middlemen, no pitch decks.</p>"
           }
@@ -275,12 +275,12 @@
         "item_p8Bkdx": {
           "type": "item",
           "settings": {
-            "icon": "picto-coupon",
+            "icon": "picto-building",
             "mobile_icon_width": 24,
             "icon_width": 32,
             "icon_background_type": "circle",
-            "icon_background": "",
-            "icon_color": "",
+            "icon_background": "#41b990",
+            "icon_color": "#184032",
             "title": "Track & Scale",
             "content": "<p>Recurring orders and self-serve vendor tools let you grow efficiently.</p>"
           }
@@ -299,9 +299,9 @@
         "heading_tag": "h5",
         "text_alignment": "center",
         "icon_spacing": "small",
-        "background": "#1a1b1d",
+        "background": "#d6e7ef",
         "background_gradient": "",
-        "text_color": "#fdfeff"
+        "text_color": "#1a1b1d"
       }
     },
     "multiple_images_with_text_V7LQpU": {
