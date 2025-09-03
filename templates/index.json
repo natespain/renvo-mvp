@@ -59,8 +59,8 @@
           "settings": {
             "collection": "bundles",
             "image": "shopify://shop_images/mega-wall-high-capacity-wall-mounted-vending-kiosk-vtm-white-bg.jpg",
-            "subheading": "Get Started Here",
-            "title": "Starter Bundles",
+            "subheading": "Starter Bundles",
+            "title": "Kits to Get Started",
             "url": "shopify://collections/bundles",
             "heading_tag": "h3",
             "text_position": "place-self-start text-start",
@@ -74,8 +74,8 @@
           "settings": {
             "collection": "",
             "image": "shopify://shop_images/800x600_1.png",
-            "subheading": "Hardware and Machines",
-            "title": "Vending Solutions",
+            "subheading": "Smart Machines",
+            "title": "Vending Hardware",
             "url": "",
             "heading_tag": "h3",
             "text_position": "place-self-start text-start",
@@ -89,8 +89,8 @@
           "settings": {
             "collection": "",
             "image": "shopify://shop_images/800x600_1.png",
-            "subheading": "Wholesale Goods",
-            "title": "Consumables",
+            "subheading": "Consumables",
+            "title": "Wholesale Goods to Sell",
             "url": "shopify://collections/inventory",
             "heading_tag": "h3",
             "text_position": "place-self-start text-start",
@@ -104,8 +104,8 @@
           "settings": {
             "collection": "",
             "image": "shopify://shop_images/800x600_1.png",
-            "subheading": "Branding and Design",
-            "title": "Graphic Wraps",
+            "subheading": "Wraps and Displays",
+            "title": "Graphics That Stand Out",
             "url": "shopify://collections/wraps-and-displays",
             "heading_tag": "h3",
             "text_position": "place-self-start text-start",
