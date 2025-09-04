@@ -70,8 +70,8 @@
             "icon_position": "aligned",
             "icon": "none",
             "icon_width": 20,
-            "title": "Free with Bundle order",
-            "content": "<p>Pre-made wraps are free with any bundle order.</p>",
+            "title": "For Custom Designs",
+            "content": "<p>After your purchase, we'll send you an email with next steps. Check out our production process below for details on what to expect.</p>",
             "background": "#aecfdf",
             "text_color": "#1a1b1d"
           }
@@ -187,6 +187,99 @@
         "chart_background": "#aecfdf",
         "chart_text_color": "",
         "chart_true_false_color": ""
+      }
+    },
+    "accordion_content_GXEMQp": {
+      "type": "accordion-content",
+      "blocks": {
+        "item_RUh6d4": {
+          "type": "item",
+          "disabled": true,
+          "settings": {
+            "icon": "none",
+            "icon_width": 20,
+            "title": "Order Wrap",
+            "content": "<p>We will immediately send you an email with next steps. We can use your design or we</p>",
+            "page": ""
+          }
+        },
+        "item_djF6Gi": {
+          "type": "item",
+          "settings": {
+            "icon": "none",
+            "icon_width": 20,
+            "title": "Step 1 – Design",
+            "content": "<p>Whether you have your own design or want us to create something great for you, we will send you an email once the purchase Is made to get started. Either way, these are the steps we will follow to ensure you have exactly what you need.</p>",
+            "page": ""
+          }
+        },
+        "item_UBffPP": {
+          "type": "item",
+          "settings": {
+            "icon": "none",
+            "icon_width": 20,
+            "title": "Step 2 – Proof Sent",
+            "content": "<p>After the design has been applied to the template, we'll send you a pdf proof of what your product will look like.</p>",
+            "page": ""
+          }
+        },
+        "item_UqUnKD": {
+          "type": "item",
+          "settings": {
+            "icon": "none",
+            "icon_width": 20,
+            "title": "Step 3 – Approval and Feedback",
+            "content": "<p>We will update your proof up to three times prior to approval.</p>",
+            "page": ""
+          }
+        },
+        "item_6wQTpH": {
+          "type": "item",
+          "settings": {
+            "icon": "none",
+            "icon_width": 20,
+            "title": "Step 4 – Production",
+            "content": "<p>Once approved, we will produce the product. Please allow 3-5 days for production.</p>",
+            "page": ""
+          }
+        },
+        "item_ReHpL6": {
+          "type": "item",
+          "settings": {
+            "icon": "none",
+            "icon_width": 20,
+            "title": "Step 5 – Shipment",
+            "content": "<p>After your purchase Is produced, we'll ship It to the address that you provided using your preferred shipping method. Please allow 3-5 days after artwork approval for production prior to shipping.</p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "item_RUh6d4",
+        "item_djF6Gi",
+        "item_UBffPP",
+        "item_UqUnKD",
+        "item_6wQTpH",
+        "item_ReHpL6"
+      ],
+      "name": "Accordion content",
+      "settings": {
+        "full_width": true,
+        "subheading": "",
+        "title": "Easy Production Process",
+        "content": "<p>We make creating a custom wrap easy. Once you place your order, we will immediately follow up with an email with instructions on the next steps. </p><p><strong>We can design the wrap for you or can provide a template</strong> for a seamless handoff to your team. We're here to make the process as painless as possible. </p><p></p>",
+        "button_text": "",
+        "button_url": "",
+        "text_position": "end",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "button_background": "",
+        "button_text_color": "",
+        "accordion_background": "",
+        "accordion_text_color": ""
       }
     },
     "media_with_text_qEqNxc": {
@@ -470,6 +563,7 @@
   "order": [
     "main",
     "specification_table_8eX3Nj",
+    "accordion_content_GXEMQp",
     "media_with_text_qEqNxc",
     "multiple_images_with_text_b8QG4J",
     "image_with_text_overlay_c6Qd4n",

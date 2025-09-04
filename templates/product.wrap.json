@@ -66,14 +66,14 @@
         "offer_WXyGDF": {
           "type": "offer",
           "settings": {
-            "text_alignment": "start",
+            "text_alignment": "center",
             "icon_position": "aligned",
-            "icon": "picto-star",
+            "icon": "none",
             "icon_width": 20,
-            "title": "Free with  Bundle order",
-            "content": "<p>Short content about your shipping rates or discounts.</p>",
-            "background": "#eaf2ed",
-            "text_color": "#00a341"
+            "title": "Free with Bundle order",
+            "content": "<p>Pre-made wraps are free with any bundle order.</p>",
+            "background": "#aecfdf",
+            "text_color": "#1a1b1d"
           }
         },
         "quantity_selector": {
@@ -111,6 +111,11 @@
         "buy_buttons",
         "volume_pricing_erWEYK"
       ],
+      "custom_css": [
+        ".renvo-machine-compatibility {padding-top: 30px;}",
+        ".renvo-machine-compatibility .select {margin-top: 6px;}",
+        ".renvo-machine-compatibility .renvo-mc-help,.renvo-machine-compatibility .renvo-mc-error {font-size: 0.8em; padding-top: 5px; color: #999;}"
+      ],
       "settings": {
         "full_width": false,
         "show_fixed_add_to_cart": true,
@@ -127,6 +132,61 @@
         "text_color": "",
         "input_background": "rgba(0,0,0,0)",
         "input_text_color": ""
+      }
+    },
+    "specification_table_8eX3Nj": {
+      "type": "specification-table",
+      "blocks": {
+        "row_dJK9CW": {
+          "type": "row",
+          "settings": {
+            "heading": "Warranty",
+            "value": "<p>Value 1</p>"
+          }
+        },
+        "row_7KfUPp": {
+          "type": "row",
+          "settings": {
+            "heading": "Durability",
+            "value": "<p>UV rated, etc</p>"
+          }
+        },
+        "row_txb8Ee": {
+          "type": "row",
+          "settings": {
+            "heading": "Works with",
+            "value": "{{ product.metafields.custom.machine_compatibility | metafield_tag }}"
+          }
+        }
+      },
+      "block_order": [
+        "row_dJK9CW",
+        "row_7KfUPp",
+        "row_txb8Ee"
+      ],
+      "custom_css": [],
+      "name": "Specification table",
+      "settings": {
+        "full_width": true,
+        "subheading": "Learn more",
+        "title": "H2 Top Content Heading",
+        "content": "<p>Turn heads and drive foot traffic with our premium wrap designed exclusively for your vape vending machine. Whether you're operating in shopping malls, convenience stores, or nightlife venues, this high quality, custom-designed wrap transforms your electronic cigarette vending machine into an attention-grabbing hotspot that enhances your brand and boosts sales.</p><p>Crafted for durability and style, our wraps are an exact fit for your vape vending machines and e cigarette machines, giving your unit a sleek, professional look that customers can’t miss. More visibility means more engagement — and more engagement means average vending machine profits rise fast, especially in high-traffic locations.</p>",
+        "button_text": "",
+        "button_url": "",
+        "text_position": "start",
+        "max_rows": 5,
+        "view_all_text": "View all",
+        "view_less_text": "View less",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "button_background": "",
+        "button_text_color": "",
+        "chart_background": "#aecfdf",
+        "chart_text_color": "",
+        "chart_true_false_color": ""
       }
     },
     "media_with_text_qEqNxc": {
@@ -146,9 +206,9 @@
             "content": "<p>Top Content and Main Content – Sentences that describe the wrap's theme etc.</p>",
             "link_text": "",
             "link_url": "",
-            "background": "#000000",
+            "background": "#f2f2f2",
             "background_gradient": "",
-            "text_color": "#ffffff",
+            "text_color": "#1a1b1d",
             "text_gradient": "",
             "button_background": "",
             "button_text_color": ""
@@ -158,10 +218,11 @@
       "block_order": [
         "image_dFiadq"
       ],
+      "disabled": true,
       "name": "Media with text",
       "settings": {
         "full_width": false,
-        "alternate_media_position": true,
+        "alternate_media_position": false,
         "spacing": "none"
       }
     },
@@ -171,6 +232,7 @@
         "item_f6DRDr": {
           "type": "item",
           "settings": {
+            "image": "shopify://shop_images/Nebula_Vapes-Mega_Wall-rt_qtr.jpg",
             "image_rotation_degrees": -2,
             "subheading": "",
             "title": "Sharkskin is cool",
@@ -182,6 +244,7 @@
         "item_74nf8r": {
           "type": "item",
           "settings": {
+            "image": "shopify://shop_images/FTquKh9lLq.webp",
             "image_rotation_degrees": 0,
             "subheading": "",
             "title": "Image with text",
@@ -193,6 +256,7 @@
         "item_VWPgzr": {
           "type": "item",
           "settings": {
+            "image": "shopify://shop_images/Nebula_Vapes-_Mega_Tower-Mockup.jpg",
             "image_rotation_degrees": 0,
             "subheading": "",
             "title": "Image with text",
@@ -209,12 +273,12 @@
       ],
       "name": "Multiple images with text",
       "settings": {
-        "full_width": false,
+        "full_width": true,
         "images_layout": "stacked",
         "collage_images_alignment": "middle",
-        "background": "#ffffff",
+        "background": "#1a1b1d",
         "background_gradient": "",
-        "text_color": "",
+        "text_color": "#fdfeff",
         "button_background": "",
         "button_text_color": ""
       }
@@ -336,7 +400,7 @@
         "heading_tag": "h3",
         "text_alignment": "center",
         "icon_spacing": "medium",
-        "background": "#ffffff",
+        "background": "#70c699",
         "background_gradient": "",
         "text_color": ""
       }
@@ -390,8 +454,8 @@
         "answer_time": "Average answer time: 24h",
         "button_text": "",
         "button_url": "",
-        "text_position": "center",
-        "background": "",
+        "text_position": "start",
+        "background": "#ffffff",
         "background_gradient": "",
         "text_color": "",
         "heading_color": "",
@@ -405,6 +469,7 @@
   },
   "order": [
     "main",
+    "specification_table_8eX3Nj",
     "media_with_text_qEqNxc",
     "multiple_images_with_text_b8QG4J",
     "image_with_text_overlay_c6Qd4n",
