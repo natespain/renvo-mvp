@@ -66,14 +66,14 @@
         "offer_WXyGDF": {
           "type": "offer",
           "settings": {
-            "text_alignment": "start",
+            "text_alignment": "center",
             "icon_position": "aligned",
-            "icon": "picto-star",
+            "icon": "picto-recycle",
             "icon_width": 20,
-            "title": "Minimum Order Quantity",
-            "content": "<p>Short content about your shipping rates or discounts.</p>",
-            "background": "#eaf2ed",
-            "text_color": "#00a341"
+            "title": "This item is typically reordered every {{ product.metafields.custom.reorder_frequency.value }}",
+            "content": "<p>Set up a recurring order to never be out of stock.</p>",
+            "background": "#aecfdf",
+            "text_color": "#1a1b1d"
           }
         },
         "quantity_selector": {
