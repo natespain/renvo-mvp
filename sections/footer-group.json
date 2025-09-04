@@ -23,8 +23,8 @@
             "icon_background_type": "none",
             "icon_background": "",
             "icon_color": "#1a1b1d",
-            "title": "Free shipping",
-            "content": "<p>Tell your customers about your shipping offer.</p>"
+            "title": "Shipping Information",
+            "content": "<p>Renvo works with a trusted network of different partners. <br/>See how we handle shipping here.</p>"
           }
         },
         "customer-support": {
@@ -37,7 +37,7 @@
             "icon_background": "",
             "icon_color": "#1a1b1d",
             "title": "Customer service",
-            "content": "<p>Tell your customers how they can reach you.</p>"
+            "content": "<p>Renvo acts as your service concierge. We can quickly connect you <br/>with the best support for your business. </p>"
           }
         }
       },

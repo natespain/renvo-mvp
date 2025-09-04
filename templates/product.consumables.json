@@ -218,7 +218,7 @@
         "heading_gradient": "",
         "button_background": "",
         "button_text_color": "",
-        "chart_background": "",
+        "chart_background": "#f2f2f2",
         "chart_text_color": "",
         "chart_true_false_color": ""
       }
@@ -330,7 +330,7 @@
       ],
       "name": "Featured blog post",
       "settings": {
-        "full_width": true,
+        "full_width": false,
         "show_excerpt": true,
         "show_date": true,
         "show_author": false,
