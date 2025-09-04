@@ -132,13 +132,6 @@
     "specification_table_YPDnxJ": {
       "type": "specification-table",
       "blocks": {
-        "row_96Q3qz": {
-          "type": "row",
-          "settings": {
-            "heading": "Works with",
-            "value": "{{ product.metafields.custom.machine_compatibility | metafield_tag }}"
-          }
-        },
         "row_DXfUTx": {
           "type": "row",
           "settings": {
@@ -187,31 +180,38 @@
             "heading": "",
             "value": ""
           }
+        },
+        "row_96Q3qz": {
+          "type": "row",
+          "settings": {
+            "heading": "Works with",
+            "value": "{{ product.metafields.custom.machine_compatibility | metafield_tag }}"
+          }
         }
       },
       "block_order": [
-        "row_96Q3qz",
         "row_DXfUTx",
         "row_LeLD3H",
         "row_MaH3NA",
         "row_pxXCDk",
         "row_rLUpzN",
         "row_WP3arC",
-        "row_ewdYjt"
+        "row_ewdYjt",
+        "row_96Q3qz"
       ],
       "name": "Specification table",
       "settings": {
         "full_width": true,
         "subheading": "{{ product.title }} Info",
         "title": "H2 Heading with searchable term",
-        "content": "<p>Top Content 2-3 Sentences describing product. Top Content 2-3 Sentences describing product. Top Content 2-3 Sentences describing product.</p>",
+        "content": "{{ product.description }}<p><strong>Market ideas include: </strong></p>{{ product.metafields.custom.use_cases | metafield_tag }}",
         "button_text": "",
         "button_url": "",
         "text_position": "start",
         "max_rows": 5,
         "view_all_text": "View all",
         "view_less_text": "View less",
-        "background": "#ffffff",
+        "background": "rgba(0,0,0,0)",
         "background_gradient": "",
         "text_color": "",
         "heading_color": "",
@@ -299,6 +299,7 @@
         "item_rf97kq",
         "item_xqDpPA"
       ],
+      "disabled": true,
       "name": "Text with icons",
       "settings": {
         "full_width": true,
@@ -352,16 +353,16 @@
       "name": "Related products",
       "settings": {
         "recommendations_count": 4,
-        "products": [],
+        "products": "{{ product.metafields.custom.bundle_contents.value }}",
         "full_width": true,
         "stack_products": true,
         "show_progress_bar": false,
         "products_per_row_mobile": "2",
         "products_per_row_desktop": 4,
         "subheading": "",
-        "title": "You may also like",
+        "title": "Frequently Bundled Together",
         "content": "",
-        "background": "#ffffff",
+        "background": "rgba(0,0,0,0)",
         "background_gradient": "",
         "text_color": "",
         "heading_color": "",

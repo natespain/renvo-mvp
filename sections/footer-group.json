@@ -22,7 +22,7 @@
             "icon_width": 52,
             "icon_background_type": "none",
             "icon_background": "",
-            "icon_color": "#41b990",
+            "icon_color": "#1a1b1d",
             "title": "Free shipping",
             "content": "<p>Tell your customers about your shipping offer.</p>"
           }
@@ -35,7 +35,7 @@
             "icon_width": 52,
             "icon_background_type": "none",
             "icon_background": "",
-            "icon_color": "#41b990",
+            "icon_color": "#1a1b1d",
             "title": "Customer service",
             "content": "<p>Tell your customers how they can reach you.</p>"
           }
@@ -52,7 +52,7 @@
         "heading_tag": "h3",
         "text_alignment": "center",
         "icon_spacing": "small",
-        "background": "#fdfeff",
+        "background": "#aecfdf",
         "background_gradient": "",
         "text_color": "#1a1b1d"
       }
