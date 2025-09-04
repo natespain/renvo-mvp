@@ -235,8 +235,8 @@
             "icon_background_type": "circle",
             "icon_background": "",
             "icon_color": "",
-            "title": "Free shipping",
-            "content": "<p>Free worldwide shipping and returns - customs and duties taxes included</p>"
+            "title": "Bodegas",
+            "content": "<p>Lorem Ipsum dolar sit amet</p>"
           }
         },
         "item_dcmehc": {
@@ -248,8 +248,8 @@
             "icon_background_type": "circle",
             "icon_background": "",
             "icon_color": "",
-            "title": "Customer service",
-            "content": "<p>We are available from monday to friday to answer your questions.</p>"
+            "title": "Restaurants",
+            "content": "<p>Lorem Ipsum dolar sit amet</p>"
           }
         },
         "item_PMfM47": {
@@ -261,8 +261,8 @@
             "icon_background_type": "circle",
             "icon_background": "",
             "icon_color": "",
-            "title": "Secure payment",
-            "content": "<p>Your payment information is processed securely.</p>"
+            "title": "Bars",
+            "content": "<p>Lorem Ipsum dolar sit amet</p>"
           }
         },
         "item_rf97kq": {
@@ -274,8 +274,8 @@
             "icon_background_type": "circle",
             "icon_background": "",
             "icon_color": "",
-            "title": "Heading",
-            "content": "<p>Short content about your store</p>"
+            "title": "Hotels",
+            "content": "<p>Lorem Ipsum dolar sit amet</p>"
           }
         },
         "item_xqDpPA": {
@@ -287,8 +287,8 @@
             "icon_background_type": "circle",
             "icon_background": "",
             "icon_color": "",
-            "title": "Heading",
-            "content": "<p>Short content about your store</p>"
+            "title": "Convenience Stores",
+            "content": "<p>Lorem Ipsum dolar sit amet</p>"
           }
         }
       },
@@ -303,7 +303,7 @@
       "settings": {
         "full_width": true,
         "stack_on_mobile": false,
-        "title": "",
+        "title": "Works well in these locations",
         "heading_tag": "h5",
         "text_alignment": "center",
         "icon_spacing": "medium",
