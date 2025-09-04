@@ -488,7 +488,7 @@
         "full_width": true,
         "content_width": "small",
         "text_position": "center",
-        "background": "#ffffff",
+        "background": "#aecfdf",
         "background_gradient": "",
         "text_color": ""
       }
@@ -593,7 +593,7 @@
         "reduce_width": false,
         "desktop_row_height": 290,
         "mobile_row_height": 150,
-        "background": "#ffffff",
+        "background": "#aecfdf",
         "background_gradient": ""
       }
     },
