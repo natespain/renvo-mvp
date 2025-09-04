@@ -135,65 +135,65 @@
         "row_96Q3qz": {
           "type": "row",
           "settings": {
-            "heading": "Compatible with",
+            "heading": "Works with",
             "value": "{{ product.metafields.custom.machine_compatibility | metafield_tag }}"
           }
         },
         "row_DXfUTx": {
           "type": "row",
           "settings": {
-            "heading": "Heading 2",
-            "value": "<p>Value 2</p>"
-          }
-        },
-        "row_MaH3NA": {
-          "type": "row",
-          "settings": {
-            "heading": "Heading 3",
-            "value": "<p>Value 3</p>"
+            "heading": "Included",
+            "value": "<p>{{ product.title }}</p>"
           }
         },
         "row_LeLD3H": {
           "type": "row",
           "settings": {
-            "heading": "Heading",
-            "value": "<p>Value</p>"
+            "heading": "Reorder Frequency",
+            "value": "<p>{{ product.metafields.custom.reorder_frequency.value }}</p>"
+          }
+        },
+        "row_MaH3NA": {
+          "type": "row",
+          "settings": {
+            "heading": "",
+            "value": ""
           }
         },
         "row_pxXCDk": {
           "type": "row",
           "settings": {
-            "heading": "Heading",
-            "value": "<p>Value</p>"
+            "heading": "",
+            "value": ""
           }
         },
         "row_rLUpzN": {
           "type": "row",
           "settings": {
-            "heading": "Heading",
-            "value": "<p>Value</p>"
+            "heading": "",
+            "value": ""
           }
         },
         "row_WP3arC": {
           "type": "row",
           "settings": {
-            "heading": "Heading",
-            "value": "<p>Value</p>"
+            "heading": "",
+            "value": ""
           }
         },
         "row_ewdYjt": {
           "type": "row",
           "settings": {
-            "heading": "Heading",
-            "value": "<p>Value</p>"
+            "heading": "",
+            "value": ""
           }
         }
       },
       "block_order": [
         "row_96Q3qz",
         "row_DXfUTx",
-        "row_MaH3NA",
         "row_LeLD3H",
+        "row_MaH3NA",
         "row_pxXCDk",
         "row_rLUpzN",
         "row_WP3arC",
@@ -235,7 +235,7 @@
             "icon_background_type": "circle",
             "icon_background": "",
             "icon_color": "",
-            "title": "Beach",
+            "title": "{{ product.metafields.custom.use_cases | metafield_text }}",
             "content": "<p>Lorem Ipsum dolar sit amet</p>"
           }
         },
