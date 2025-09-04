@@ -182,7 +182,7 @@
     "featured_collection_fDVNQy": {
       "type": "featured-collection",
       "custom_css": [
-        "p.subheading{color: #41B990;}"
+        "p.subheading {color: #41b990;}"
       ],
       "name": "Featured collection",
       "settings": {
@@ -210,6 +210,9 @@
     },
     "featured_collection_MK8kwy": {
       "type": "featured-collection",
+      "custom_css": [
+        "p.subheading{color: #41B990;}"
+      ],
       "name": "Featured collection",
       "settings": {
         "collection": "wraps-and-displays",
@@ -222,7 +225,7 @@
         "products_per_row_desktop": 4,
         "subheading": "Wraps & Displays",
         "title": "Graphics that Stand Out",
-        "content": "<p>Custom and pre-designed wraps to get you into business faster.</p>",
+        "content": "",
         "link_url": "",
         "link_text": "View all",
         "background": "",
