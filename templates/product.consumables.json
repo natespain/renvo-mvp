@@ -135,8 +135,8 @@
         "row_96Q3qz": {
           "type": "row",
           "settings": {
-            "heading": "Heading 1",
-            "value": "<p>Value 1</p>"
+            "heading": "Compatible with",
+            "value": "{{ product.metafields.custom.machine_compatibility | metafield_tag }}"
           }
         },
         "row_DXfUTx": {
@@ -202,9 +202,9 @@
       "name": "Specification table",
       "settings": {
         "full_width": true,
-        "subheading": "Learn more",
-        "title": "Product specification",
-        "content": "<p>Showcase specifications about a product to help your customers making an informed decision about their purchase.</p>",
+        "subheading": "{{ product.title }} Info",
+        "title": "H2 Heading with searchable term",
+        "content": "<p>Top Content 2-3 Sentences describing product. Top Content 2-3 Sentences describing product. Top Content 2-3 Sentences describing product.</p>",
         "button_text": "",
         "button_url": "",
         "text_position": "start",
