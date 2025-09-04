@@ -123,6 +123,9 @@
     },
     "featured_collection_zGTq3K": {
       "type": "featured-collection",
+      "custom_css": [
+        "p.subheading {color: #41b990;}"
+      ],
       "name": "Featured collection",
       "settings": {
         "collection": "bundles",
@@ -135,7 +138,7 @@
         "products_per_row_desktop": 4,
         "subheading": "Starter Bundles",
         "title": "Kits to Get Started",
-        "content": "<p>Kits to get started in unattended retail.</p>",
+        "content": "",
         "link_url": "",
         "link_text": "View all",
         "background": "",
@@ -149,6 +152,9 @@
     },
     "featured_collection_9HCGkF": {
       "type": "featured-collection",
+      "custom_css": [
+        "p.subheading {color: #41b990;}"
+      ],
       "name": "Featured collection",
       "settings": {
         "collection": "hardware",
@@ -161,9 +167,9 @@
         "products_per_row_desktop": 4,
         "subheading": "Smart Machines",
         "title": "Vending Hardware",
-        "content": "<p>Description here</p>",
+        "content": "",
         "link_url": "",
-        "link_text": "View all",
+        "link_text": "View All",
         "background": "",
         "background_gradient": "",
         "text_color": "",
@@ -175,6 +181,9 @@
     },
     "featured_collection_fDVNQy": {
       "type": "featured-collection",
+      "custom_css": [
+        "p.subheading{color: #41B990;}"
+      ],
       "name": "Featured collection",
       "settings": {
         "collection": "inventory",
@@ -569,9 +578,9 @@
       "settings": {
         "full_width": false,
         "stack_on_mobile": false,
-        "title": "Everything You Need in One Marketplace",
+        "title": "",
         "heading_tag": "h5",
-        "text_alignment": "center",
+        "text_alignment": "start",
         "icon_spacing": "large",
         "background": "#fefefe",
         "background_gradient": "",
@@ -798,6 +807,7 @@
         "button_PCmedt",
         "button_m3PNNH"
       ],
+      "disabled": true,
       "settings": {
         "full_width": false,
         "allow_transparent_header": false,
