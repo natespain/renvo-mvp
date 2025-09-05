@@ -230,14 +230,14 @@
         "max_rows": 5,
         "view_all_text": "View all",
         "view_less_text": "View less",
-        "background": "#fdfeff",
+        "background": "rgba(0,0,0,0)",
         "background_gradient": "",
         "text_color": "",
-        "heading_color": "",
-        "heading_gradient": "",
+        "heading_color": "#41b990",
+        "heading_gradient": "linear-gradient(343deg, rgba(26, 27, 29, 1) 15%, rgba(65, 185, 144, 1) 85%)",
         "button_background": "",
         "button_text_color": "",
-        "chart_background": "#eaf7f4",
+        "chart_background": "#fdfeff",
         "chart_text_color": "",
         "chart_true_false_color": ""
       }
