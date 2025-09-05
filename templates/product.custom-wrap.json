@@ -184,7 +184,7 @@
         "heading_gradient": "",
         "button_background": "",
         "button_text_color": "",
-        "chart_background": "#aecfdf",
+        "chart_background": "rgba(0,0,0,0)",
         "chart_text_color": "",
         "chart_true_false_color": ""
       }
@@ -264,21 +264,21 @@
       ],
       "name": "Accordion content",
       "settings": {
-        "full_width": true,
+        "full_width": false,
         "subheading": "",
         "title": "Easy Production Process",
         "content": "<p>We make creating a custom wrap easy. Once you place your order, we will immediately follow up with an email with instructions on the next steps. </p><p><strong>We can design the wrap for you or can provide a template</strong> for a seamless handoff to your team. We're here to make the process as painless as possible. </p><p></p>",
         "button_text": "",
         "button_url": "",
         "text_position": "end",
-        "background": "",
+        "background": "#fdfeff",
         "background_gradient": "",
         "text_color": "",
         "heading_color": "",
         "heading_gradient": "",
         "button_background": "",
         "button_text_color": "",
-        "accordion_background": "",
+        "accordion_background": "#f5f9fc",
         "accordion_text_color": ""
       }
     },
@@ -369,9 +369,9 @@
         "full_width": true,
         "images_layout": "stacked",
         "collage_images_alignment": "middle",
-        "background": "#1a1b1d",
+        "background": "rgba(0,0,0,0)",
         "background_gradient": "",
-        "text_color": "#fdfeff",
+        "text_color": "#1a1b1d",
         "button_background": "",
         "button_text_color": ""
       }
@@ -418,13 +418,13 @@
       ],
       "name": "Image with text overlay",
       "settings": {
-        "full_width": false,
+        "full_width": true,
         "allow_transparent_header": false,
         "enable_parallax": false,
         "image_size": "auto",
         "mobile_text_position": "place-self-center text-center",
         "desktop_text_position": "sm:place-self-center sm:text-center",
-        "text_color": "#ffffff",
+        "text_color": "#fdfeff",
         "overlay_color": "#000000",
         "overlay_opacity": 30
       }
@@ -442,7 +442,7 @@
         "subheading": "",
         "title": "Wraps you may also like",
         "content": "",
-        "background": "",
+        "background": "rgba(0,0,0,0)",
         "background_gradient": "",
         "text_color": "",
         "heading_color": "",
@@ -493,7 +493,7 @@
         "heading_tag": "h3",
         "text_alignment": "center",
         "icon_spacing": "medium",
-        "background": "#70c699",
+        "background": "#fdfeff",
         "background_gradient": "",
         "text_color": ""
       }
@@ -548,7 +548,7 @@
         "button_text": "",
         "button_url": "",
         "text_position": "start",
-        "background": "#ffffff",
+        "background": "rgba(0,0,0,0)",
         "background_gradient": "",
         "text_color": "",
         "heading_color": "",
