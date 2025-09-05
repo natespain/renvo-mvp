@@ -50,6 +50,82 @@
         "background_gradient": ""
       }
     },
+    "text_with_icons_wdNdri": {
+      "type": "text-with-icons",
+      "blocks": {
+        "item_ULQ4NG": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-like",
+            "mobile_icon_width": 36,
+            "icon_width": 44,
+            "icon_background_type": "none",
+            "icon_background": "#41b990",
+            "icon_color": "#256952",
+            "title": "Smart Unattended Retail Solutions",
+            "content": "<p>Access self-serve retail systems built to scale – including cutting-edge vending machines with remote monitoring, cashless payments, and inventory management.</p>"
+          }
+        },
+        "item_4pEdTh": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-box",
+            "mobile_icon_width": 36,
+            "icon_width": 44,
+            "icon_background_type": "none",
+            "icon_background": "rgba(0,0,0,0)",
+            "icon_color": "#256952",
+            "title": "Curated Product Catalog",
+            "content": "<p>Browse and source vending-ready consumables and white-label snacks and drinks from trusted providers, all optimized for unattended retail.</p>"
+          }
+        },
+        "item_iNBBcM": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-money",
+            "mobile_icon_width": 36,
+            "icon_width": 44,
+            "icon_background_type": "none",
+            "icon_background": "rgba(0,0,0,0)",
+            "icon_color": "#256952",
+            "title": "White-Label Branding Services",
+            "content": "<p>Custom branding and display kits to build brand recognition and make your vending operations or micro markets stand out.</p>"
+          }
+        },
+        "item_qTNVkU": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-customer-support",
+            "mobile_icon_width": 36,
+            "icon_width": 44,
+            "icon_background_type": "none",
+            "icon_background": "",
+            "icon_color": "#256952",
+            "title": "Trusted Partner Network",
+            "content": "<p>Connect with a network of trusted suppliers, technicians, and service providers across the industry.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "item_ULQ4NG",
+        "item_4pEdTh",
+        "item_iNBBcM",
+        "item_qTNVkU"
+      ],
+      "custom_css": [],
+      "name": "Text with icons",
+      "settings": {
+        "full_width": false,
+        "stack_on_mobile": false,
+        "title": "",
+        "heading_tag": "h4",
+        "text_alignment": "start",
+        "icon_spacing": "large",
+        "background": "rgba(0,0,0,0)",
+        "background_gradient": "",
+        "text_color": "#1a1b1d"
+      }
+    },
     "media_with_text_6e9tKV": {
       "type": "media-with-text",
       "blocks": {
@@ -78,6 +154,7 @@
       "block_order": [
         "image_QUMEgw"
       ],
+      "disabled": true,
       "name": "Media with text",
       "settings": {
         "full_width": false,
@@ -149,98 +226,12 @@
         "product_card_text_color": ""
       }
     },
-    "featured_collection_9HCGkF": {
-      "type": "featured-collection",
-      "custom_css": [
-        "p.subheading {color: #41b990;}"
-      ],
-      "name": "Featured collection",
-      "settings": {
-        "collection": "hardware",
-        "products": [],
-        "full_width": true,
-        "stack_products": true,
-        "show_progress_bar": false,
-        "products_count": 4,
-        "products_per_row_mobile": "2",
-        "products_per_row_desktop": 4,
-        "subheading": "Smart Machines",
-        "title": "Vending Hardware",
-        "content": "",
-        "link_url": "",
-        "link_text": "View All",
-        "background": "",
-        "background_gradient": "",
-        "text_color": "",
-        "heading_color": "",
-        "heading_gradient": "",
-        "product_card_background": "",
-        "product_card_text_color": ""
-      }
-    },
-    "featured_collection_fDVNQy": {
-      "type": "featured-collection",
-      "custom_css": [
-        "p.subheading {color: #41b990;}"
-      ],
-      "name": "Featured collection",
-      "settings": {
-        "collection": "inventory",
-        "products": [],
-        "full_width": true,
-        "stack_products": true,
-        "show_progress_bar": false,
-        "products_count": 4,
-        "products_per_row_mobile": "2",
-        "products_per_row_desktop": 4,
-        "subheading": "Consumables",
-        "title": "Wholesale Goods to Sell",
-        "content": "",
-        "link_url": "",
-        "link_text": "View all",
-        "background": "",
-        "background_gradient": "",
-        "text_color": "",
-        "heading_color": "",
-        "heading_gradient": "",
-        "product_card_background": "",
-        "product_card_text_color": ""
-      }
-    },
-    "featured_collection_MK8kwy": {
-      "type": "featured-collection",
-      "custom_css": [
-        "p.subheading {color: #41b990;}"
-      ],
-      "name": "Featured collection",
-      "settings": {
-        "collection": "wraps-and-displays",
-        "products": [],
-        "full_width": true,
-        "stack_products": true,
-        "show_progress_bar": false,
-        "products_count": 4,
-        "products_per_row_mobile": "2",
-        "products_per_row_desktop": 4,
-        "subheading": "Wraps & Displays",
-        "title": "Graphics that Stand Out",
-        "content": "",
-        "link_url": "",
-        "link_text": "View all",
-        "background": "",
-        "background_gradient": "",
-        "text_color": "",
-        "heading_color": "",
-        "heading_gradient": "",
-        "product_card_background": "",
-        "product_card_text_color": ""
-      }
-    },
     "collection-list": {
       "type": "collection-list",
       "blocks": {
         "collection-1": {
           "type": "collection",
+          "disabled": true,
           "settings": {
             "collection": "bundles",
             "image": "shopify://shop_images/hero-image.jpg",
@@ -306,7 +297,6 @@
         "collection-2",
         "collection_7XmERz"
       ],
-      "disabled": true,
       "settings": {
         "full_width": true,
         "stack_collections": false,
@@ -323,6 +313,96 @@
         "text_color": "#1a1b1d",
         "heading_color": "#41b990",
         "heading_gradient": ""
+      }
+    },
+    "featured_collection_9HCGkF": {
+      "type": "featured-collection",
+      "disabled": true,
+      "custom_css": [
+        "p.subheading {color: #41b990;}"
+      ],
+      "name": "Featured collection",
+      "settings": {
+        "collection": "hardware",
+        "products": [],
+        "full_width": true,
+        "stack_products": true,
+        "show_progress_bar": false,
+        "products_count": 4,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 4,
+        "subheading": "Smart Machines",
+        "title": "Vending Hardware",
+        "content": "",
+        "link_url": "",
+        "link_text": "View All",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "product_card_background": "",
+        "product_card_text_color": ""
+      }
+    },
+    "featured_collection_fDVNQy": {
+      "type": "featured-collection",
+      "disabled": true,
+      "custom_css": [
+        "p.subheading {color: #41b990;}"
+      ],
+      "name": "Featured collection",
+      "settings": {
+        "collection": "inventory",
+        "products": [],
+        "full_width": true,
+        "stack_products": true,
+        "show_progress_bar": false,
+        "products_count": 4,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 4,
+        "subheading": "Consumables",
+        "title": "Wholesale Goods to Sell",
+        "content": "",
+        "link_url": "",
+        "link_text": "View all",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "product_card_background": "",
+        "product_card_text_color": ""
+      }
+    },
+    "featured_collection_MK8kwy": {
+      "type": "featured-collection",
+      "disabled": true,
+      "custom_css": [
+        "p.subheading {color: #41b990;}"
+      ],
+      "name": "Featured collection",
+      "settings": {
+        "collection": "wraps-and-displays",
+        "products": [],
+        "full_width": true,
+        "stack_products": true,
+        "show_progress_bar": false,
+        "products_count": 4,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 4,
+        "subheading": "Wraps & Displays",
+        "title": "Graphics that Stand Out",
+        "content": "",
+        "link_url": "",
+        "link_text": "View all",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "product_card_background": "",
+        "product_card_text_color": ""
       }
     },
     "multi_column_RDnC6X": {
@@ -590,82 +670,6 @@
         "text_color": "#1a1b1d"
       }
     },
-    "text_with_icons_wdNdri": {
-      "type": "text-with-icons",
-      "blocks": {
-        "item_ULQ4NG": {
-          "type": "item",
-          "settings": {
-            "icon": "picto-like",
-            "mobile_icon_width": 36,
-            "icon_width": 44,
-            "icon_background_type": "none",
-            "icon_background": "#41b990",
-            "icon_color": "#256952",
-            "title": "Smart Unattended Retail Solutions",
-            "content": "<p>Access self-serve retail systems built to scale – including cutting-edge vending machines with remote monitoring, cashless payments, and inventory management.</p>"
-          }
-        },
-        "item_4pEdTh": {
-          "type": "item",
-          "settings": {
-            "icon": "picto-box",
-            "mobile_icon_width": 36,
-            "icon_width": 44,
-            "icon_background_type": "none",
-            "icon_background": "rgba(0,0,0,0)",
-            "icon_color": "#256952",
-            "title": "Curated Product Catalog",
-            "content": "<p>Browse and source vending-ready consumables and white-label snacks and drinks from trusted providers, all optimized for unattended retail.</p>"
-          }
-        },
-        "item_iNBBcM": {
-          "type": "item",
-          "settings": {
-            "icon": "picto-money",
-            "mobile_icon_width": 36,
-            "icon_width": 44,
-            "icon_background_type": "none",
-            "icon_background": "rgba(0,0,0,0)",
-            "icon_color": "#256952",
-            "title": "White-Label Branding Services",
-            "content": "<p>Custom branding and display kits to build brand recognition and make your vending operations or micro markets stand out.</p>"
-          }
-        },
-        "item_qTNVkU": {
-          "type": "item",
-          "settings": {
-            "icon": "picto-customer-support",
-            "mobile_icon_width": 36,
-            "icon_width": 44,
-            "icon_background_type": "none",
-            "icon_background": "",
-            "icon_color": "#256952",
-            "title": "Trusted Partner Network",
-            "content": "<p>Connect with a network of trusted suppliers, technicians, and service providers across the industry.</p>"
-          }
-        }
-      },
-      "block_order": [
-        "item_ULQ4NG",
-        "item_4pEdTh",
-        "item_iNBBcM",
-        "item_qTNVkU"
-      ],
-      "custom_css": [],
-      "name": "Text with icons",
-      "settings": {
-        "full_width": false,
-        "stack_on_mobile": false,
-        "title": "",
-        "heading_tag": "h5",
-        "text_alignment": "start",
-        "icon_spacing": "large",
-        "background": "#41b990",
-        "background_gradient": "",
-        "text_color": "#fdfeff"
-      }
-    },
     "multiple_images_with_text_V7LQpU": {
       "type": "multiple-images-with-text",
       "blocks": {
@@ -903,17 +907,17 @@
   },
   "order": [
     "slideshow",
+    "text_with_icons_wdNdri",
     "media_with_text_6e9tKV",
     "image_with_text_overlay_E8EqkC",
     "featured_collection_zGTq3K",
+    "collection-list",
     "featured_collection_9HCGkF",
     "featured_collection_fDVNQy",
     "featured_collection_MK8kwy",
-    "collection-list",
     "multi_column_RDnC6X",
     "featured_product_L6CLwf",
     "text_with_icons_DejWkL",
-    "text_with_icons_wdNdri",
     "multiple_images_with_text_V7LQpU",
     "logo_list_UaQXjk",
     "press",
