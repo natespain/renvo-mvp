@@ -860,7 +860,7 @@
       "settings": {
         "full_width": true,
         "stack_mobile": false,
-        "title": "Featured Partners",
+        "title": "Trusted Partners",
         "content": "",
         "text_alignment": "center",
         "items_per_row": 4,
@@ -885,14 +885,14 @@
         "heading_ggxf3p": {
           "type": "heading",
           "settings": {
-            "text": "Get started with your unattended retail business today",
+            "text": "Start Your Business Today",
             "heading_tag": "h2"
           }
         },
         "richtext_j7N3Ew": {
           "type": "richtext",
           "settings": {
-            "content": "<p>Whether you’re launching or scaling, Renvo connects you to the machines, products, and branding to make it happen.</p>"
+            "content": "<p>Get started with your unattended retail business today. Whether you’re launching or scaling, Renvo connects you to the machines, products, and branding to make it happen.</p>"
           }
         },
         "button_PCmedt": {
@@ -911,7 +911,7 @@
           "settings": {
             "style": "fill",
             "size": "lg",
-            "text": "Become a Vendor",
+            "text": "Become a Partner",
             "url": "shopify://pages/vendor-tools",
             "background": "#666666",
             "text_color": "#cccccc"
