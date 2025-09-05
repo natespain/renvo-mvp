@@ -40,11 +40,11 @@
       "settings": {
         "full_width": true,
         "allow_transparent_header": true,
-        "show_initial_transition": true,
+        "show_initial_transition": false,
         "image_size": "lg",
         "controls_type": "filled_arrows",
         "transition_type": "fade",
-        "autoplay": true,
+        "autoplay": false,
         "cycle_speed": 4,
         "background": "#70c699",
         "background_gradient": ""
