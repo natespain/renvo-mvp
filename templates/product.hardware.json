@@ -237,7 +237,7 @@
         "heading_gradient": "",
         "button_background": "",
         "button_text_color": "",
-        "chart_background": "",
+        "chart_background": "#fdfeff",
         "chart_text_color": "",
         "chart_true_false_color": ""
       }
