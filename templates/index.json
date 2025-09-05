@@ -47,7 +47,7 @@
         "autoplay": true,
         "cycle_speed": 4,
         "background": "#70c699",
-        "background_gradient": "linear-gradient(60deg, rgba(60, 65, 68, 1), rgba(23, 29, 33, 1) 98%)"
+        "background_gradient": ""
       }
     },
     "media_with_text_6e9tKV": {
