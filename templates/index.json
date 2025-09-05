@@ -76,7 +76,7 @@
             "title": "Smart Machines",
             "url": "",
             "heading_tag": "h3",
-            "text_position": "place-self-center text-center",
+            "text_position": "place-self-start text-start",
             "text_color": "#ffffff",
             "overlay_color": "#000000",
             "overlay_opacity": 50
@@ -91,7 +91,7 @@
             "title": "Consumables",
             "url": "",
             "heading_tag": "h3",
-            "text_position": "place-self-center text-center",
+            "text_position": "place-self-start text-start",
             "text_color": "#ffffff",
             "overlay_color": "#000000",
             "overlay_opacity": 40
@@ -104,8 +104,8 @@
             "subheading": "",
             "title": "",
             "url": "",
-            "heading_tag": "h2",
-            "text_position": "place-self-center text-center",
+            "heading_tag": "h3",
+            "text_position": "place-self-start text-start",
             "text_color": "#ffffff",
             "overlay_color": "#000000",
             "overlay_opacity": 30
@@ -205,7 +205,7 @@
         "full_width": false,
         "stack_on_mobile": false,
         "title": "",
-        "heading_tag": "h4",
+        "heading_tag": "h5",
         "text_alignment": "start",
         "icon_spacing": "large",
         "background": "#fdfeff",
@@ -808,7 +808,7 @@
       ],
       "name": "Multiple images with text",
       "settings": {
-        "full_width": false,
+        "full_width": true,
         "images_layout": "stacked",
         "collage_images_alignment": "top",
         "background": "#fdfeff",
@@ -856,12 +856,11 @@
         "logo_mdriPx",
         "logo_e8CnLj"
       ],
-      "disabled": true,
       "name": "Logo list",
       "settings": {
         "full_width": true,
         "stack_mobile": false,
-        "title": "Featured Brands",
+        "title": "Featured Partners",
         "content": "",
         "text_alignment": "center",
         "items_per_row": 4,
@@ -872,6 +871,71 @@
         "heading_gradient": "",
         "logo_item_background": "",
         "logo_item_border": ""
+      }
+    },
+    "image_with_text_overlay_ddCpzJ": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "subheading_H4enye": {
+          "type": "subheading",
+          "settings": {
+            "text": "Get Started"
+          }
+        },
+        "heading_ggxf3p": {
+          "type": "heading",
+          "settings": {
+            "text": "Get started with your unattended retail business today",
+            "heading_tag": "h2"
+          }
+        },
+        "richtext_j7N3Ew": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Whether you’re launching or scaling, Renvo connects you to the machines, products, and branding to make it happen.</p>"
+          }
+        },
+        "button_PCmedt": {
+          "type": "button",
+          "settings": {
+            "style": "fill",
+            "size": "lg",
+            "text": "Explore the Marketplace",
+            "url": "shopify://collections",
+            "background": "",
+            "text_color": ""
+          }
+        },
+        "button_m3PNNH": {
+          "type": "button",
+          "settings": {
+            "style": "fill",
+            "size": "lg",
+            "text": "Become a Vendor",
+            "url": "shopify://pages/vendor-tools",
+            "background": "#666666",
+            "text_color": "#cccccc"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_H4enye",
+        "heading_ggxf3p",
+        "richtext_j7N3Ew",
+        "button_PCmedt",
+        "button_m3PNNH"
+      ],
+      "settings": {
+        "full_width": false,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "lg",
+        "image": "shopify://shop_images/hero-image-2.jpg",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center-start sm:text-start",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
       }
     },
     "press": {
@@ -925,72 +989,6 @@
         "logo_item_background": "",
         "logo_item_border": ""
       }
-    },
-    "image_with_text_overlay_ddCpzJ": {
-      "type": "image-with-text-overlay",
-      "blocks": {
-        "subheading_H4enye": {
-          "type": "subheading",
-          "settings": {
-            "text": "Get Started"
-          }
-        },
-        "heading_ggxf3p": {
-          "type": "heading",
-          "settings": {
-            "text": "Get started with your unattended retail business today",
-            "heading_tag": "h2"
-          }
-        },
-        "richtext_j7N3Ew": {
-          "type": "richtext",
-          "settings": {
-            "content": "<p>Whether you’re launching or scaling, Renvo connects you to the machines, products, and branding to make it happen.</p>"
-          }
-        },
-        "button_PCmedt": {
-          "type": "button",
-          "settings": {
-            "style": "fill",
-            "size": "lg",
-            "text": "Explore the Marketplace",
-            "url": "",
-            "background": "",
-            "text_color": ""
-          }
-        },
-        "button_m3PNNH": {
-          "type": "button",
-          "settings": {
-            "style": "fill",
-            "size": "lg",
-            "text": "Become a Vendor",
-            "url": "",
-            "background": "#666666",
-            "text_color": "#cccccc"
-          }
-        }
-      },
-      "block_order": [
-        "subheading_H4enye",
-        "heading_ggxf3p",
-        "richtext_j7N3Ew",
-        "button_PCmedt",
-        "button_m3PNNH"
-      ],
-      "disabled": true,
-      "settings": {
-        "full_width": false,
-        "allow_transparent_header": false,
-        "enable_parallax": false,
-        "image_size": "lg",
-        "image": "shopify://shop_images/hero-image-2_5387a952-cb07-41db-bd0a-b90d31135d8d.jpg",
-        "mobile_text_position": "place-self-center text-center",
-        "desktop_text_position": "sm:place-self-center-start sm:text-start",
-        "text_color": "#ffffff",
-        "overlay_color": "#000000",
-        "overlay_opacity": 0
-      }
     }
   },
   "order": [
@@ -1009,7 +1007,7 @@
     "text_with_icons_DejWkL",
     "multiple_images_with_text_V7LQpU",
     "logo_list_UaQXjk",
-    "press",
-    "image_with_text_overlay_ddCpzJ"
+    "image_with_text_overlay_ddCpzJ",
+    "press"
   ]
 }
