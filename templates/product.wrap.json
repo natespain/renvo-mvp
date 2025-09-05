@@ -184,7 +184,7 @@
         "heading_gradient": "",
         "button_background": "",
         "button_text_color": "",
-        "chart_background": "#aecfdf",
+        "chart_background": "rgba(0,0,0,0)",
         "chart_text_color": "",
         "chart_true_false_color": ""
       }
