@@ -15,7 +15,7 @@
         "video_NYidwP": {
           "type": "video",
           "settings": {
-            "video": "shopify://files/videos/home-page-edit.mp4",
+            "video": "shopify://files/videos/home-page-edit_web.mp4",
             "content_max_width": 780,
             "mobile_text_position": "place-self-center text-center",
             "desktop_text_position": "sm:place-self-center-start sm:text-start",
@@ -28,7 +28,7 @@
             "button_background": "#ffffff",
             "button_text_color": "#000000",
             "overlay_color": "#000000",
-            "overlay_opacity": 30,
+            "overlay_opacity": 38,
             "background": "",
             "background_gradient": ""
           }
