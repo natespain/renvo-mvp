@@ -230,14 +230,14 @@
         "max_rows": 5,
         "view_all_text": "View all",
         "view_less_text": "View less",
-        "background": "rgba(0,0,0,0)",
+        "background": "#fdfeff",
         "background_gradient": "",
         "text_color": "",
         "heading_color": "",
         "heading_gradient": "",
         "button_background": "",
         "button_text_color": "",
-        "chart_background": "",
+        "chart_background": "#eaf7f4",
         "chart_text_color": "",
         "chart_true_false_color": ""
       }
@@ -326,7 +326,7 @@
         "heading_tag": "h5",
         "text_alignment": "center",
         "icon_spacing": "medium",
-        "background": "rgba(0,0,0,0)",
+        "background": "#fdfeff",
         "background_gradient": "",
         "text_color": ""
       }

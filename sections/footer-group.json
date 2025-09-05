@@ -22,7 +22,7 @@
             "icon_width": 52,
             "icon_background_type": "none",
             "icon_background": "",
-            "icon_color": "#1a1b1d",
+            "icon_color": "#83a5b2",
             "title": "Shipping Information",
             "content": "<p>Renvo works with a trusted network of different partners. <br/>See how we handle shipping here.</p>"
           }
@@ -35,7 +35,7 @@
             "icon_width": 52,
             "icon_background_type": "none",
             "icon_background": "",
-            "icon_color": "#1a1b1d",
+            "icon_color": "#83a5b2",
             "title": "Customer service",
             "content": "<p>Renvo acts as your service concierge. We can quickly connect you <br/>with the best support for your business. </p>"
           }
@@ -52,9 +52,9 @@
         "heading_tag": "h3",
         "text_alignment": "center",
         "icon_spacing": "small",
-        "background": "#aecfdf",
+        "background": "#f5f9fc",
         "background_gradient": "",
-        "text_color": "#1a1b1d"
+        "text_color": "#83a5b2"
       }
     },
     "footer": {
