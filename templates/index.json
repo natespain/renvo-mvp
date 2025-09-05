@@ -46,7 +46,7 @@
         "transition_type": "fade",
         "autoplay": true,
         "cycle_speed": 4,
-        "background": "#fdfeff",
+        "background": "#70c699",
         "background_gradient": "linear-gradient(60deg, rgba(60, 65, 68, 1), rgba(23, 29, 33, 1) 98%)"
       }
     },
