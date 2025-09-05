@@ -50,6 +50,93 @@
         "background_gradient": ""
       }
     },
+    "collection_list_x3tXn9": {
+      "type": "collection-list",
+      "blocks": {
+        "collection_8wdJqB": {
+          "type": "collection",
+          "settings": {
+            "collection": "bundles",
+            "subheading": "",
+            "title": "Starter Kits",
+            "url": "",
+            "heading_tag": "h3",
+            "text_position": "place-self-start text-start",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 50
+          }
+        },
+        "collection_6ziVhY": {
+          "type": "collection",
+          "settings": {
+            "collection": "hardware",
+            "image": "shopify://shop_images/mega-wall-high-capacity-wall-mounted-vending-kiosk-vtm-vapetm-408964.webp",
+            "subheading": "",
+            "title": "Smart Machines",
+            "url": "",
+            "heading_tag": "h3",
+            "text_position": "place-self-center text-center",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 50
+          }
+        },
+        "collection_NjdhN7": {
+          "type": "collection",
+          "settings": {
+            "collection": "inventory",
+            "image": "shopify://shop_images/mega-wall-high-capacity-wall-mounted-vending-kiosk-vtm-vapetm-361710.webp",
+            "subheading": "",
+            "title": "Consumables",
+            "url": "",
+            "heading_tag": "h3",
+            "text_position": "place-self-center text-center",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 40
+          }
+        },
+        "collection_DxdVyV": {
+          "type": "collection",
+          "settings": {
+            "collection": "wraps-and-displays",
+            "subheading": "",
+            "title": "",
+            "url": "",
+            "heading_tag": "h2",
+            "text_position": "place-self-center text-center",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        }
+      },
+      "block_order": [
+        "collection_8wdJqB",
+        "collection_6ziVhY",
+        "collection_NjdhN7",
+        "collection_DxdVyV"
+      ],
+      "name": "Collection list",
+      "settings": {
+        "full_width": true,
+        "stack_collections": true,
+        "collections_per_row_mobile": "1",
+        "collections_per_row": 4,
+        "show_progress_bar": false,
+        "subheading": "",
+        "title": "Smarter Retail Starts Here",
+        "content": "<p>Renvo is the first B2B marketplace built for unattended retail. Whether you’re running one vending machine or scaling a full fleet, Renvo helps you stock smarter, brand better, and grow faster. From smart vending machines to white-label snacks and sleek display kits, everything you need is just a click away.</p>",
+        "link_url": "",
+        "link_text": "Shop the Renvo Marketplace",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": ""
+      }
+    },
     "text_with_icons_wdNdri": {
       "type": "text-with-icons",
       "blocks": {
@@ -121,7 +208,7 @@
         "heading_tag": "h4",
         "text_alignment": "start",
         "icon_spacing": "large",
-        "background": "rgba(0,0,0,0)",
+        "background": "#fdfeff",
         "background_gradient": "",
         "text_color": "#1a1b1d"
       }
@@ -199,6 +286,7 @@
     },
     "featured_collection_zGTq3K": {
       "type": "featured-collection",
+      "disabled": true,
       "custom_css": [
         "p.subheading {color: #41b990;}"
       ],
@@ -212,12 +300,12 @@
         "products_count": 4,
         "products_per_row_mobile": "2",
         "products_per_row_desktop": 4,
-        "subheading": "Starter Bundles",
-        "title": "Kits to Get Started",
-        "content": "",
+        "subheading": "It's Easy to Get Started",
+        "title": "Smarter Retail Starts Here",
+        "content": "<p>Renvo is the first B2B marketplace built for unattended retail. Whether you’re running one vending machine or scaling a full fleet, Renvo helps you stock smarter, brand better, and grow faster. From smart vending machines to white-label snacks and sleek display kits, everything you need is just a click away.</p>",
         "link_url": "",
         "link_text": "View all",
-        "background": "",
+        "background": "#fdfeff",
         "background_gradient": "",
         "text_color": "",
         "heading_color": "",
@@ -231,11 +319,10 @@
       "blocks": {
         "collection-1": {
           "type": "collection",
-          "disabled": true,
           "settings": {
             "collection": "bundles",
             "image": "shopify://shop_images/hero-image.jpg",
-            "subheading": "Starter Bundles",
+            "subheading": "Starter Kits",
             "title": "Kits to Get Started",
             "url": "shopify://collections/bundles",
             "heading_tag": "h3",
@@ -297,15 +384,16 @@
         "collection-2",
         "collection_7XmERz"
       ],
+      "disabled": true,
       "settings": {
-        "full_width": true,
+        "full_width": false,
         "stack_collections": false,
         "collections_per_row_mobile": "1",
-        "collections_per_row": 2,
+        "collections_per_row": 3,
         "show_progress_bar": true,
-        "subheading": "It's Easy to Get Started",
-        "title": "Smarter Retail Starts Here",
-        "content": "<p>Renvo is the first B2B marketplace built for unattended retail. Whether you’re running one vending machine or scaling a full fleet, Renvo helps you stock smarter, brand better, and grow faster. From smart vending machines to white-label snacks and sleek display kits, everything you need is just a click away.</p>",
+        "subheading": "",
+        "title": "",
+        "content": "",
         "link_url": "",
         "link_text": "",
         "background": "rgba(0,0,0,0)",
@@ -907,6 +995,7 @@
   },
   "order": [
     "slideshow",
+    "collection_list_x3tXn9",
     "text_with_icons_wdNdri",
     "media_with_text_6e9tKV",
     "image_with_text_overlay_E8EqkC",
