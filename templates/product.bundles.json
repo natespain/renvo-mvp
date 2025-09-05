@@ -70,8 +70,8 @@
             "icon_position": "aligned",
             "icon": "none",
             "icon_width": 20,
-            "title": "Shipping Calculated at Checkout",
-            "content": "<p>Ships within 2-4 days from Cleveland, OH USA. <br/><span style=\"text-decoration:underline\">Find out more about how we ship here.</span></p>",
+            "title": "Free Wrap With Purchase",
+            "content": "<p>Receive a promo code for a free pre-designed<br/>wrap after bundle purchase.</p>",
             "background": "#aecfdf",
             "text_color": "#1a1b1d"
           }
@@ -331,103 +331,39 @@
         "text_color": ""
       }
     },
-    "multiple_images_with_text_b8QG4J": {
-      "type": "multiple-images-with-text",
+    "media_with_text_WFkEfQ": {
+      "type": "media-with-text",
       "blocks": {
-        "item_f6DRDr": {
-          "type": "item",
+        "image_rwnpjk": {
+          "type": "image",
           "settings": {
-            "image": "shopify://shop_images/Nebula_Vapes-Slim_Wall-rt_qtr.jpg",
-            "image_rotation_degrees": -2,
+            "media_width": 50,
+            "media_position": "end",
+            "text_position": "place-self-center-start text-start",
+            "icon": "none",
+            "icon_width": 48,
             "subheading": "",
             "title": "Main Content 1",
             "content": "<p>Main Content 1 In depth description of product Engaging to reader  5-10 sentences.</p>",
-            "button_url": "",
-            "button_text": ""
+            "link_text": "",
+            "link_url": "",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
           }
         }
       },
       "block_order": [
-        "item_f6DRDr"
+        "image_rwnpjk"
       ],
-      "name": "Multiple images with text",
+      "name": "Media with text",
       "settings": {
         "full_width": false,
-        "images_layout": "stacked",
-        "collage_images_alignment": "middle",
-        "background": "rgba(0,0,0,0)",
-        "background_gradient": "",
-        "text_color": "",
-        "button_background": "",
-        "button_text_color": ""
-      }
-    },
-    "hot_spots_GzCgeB": {
-      "type": "hot-spots",
-      "blocks": {
-        "item_nxDXa8": {
-          "type": "item",
-          "settings": {
-            "horizontal_position": 23,
-            "vertical_position": 70,
-            "horizontal_position_mobile": 24,
-            "vertical_position_mobile": 70,
-            "icon_width": 32,
-            "title": "Feature name",
-            "content": "<p>Share useful information about your product features.</p>"
-          }
-        },
-        "item_QJWRAr": {
-          "type": "item",
-          "settings": {
-            "horizontal_position": 62,
-            "vertical_position": 14,
-            "horizontal_position_mobile": 62,
-            "vertical_position_mobile": 14,
-            "icon_width": 32,
-            "title": "Feature name",
-            "content": "<p>Share useful information about your product features.</p>"
-          }
-        },
-        "item_V7tr4m": {
-          "type": "item",
-          "settings": {
-            "horizontal_position": 83,
-            "vertical_position": 75,
-            "horizontal_position_mobile": 83,
-            "vertical_position_mobile": 75,
-            "icon_width": 32,
-            "title": "Feature name",
-            "content": "<p>Share useful information about your product features.</p>"
-          }
-        }
-      },
-      "block_order": [
-        "item_nxDXa8",
-        "item_QJWRAr",
-        "item_V7tr4m"
-      ],
-      "name": "Hot spots",
-      "settings": {
-        "full_width": true,
-        "title": "",
-        "content": "",
-        "button_text": "",
-        "button_url": "",
-        "desktop_text_position": "place-self-start text-start",
-        "image_background": "#fdfeff",
-        "image_background_gradient": "",
-        "overlay_color": "#000000",
-        "overlay_opacity": 0,
-        "overlay_text_color": "#ffffff",
-        "overlay_button_background": "",
-        "overlay_button_text_color": "",
-        "hot_spot_dot_background": "#ffffff",
-        "hot_spot_dot_text_color": "#000000",
-        "hot_spot_content_background": "#ffffff",
-        "hot_spot_content_text_color": "#000000",
-        "hot_spot_content_opacity": 90,
-        "hot_spot_content_blur_radius": 3
+        "alternate_media_position": false,
+        "spacing": "none"
       }
     },
     "impact_text_fnAreK": {
@@ -436,21 +372,9 @@
         "item_rqCXmN": {
           "type": "item",
           "settings": {
-            "title": "30",
-            "subheading": "Day Satisfaction Guarantee",
-            "content": "<p>100% Money-Back Guarantee: Return your machine <br/>within 30 days for a full refund.</p>",
-            "button_text": "",
-            "button_url": "",
-            "animate_impact_text": false,
-            "animate_impact_text_duration": 2
-          }
-        },
-        "item_JeyQH7": {
-          "type": "item",
-          "settings": {
-            "title": "1",
-            "subheading": "Year Warranty",
-            "content": "<p>Comprehensive coverage on all parts, monitors, <br/>components, electronics, and software.</p>",
+            "title": "$450",
+            "subheading": "In Savings",
+            "content": "<p>Save $450 on bundled items compared to purchasing individually.</p>",
             "button_text": "",
             "button_url": "",
             "animate_impact_text": false,
@@ -459,8 +383,7 @@
         }
       },
       "block_order": [
-        "item_rqCXmN",
-        "item_JeyQH7"
+        "item_rqCXmN"
       ],
       "name": "Impact text",
       "settings": {
@@ -479,316 +402,39 @@
         "button_text_color": ""
       }
     },
-    "rich_text_NK8WYc": {
-      "type": "rich-text",
+    "blog_posts_gnTTiP": {
+      "type": "blog-posts",
       "blocks": {
-        "heading_cAeeKc": {
-          "type": "heading",
+        "article_tw4QUx": {
+          "type": "article",
           "settings": {
-            "text": "Flexible Configuration",
-            "heading_tag": "h1",
-            "text_color": "",
-            "gradient": ""
-          }
-        },
-        "richtext_FphBnz": {
-          "type": "richtext",
-          "settings": {
-            "content": "<p>This wall-mounted unit holds up to 100 different items and supports 10 different  SKUs.</p>"
+            "article": "",
+            "background": "",
+            "text_color": ""
           }
         }
       },
       "block_order": [
-        "heading_cAeeKc",
-        "richtext_FphBnz"
+        "article_tw4QUx"
       ],
-      "name": "Rich text",
+      "name": "Featured blog post",
       "settings": {
         "full_width": true,
-        "content_width": "small",
-        "text_position": "center",
-        "background": "#aecfdf",
-        "background_gradient": "",
-        "text_color": ""
-      }
-    },
-    "media_grid_repzwQ": {
-      "type": "media-grid",
-      "blocks": {
-        "image_dKpeQg": {
-          "type": "image",
-          "settings": {
-            "title": "Promote your products",
-            "heading_tag": "h6",
-            "link_url": "",
-            "link_text": "",
-            "mobile_text_position": "place-self-end-center text-center",
-            "desktop_column_span": 1,
-            "desktop_row_span": 1,
-            "desktop_text_position": "sm:place-self-end-center sm:text-center",
-            "background": "#000000",
-            "background_gradient": "",
-            "text_color": "#ffffff",
-            "text_gradient": "",
-            "button_background": "#000000",
-            "button_text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        },
-        "image_diz7qV": {
-          "type": "image",
-          "settings": {
-            "title": "Promote your products",
-            "heading_tag": "h6",
-            "link_url": "",
-            "link_text": "",
-            "mobile_text_position": "place-self-end-center text-center",
-            "desktop_column_span": 1,
-            "desktop_row_span": 1,
-            "desktop_text_position": "sm:place-self-end-center sm:text-center",
-            "background": "#000000",
-            "background_gradient": "",
-            "text_color": "#ffffff",
-            "text_gradient": "",
-            "button_background": "#000000",
-            "button_text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        },
-        "image_HFLYgT": {
-          "type": "image",
-          "settings": {
-            "title": "Promote your products",
-            "heading_tag": "h6",
-            "link_url": "",
-            "link_text": "",
-            "mobile_text_position": "place-self-end-center text-center",
-            "desktop_column_span": 1,
-            "desktop_row_span": 1,
-            "desktop_text_position": "sm:place-self-end-center sm:text-center",
-            "background": "#000000",
-            "background_gradient": "",
-            "text_color": "#ffffff",
-            "text_gradient": "",
-            "button_background": "#000000",
-            "button_text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        },
-        "image_mBypmw": {
-          "type": "image",
-          "settings": {
-            "title": "Promote your products",
-            "heading_tag": "h6",
-            "link_url": "",
-            "link_text": "",
-            "mobile_text_position": "place-self-center text-center",
-            "desktop_column_span": 1,
-            "desktop_row_span": 1,
-            "desktop_text_position": "sm:place-self-end-center sm:text-center",
-            "background": "#000000",
-            "background_gradient": "",
-            "text_color": "#ffffff",
-            "text_gradient": "",
-            "button_background": "#000000",
-            "button_text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        }
-      },
-      "block_order": [
-        "image_dKpeQg",
-        "image_diz7qV",
-        "image_HFLYgT",
-        "image_mBypmw"
-      ],
-      "name": "Media grid",
-      "settings": {
-        "full_width": true,
-        "reduce_width": false,
-        "desktop_row_height": 290,
-        "mobile_row_height": 150,
-        "background": "#aecfdf",
-        "background_gradient": ""
-      }
-    },
-    "related-products": {
-      "type": "related-products",
-      "settings": {
-        "recommendations_count": 4,
-        "products": [
-          "polarized-sunglasses",
-          "portable-charger",
-          "snack-bar",
-          "sun-screen-100-spf"
-        ],
-        "full_width": true,
-        "stack_products": false,
-        "show_progress_bar": false,
-        "products_per_row_mobile": "1",
-        "products_per_row_desktop": 4,
-        "subheading": "Consumables",
-        "title": "Fill your machine",
-        "content": "<p>Don't forget to pick up some items to sell.</p>",
+        "show_excerpt": true,
+        "show_date": true,
+        "show_author": false,
+        "show_comments_count": false,
+        "show_category": true,
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "link_url": "",
+        "link_text": "",
         "background": "",
         "background_gradient": "",
         "text_color": "",
         "heading_color": "",
-        "heading_gradient": "",
-        "product_card_background": "",
-        "product_card_text_color": ""
-      }
-    },
-    "comparison_table_CFTYMk": {
-      "type": "comparison-table",
-      "blocks": {
-        "headings_c9tPGc": {
-          "type": "headings",
-          "settings": {
-            "heading_1": "Heading 1",
-            "heading_2": "Heading 2",
-            "heading_3": "Heading 3",
-            "heading_4": "",
-            "heading_5": "",
-            "heading_6": "",
-            "heading_7": "",
-            "heading_8": "",
-            "heading_9": "",
-            "heading_10": "",
-            "heading_11": "",
-            "heading_12": "",
-            "heading_13": "",
-            "heading_14": "",
-            "heading_15": "",
-            "heading_16": "",
-            "heading_17": "",
-            "heading_18": "",
-            "heading_19": "",
-            "heading_20": ""
-          }
-        },
-        "values_LqPqgP": {
-          "type": "values",
-          "settings": {
-            "product": "smart-vending-machine-4",
-            "value_1": "<p>Value 1</p>",
-            "value_2": "<p>Value 2</p>",
-            "value_3": "<p>Value 3</p>",
-            "value_4": "",
-            "value_5": "",
-            "value_6": "",
-            "value_7": "",
-            "value_8": "",
-            "value_9": "",
-            "value_10": "",
-            "value_11": "",
-            "value_12": "",
-            "value_13": "",
-            "value_14": "",
-            "value_15": "",
-            "value_16": "",
-            "value_17": "",
-            "value_18": "",
-            "value_19": "",
-            "value_20": "",
-            "view_button_background": "",
-            "view_button_text_color": ""
-          }
-        },
-        "values_7MgAXz": {
-          "type": "values",
-          "settings": {
-            "product": "smart-vending-machine-2",
-            "value_1": "<p>Value 1</p>",
-            "value_2": "<p>Value 2</p>",
-            "value_3": "<p>Value 3</p>",
-            "value_4": "",
-            "value_5": "",
-            "value_6": "",
-            "value_7": "",
-            "value_8": "",
-            "value_9": "",
-            "value_10": "",
-            "value_11": "",
-            "value_12": "",
-            "value_13": "",
-            "value_14": "",
-            "value_15": "",
-            "value_16": "",
-            "value_17": "",
-            "value_18": "",
-            "value_19": "",
-            "value_20": "",
-            "view_button_background": "",
-            "view_button_text_color": ""
-          }
-        },
-        "values_g3LGqU": {
-          "type": "values",
-          "settings": {
-            "product": "mega-wall-high-capacity-wall-mounted-vending-kiosk",
-            "value_1": "<p>Value 1</p>",
-            "value_2": "<p>Value 2</p>",
-            "value_3": "<p>Value 3</p>",
-            "value_4": "",
-            "value_5": "",
-            "value_6": "",
-            "value_7": "",
-            "value_8": "",
-            "value_9": "",
-            "value_10": "",
-            "value_11": "",
-            "value_12": "",
-            "value_13": "",
-            "value_14": "",
-            "value_15": "",
-            "value_16": "",
-            "value_17": "",
-            "value_18": "",
-            "value_19": "",
-            "value_20": "",
-            "view_button_background": "",
-            "view_button_text_color": ""
-          }
-        }
-      },
-      "block_order": [
-        "headings_c9tPGc",
-        "values_LqPqgP",
-        "values_7MgAXz",
-        "values_g3LGqU"
-      ],
-      "name": "Comparison table",
-      "settings": {
-        "full_width": true,
-        "subheading": "Compare",
-        "title": "Hardware comparison",
-        "content": "<p>See how this machine stacks up against other options in the line up.</p>",
-        "button_text": "",
-        "button_url": "",
-        "text_position": "start",
-        "max_rows": 5,
-        "view_all_text": "View all",
-        "view_less_text": "View less",
-        "view_product": "View",
-        "show_product_info": true,
-        "show_product_image": true,
-        "show_product_swatch": true,
-        "viewing_product": "",
-        "background": "#aecfdf",
-        "background_gradient": "",
-        "text_color": "",
-        "heading_color": "",
-        "heading_gradient": "",
-        "button_background": "",
-        "button_text_color": "",
-        "chart_background": "#fdfeff",
-        "chart_text_color": "",
-        "chart_true_false_color": ""
+        "heading_gradient": ""
       }
     },
     "faq_Whqq6F": {
@@ -857,14 +503,20 @@
       "name": "Related products",
       "settings": {
         "recommendations_count": 6,
-        "products": [],
+        "products": [
+          "beach-essentials-kit",
+          "band-aid-travel-kit",
+          "polarized-sunglasses",
+          "portable-charger",
+          "neutrogena-hydroboost-50-spf"
+        ],
         "full_width": true,
         "stack_products": true,
         "show_progress_bar": false,
         "products_per_row_mobile": "2",
         "products_per_row_desktop": 5,
         "subheading": "",
-        "title": "You may also like",
+        "title": "Stock up on extras",
         "content": "",
         "background": "#ffffff",
         "background_gradient": "",
@@ -874,56 +526,16 @@
         "product_card_background": "",
         "product_card_text_color": ""
       }
-    },
-    "blog_posts_gnTTiP": {
-      "type": "blog-posts",
-      "blocks": {
-        "article_tw4QUx": {
-          "type": "article",
-          "settings": {
-            "article": "",
-            "background": "",
-            "text_color": ""
-          }
-        }
-      },
-      "block_order": [
-        "article_tw4QUx"
-      ],
-      "name": "Featured blog post",
-      "settings": {
-        "full_width": true,
-        "show_excerpt": true,
-        "show_date": true,
-        "show_author": false,
-        "show_comments_count": false,
-        "show_category": true,
-        "subheading": "",
-        "title": "",
-        "content": "",
-        "link_url": "",
-        "link_text": "",
-        "background": "",
-        "background_gradient": "",
-        "text_color": "",
-        "heading_color": "",
-        "heading_gradient": ""
-      }
     }
   },
   "order": [
     "main",
     "specification_table_YPDnxJ",
     "text_with_icons_D8Wch3",
-    "multiple_images_with_text_b8QG4J",
-    "hot_spots_GzCgeB",
+    "media_with_text_WFkEfQ",
     "impact_text_fnAreK",
-    "rich_text_NK8WYc",
-    "media_grid_repzwQ",
-    "related-products",
-    "comparison_table_CFTYMk",
+    "blog_posts_gnTTiP",
     "faq_Whqq6F",
-    "related_products_tV7zV3",
-    "blog_posts_gnTTiP"
+    "related_products_tV7zV3"
   ]
 }
