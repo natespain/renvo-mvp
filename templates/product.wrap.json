@@ -169,7 +169,7 @@
       "settings": {
         "full_width": true,
         "subheading": "Learn more",
-        "title": "Boost Sales & Visibility with Our Eye-Catching Vape Vending Machine Wrap",
+        "title": "",
         "content": "{{ product.description }}",
         "button_text": "",
         "button_url": "",
