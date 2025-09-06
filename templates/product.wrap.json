@@ -70,8 +70,8 @@
             "icon_position": "aligned",
             "icon": "none",
             "icon_width": 20,
-            "title": "Free with Bundle order",
-            "content": "<p>Pre-made wraps are free with any bundle order.</p>",
+            "title": "Free with Hardware order",
+            "content": "<p>One Ready-to-Go wrap is free with <br/>any <a href=\"/collections/hardware\" title=\"Hardware\">Smart Machine </a>order.</p>",
             "background": "#aecfdf",
             "text_color": "#1a1b1d"
           }
@@ -340,7 +340,7 @@
       "type": "related-products",
       "settings": {
         "recommendations_count": 4,
-        "products": "{{ product.metafields[\"shopify--discovery--product_recommendation\"].complementary_products.value }}",
+        "products": "{{ product.metafields[\"shopify--discovery--product_recommendation\"].related_products.value }}",
         "full_width": true,
         "stack_products": false,
         "show_progress_bar": false,
