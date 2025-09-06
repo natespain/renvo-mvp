@@ -169,8 +169,8 @@
       "settings": {
         "full_width": true,
         "subheading": "Learn more",
-        "title": "H2 Top Content Heading",
-        "content": "<p>Turn heads and drive foot traffic with our premium wrap designed exclusively for your vape vending machine. Whether you're operating in shopping malls, convenience stores, or nightlife venues, this high quality, custom-designed wrap transforms your electronic cigarette vending machine into an attention-grabbing hotspot that enhances your brand and boosts sales.</p><p>Crafted for durability and style, our wraps are an exact fit for your vape vending machines and e cigarette machines, giving your unit a sleek, professional look that customers can’t miss. More visibility means more engagement — and more engagement means average vending machine profits rise fast, especially in high-traffic locations.</p>",
+        "title": "Boost Sales & Visibility with Our Eye-Catching Vape Vending Machine Wrap",
+        "content": "{{ product.description }}",
         "button_text": "",
         "button_url": "",
         "text_position": "start",
