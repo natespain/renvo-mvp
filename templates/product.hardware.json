@@ -223,7 +223,7 @@
         "full_width": true,
         "subheading": "About the {{ product.title }}",
         "title": "H2 Heading with searchable term",
-        "content": "<p>Top Content 2-3 Sentences describing product. Top Content 2-3 Sentences describing product. Top Content 2-3 Sentences describing product.</p>",
+        "content": "{{ product.description }}",
         "button_text": "",
         "button_url": "",
         "text_position": "start",
