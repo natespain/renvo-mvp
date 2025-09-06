@@ -94,9 +94,9 @@
         "associated_products_DqHyqP": {
           "type": "associated_products",
           "settings": {
-            "title": "Buy it with",
-            "stack_products": true,
-            "products_count": 5,
+            "title": "Free Ready-to-Go wrap with purchase",
+            "stack_products": false,
+            "products_count": 10,
             "background": "",
             "text_color": ""
           }
@@ -658,7 +658,7 @@
         "full_width": true,
         "stack_products": false,
         "show_progress_bar": false,
-        "products_per_row_mobile": "1",
+        "products_per_row_mobile": "2",
         "products_per_row_desktop": 4,
         "subheading": "Consumables",
         "title": "Fill your machine",
@@ -886,7 +886,7 @@
       "name": "Related products",
       "settings": {
         "recommendations_count": 6,
-        "products": [],
+        "products": "{{ product.metafields[\"shopify--discovery--product_recommendation\"].related_products.value }}",
         "full_width": true,
         "stack_products": true,
         "show_progress_bar": false,
