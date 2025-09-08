@@ -204,7 +204,7 @@
         "full_width": true,
         "subheading": "{{ product.title }} Info",
         "title": "H2 Heading with searchable term",
-        "content": "{{ product.description }}<p><strong>Market ideas include: </strong></p>{{ product.metafields.custom.use_cases | metafield_tag }}",
+        "content": "{{ product.description }}<p><strong>Use cases include: </strong></p>{{ product.metafields.custom.use_cases | metafield_tag }}",
         "button_text": "",
         "button_url": "",
         "text_position": "start",
