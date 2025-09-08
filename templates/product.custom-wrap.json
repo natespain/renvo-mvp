@@ -494,7 +494,7 @@
         "heading_tag": "h3",
         "text_alignment": "center",
         "icon_spacing": "medium",
-        "background": "#fdfeff",
+        "background": "rgba(0,0,0,0)",
         "background_gradient": "",
         "text_color": ""
       }
@@ -556,7 +556,7 @@
         "heading_gradient": "",
         "button_background": "",
         "button_text_color": "",
-        "accordion_background": "",
+        "accordion_background": "#fdfeff",
         "accordion_text_color": ""
       }
     }
