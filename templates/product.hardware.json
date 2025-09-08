@@ -72,7 +72,7 @@
             "icon_width": 20,
             "title": "Shipping Calculated at Checkout",
             "content": "<p>Ships within 2-4 days from Cleveland, OH USA. <br/><span style=\"text-decoration:underline\">Find out more about how we ship here.</span></p>",
-            "background": "#aecfdf",
+            "background": "#41b990",
             "text_color": "#1a1b1d"
           }
         },
