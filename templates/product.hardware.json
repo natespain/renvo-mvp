@@ -52,6 +52,19 @@
           "type": "sku",
           "settings": {}
         },
+        "offer_3PDWmM": {
+          "type": "offer",
+          "settings": {
+            "text_alignment": "start",
+            "icon_position": "aligned",
+            "icon": "none",
+            "icon_width": 20,
+            "title": "Free Ready-To-Go Wrap",
+            "content": "<p>Add a Ready-to-Go wrap to your cart with the purchase of this hardware and get it for free. Discount will be calculated at checkout.</p>",
+            "background": "#c5e9de",
+            "text_color": "#1a1a1a"
+          }
+        },
         "variant_picker": {
           "type": "variant_picker",
           "settings": {
@@ -61,19 +74,6 @@
             "swatch_selector_style": "swatch",
             "variant_image_options": "",
             "size_chart_page": ""
-          }
-        },
-        "offer_WXyGDF": {
-          "type": "offer",
-          "settings": {
-            "text_alignment": "center",
-            "icon_position": "aligned",
-            "icon": "none",
-            "icon_width": 20,
-            "title": "Shipping Calculated at Checkout",
-            "content": "<p>Ships within 2-4 days from Cleveland, OH USA. <br/><span style=\"text-decoration:underline\">Find out more about how we ship here.</span></p>",
-            "background": "#c5e9de",
-            "text_color": "#1a1b1d"
           }
         },
         "quantity_selector": {
@@ -89,6 +89,19 @@
             "atc_button_text_color": "",
             "payment_button_background": "",
             "payment_button_text_color": ""
+          }
+        },
+        "offer_WXyGDF": {
+          "type": "offer",
+          "settings": {
+            "text_alignment": "start",
+            "icon_position": "aligned",
+            "icon": "none",
+            "icon_width": 20,
+            "title": "Shipping Calculated at Checkout",
+            "content": "<p>Ships within 2-4 days from Cleveland, OH USA. <span style=\"text-decoration:underline\">Find out more about how we ship here.</span></p>",
+            "background": "#edf5f9",
+            "text_color": "#1a1b1d"
           }
         },
         "associated_products_DqHyqP": {
@@ -115,10 +128,11 @@
         "rating",
         "payment_terms",
         "sku_B3nTRm",
+        "offer_3PDWmM",
         "variant_picker",
-        "offer_WXyGDF",
         "quantity_selector",
         "buy_buttons",
+        "offer_WXyGDF",
         "associated_products_DqHyqP",
         "volume_pricing_erWEYK"
       ],
@@ -440,6 +454,7 @@
       "settings": {
         "full_width": true,
         "image": "shopify://shop_images/Feature-Dot-Image.jpg",
+        "mobile_image": "shopify://shop_images/Feature-Dot-Image_mobile.jpg",
         "title": "Best in Class Smart Vending",
         "content": "<p>This is the best smart vending machine on the market. You can make updates straight from your smart phone app, it has a very easy-to-use user interface, and it's super durable.</p>",
         "button_text": "",
@@ -532,6 +547,7 @@
         "heading_cAeeKc",
         "richtext_FphBnz"
       ],
+      "disabled": true,
       "name": "Rich text",
       "settings": {
         "full_width": true,
@@ -623,9 +639,9 @@
         "full_width": false,
         "block_size": "medium",
         "subheading": "",
-        "title": "",
-        "content": "",
-        "link_url": "",
+        "title": "Flexible Configuration",
+        "content": "<p>This wall-mounted unit holds up to 100 different items and supports 10 different SKUs. A selection of coil sizes allow you to accommodate a variety of products.</p>",
+        "link_url": "shopify://pages/partners",
         "link_text": "",
         "background": "",
         "background_gradient": "",
