@@ -266,7 +266,7 @@
       "settings": {
         "full_width": false,
         "subheading": "",
-        "title": "Easy Production Process",
+        "title": "Production Process",
         "content": "<p>We make creating a custom wrap easy. Once you place your order, we will immediately follow up with an email with instructions on the next steps. </p><p><strong>We can design the wrap for you or can provide a template</strong> for a seamless handoff to your team. We're here to make the process as painless as possible. </p><p></p>",
         "button_text": "",
         "button_url": "",
@@ -369,9 +369,9 @@
         "full_width": true,
         "images_layout": "stacked",
         "collage_images_alignment": "middle",
-        "background": "rgba(0,0,0,0)",
+        "background": "#1a1b1d",
         "background_gradient": "",
-        "text_color": "#1a1b1d",
+        "text_color": "#fdfeff",
         "button_background": "",
         "button_text_color": ""
       }
@@ -416,6 +416,7 @@
         "richtext_FgiNnN",
         "button_TcBk6J"
       ],
+      "disabled": true,
       "name": "Image with text overlay",
       "settings": {
         "full_width": true,
@@ -440,7 +441,7 @@
         "products_per_row_mobile": "1",
         "products_per_row_desktop": 4,
         "subheading": "",
-        "title": "Wraps you may also like",
+        "title": "Ready-to-Go Wraps you may like",
         "content": "",
         "background": "rgba(0,0,0,0)",
         "background_gradient": "",
