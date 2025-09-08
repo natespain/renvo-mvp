@@ -66,13 +66,13 @@
         "offer_WXyGDF": {
           "type": "offer",
           "settings": {
-            "text_alignment": "center",
+            "text_alignment": "start",
             "icon_position": "aligned",
             "icon": "none",
             "icon_width": 20,
             "title": "Free with Hardware order",
-            "content": "<p>One Ready-to-Go wrap is free with <br/>any <a href=\"/collections/hardware\" title=\"Hardware\">Smart Machine </a>order.</p>",
-            "background": "#aecfdf",
+            "content": "<p>One Ready-to-Go wrap is free with any <a href=\"/collections/hardware\" title=\"Hardware\">Smart Machine </a>order.</p>",
+            "background": "#c5e9de",
             "text_color": "#1a1b1d"
           }
         },
@@ -168,7 +168,7 @@
       "name": "Specification table",
       "settings": {
         "full_width": true,
-        "subheading": "Learn more",
+        "subheading": "Ready-To-Go",
         "title": "",
         "content": "{{ product.description }}",
         "button_text": "",
