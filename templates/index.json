@@ -909,25 +909,13 @@
             "background": "",
             "text_color": ""
           }
-        },
-        "button_m3PNNH": {
-          "type": "button",
-          "settings": {
-            "style": "fill",
-            "size": "lg",
-            "text": "Become a Partner",
-            "url": "shopify://pages/vendor-tools",
-            "background": "#666666",
-            "text_color": "#cccccc"
-          }
         }
       },
       "block_order": [
         "subheading_H4enye",
         "heading_ggxf3p",
         "richtext_j7N3Ew",
-        "button_PCmedt",
-        "button_m3PNNH"
+        "button_PCmedt"
       ],
       "settings": {
         "full_width": false,
@@ -937,7 +925,7 @@
         "image": "shopify://shop_images/hero-image-2.jpg",
         "mobile_text_position": "place-self-center text-center",
         "desktop_text_position": "sm:place-self-center-start sm:text-start",
-        "text_color": "#ffffff",
+        "text_color": "#1a1a1a",
         "overlay_color": "#000000",
         "overlay_opacity": 0
       }
