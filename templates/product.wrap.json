@@ -184,7 +184,7 @@
         "heading_gradient": "",
         "button_background": "",
         "button_text_color": "",
-        "chart_background": "#fdfeff",
+        "chart_background": "#e5f0f5",
         "chart_text_color": "",
         "chart_true_false_color": ""
       }
@@ -349,7 +349,7 @@
         "subheading": "",
         "title": "Wraps you may also like",
         "content": "",
-        "background": "",
+        "background": "#fdfeff",
         "background_gradient": "",
         "text_color": "",
         "heading_color": "",
@@ -364,12 +364,12 @@
         "item_3hzHbd": {
           "type": "item",
           "settings": {
-            "icon": "picto-coupon",
-            "mobile_icon_width": 24,
-            "icon_width": 32,
-            "icon_background_type": "circle",
+            "icon": "picto-validation",
+            "mobile_icon_width": 36,
+            "icon_width": 52,
+            "icon_background_type": "none",
             "icon_background": "",
-            "icon_color": "",
+            "icon_color": "#256952",
             "title": "Self Installation",
             "content": "<p>Free worldwide shipping and returns - customs and duties taxes included</p>"
           }
@@ -377,12 +377,12 @@
         "item_8AdBUe": {
           "type": "item",
           "settings": {
-            "icon": "picto-coupon",
-            "mobile_icon_width": 24,
-            "icon_width": 32,
-            "icon_background_type": "circle",
+            "icon": "picto-truck",
+            "mobile_icon_width": 36,
+            "icon_width": 52,
+            "icon_background_type": "none",
             "icon_background": "",
-            "icon_color": "",
+            "icon_color": "#256952",
             "title": "Installation Service",
             "content": "<p>We are available from monday to friday to answer your questions.</p>"
           }
@@ -394,7 +394,7 @@
       ],
       "name": "Text with icons",
       "settings": {
-        "full_width": true,
+        "full_width": false,
         "stack_on_mobile": false,
         "title": "",
         "heading_tag": "h3",
