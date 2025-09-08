@@ -168,7 +168,7 @@
       "name": "Specification table",
       "settings": {
         "full_width": true,
-        "subheading": "Ready-To-Go",
+        "subheading": "Ready-To-Go Wrap",
         "title": "",
         "content": "{{ product.description }}",
         "button_text": "",
@@ -349,7 +349,7 @@
         "subheading": "",
         "title": "Wraps you may also like",
         "content": "",
-        "background": "#fdfeff",
+        "background": "rgba(0,0,0,0)",
         "background_gradient": "",
         "text_color": "",
         "heading_color": "",
@@ -369,7 +369,7 @@
             "icon_width": 52,
             "icon_background_type": "none",
             "icon_background": "",
-            "icon_color": "#256952",
+            "icon_color": "#41b990",
             "title": "Self Installation",
             "content": "<p>Free worldwide shipping and returns - customs and duties taxes included</p>"
           }
@@ -382,7 +382,7 @@
             "icon_width": 52,
             "icon_background_type": "none",
             "icon_background": "",
-            "icon_color": "#256952",
+            "icon_color": "#41b990",
             "title": "Installation Service",
             "content": "<p>We are available from monday to friday to answer your questions.</p>"
           }
@@ -400,7 +400,7 @@
         "heading_tag": "h3",
         "text_alignment": "center",
         "icon_spacing": "medium",
-        "background": "#70c699",
+        "background": "#fdfeff",
         "background_gradient": "",
         "text_color": ""
       }
