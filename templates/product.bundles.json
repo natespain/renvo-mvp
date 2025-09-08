@@ -66,13 +66,13 @@
         "offer_WXyGDF": {
           "type": "offer",
           "settings": {
-            "text_alignment": "center",
+            "text_alignment": "start",
             "icon_position": "aligned",
             "icon": "none",
             "icon_width": 20,
             "title": "Free Wrap With Purchase",
-            "content": "<p>Receive a promo code for a free pre-designed<br/>wrap after bundle purchase.</p>",
-            "background": "#aecfdf",
+            "content": "<p>Receive a promo code for a free pre-designed wrap after bundle purchase.</p>",
+            "background": "#c5e9de",
             "text_color": "#1a1b1d"
           }
         },
