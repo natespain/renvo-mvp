@@ -804,7 +804,7 @@
         "item_tTP8Di"
       ],
       "custom_css": [
-        ".h1 {color: #41b990; font-size: 3em;}"
+        "/.h1 {color: #41b990; font-size: 3em;}"
       ],
       "name": "Multiple images with text",
       "settings": {
