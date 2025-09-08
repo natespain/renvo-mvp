@@ -182,7 +182,7 @@
         "item_qTNVkU": {
           "type": "item",
           "settings": {
-            "icon": "picto-customer-support",
+            "icon": "picto-secure-profile",
             "mobile_icon_width": 36,
             "icon_width": 44,
             "icon_background_type": "none",
@@ -824,52 +824,56 @@
         "logo_P8Kfe4": {
           "type": "logo",
           "settings": {
-            "logo_width": 120,
+            "logo": "shopify://shop_images/vtm-logo-black.png",
+            "logo_width": 150,
             "link": ""
           }
         },
-        "logo_rWBGXB": {
+        "logo_q9nD7r": {
           "type": "logo",
           "settings": {
-            "logo_width": 120,
+            "logo": "shopify://shop_images/vtm-logo-black.png",
+            "logo_width": 150,
             "link": ""
           }
         },
-        "logo_mdriPx": {
+        "logo_gmBtJX": {
           "type": "logo",
           "settings": {
-            "logo_width": 120,
+            "logo": "shopify://shop_images/vtm-logo-black.png",
+            "logo_width": 150,
             "link": ""
           }
         },
-        "logo_e8CnLj": {
+        "logo_zYGGXT": {
           "type": "logo",
           "settings": {
-            "logo_width": 120,
+            "logo": "shopify://shop_images/vtm-logo-black.png",
+            "logo_width": 150,
             "link": ""
           }
         }
       },
       "block_order": [
         "logo_P8Kfe4",
-        "logo_rWBGXB",
-        "logo_mdriPx",
-        "logo_e8CnLj"
+        "logo_q9nD7r",
+        "logo_gmBtJX",
+        "logo_zYGGXT"
       ],
       "name": "Logo list",
       "settings": {
         "full_width": true,
         "stack_mobile": false,
         "title": "Trusted Partners",
-        "content": "",
+        "content": "<p>Have have a network of trusted partners that have been vetted for quality of product and customer service.</p>",
         "text_alignment": "center",
         "items_per_row": 4,
-        "background": "",
+        "background": "rgba(0,0,0,0)",
         "background_gradient": "",
         "text_color": "",
         "heading_color": "",
         "heading_gradient": "",
-        "logo_item_background": "",
+        "logo_item_background": "rgba(0,0,0,0)",
         "logo_item_border": ""
       }
     },
