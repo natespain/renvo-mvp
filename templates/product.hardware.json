@@ -440,24 +440,24 @@
       "settings": {
         "full_width": true,
         "image": "shopify://shop_images/Feature-Dot-Image.jpg",
-        "title": "",
-        "content": "",
+        "title": "Best in Class Smart Vending",
+        "content": "<p>This is the best smart vending machine on the market. You can make updates straight from your smart phone app, it has a very easy-to-use user interface, and it's super durable.</p>",
         "button_text": "",
         "button_url": "",
-        "desktop_text_position": "place-self-start text-start",
+        "desktop_text_position": "place-self-center-start text-start",
         "image_background": "#fdfeff",
         "image_background_gradient": "",
         "overlay_color": "#000000",
         "overlay_opacity": 0,
-        "overlay_text_color": "#ffffff",
+        "overlay_text_color": "#1a1b1d",
         "overlay_button_background": "",
         "overlay_button_text_color": "",
-        "hot_spot_dot_background": "#ffffff",
+        "hot_spot_dot_background": "#fdfeff",
         "hot_spot_dot_text_color": "#000000",
-        "hot_spot_content_background": "#ffffff",
+        "hot_spot_content_background": "#fdfeff",
         "hot_spot_content_text_color": "#000000",
         "hot_spot_content_opacity": 90,
-        "hot_spot_content_blur_radius": 3
+        "hot_spot_content_blur_radius": 6
       }
     },
     "impact_text_fnAreK": {
@@ -537,7 +537,7 @@
         "full_width": true,
         "content_width": "small",
         "text_position": "center",
-        "background": "#eaf7f4",
+        "background": "rgba(0,0,0,0)",
         "background_gradient": "",
         "text_color": ""
       }
@@ -642,7 +642,7 @@
         "reduce_width": false,
         "desktop_row_height": 290,
         "mobile_row_height": 150,
-        "background": "#eaf7f4",
+        "background": "rgba(0,0,0,0)",
         "background_gradient": ""
       }
     },
