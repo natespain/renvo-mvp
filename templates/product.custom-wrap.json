@@ -66,13 +66,13 @@
         "offer_WXyGDF": {
           "type": "offer",
           "settings": {
-            "text_alignment": "center",
+            "text_alignment": "start",
             "icon_position": "aligned",
             "icon": "none",
             "icon_width": 20,
             "title": "For Custom Designs",
             "content": "<p>After your purchase, we'll send you an email with next steps. Check out our production process below for details on what to expect.</p>",
-            "background": "#aecfdf",
+            "background": "#edf5f9",
             "text_color": "#1a1b1d"
           }
         },
