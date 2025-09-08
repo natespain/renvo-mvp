@@ -72,7 +72,7 @@
             "icon_width": 20,
             "title": "Shipping Calculated at Checkout",
             "content": "<p>Ships within 2-4 days from Cleveland, OH USA. <br/><span style=\"text-decoration:underline\">Find out more about how we ship here.</span></p>",
-            "background": "#41b990",
+            "background": "#c5e9de",
             "text_color": "#1a1b1d"
           }
         },
@@ -516,7 +516,7 @@
           "type": "heading",
           "settings": {
             "text": "Flexible Configuration",
-            "heading_tag": "h1",
+            "heading_tag": "h2",
             "text_color": "",
             "gradient": ""
           }
@@ -524,7 +524,7 @@
         "richtext_FphBnz": {
           "type": "richtext",
           "settings": {
-            "content": "<p>This wall-mounted unit holds up to 100 different items and supports 10 different  SKUs.</p>"
+            "content": "<p>This wall-mounted unit holds up to 100 different items and supports 10 different  SKUs. A selection of coil sizes allow you to accommodate a variety of products.</p>"
           }
         }
       },
@@ -542,108 +542,96 @@
         "text_color": ""
       }
     },
-    "media_grid_repzwQ": {
-      "type": "media-grid",
+    "image_link_blocks_MwCxdJ": {
+      "type": "image-link-blocks",
       "blocks": {
-        "image_dKpeQg": {
-          "type": "image",
+        "item_pW96dt": {
+          "type": "item",
           "settings": {
-            "title": "Promote your products",
-            "heading_tag": "h6",
+            "image": "shopify://shop_images/22mm_no-text.jpg",
+            "stretch_image": true,
+            "link_text": "22mm: Holds 16 SKUs",
             "link_url": "",
-            "link_text": "",
-            "mobile_text_position": "place-self-end-center text-center",
-            "desktop_column_span": 1,
-            "desktop_row_span": 1,
-            "desktop_text_position": "sm:place-self-end-center sm:text-center",
-            "background": "#000000",
-            "background_gradient": "",
-            "text_color": "#ffffff",
-            "text_gradient": "",
-            "button_background": "#000000",
-            "button_text_color": "#ffffff",
+            "background": "",
+            "text_color": "#1a1b1d",
             "overlay_color": "#000000",
             "overlay_opacity": 0
           }
         },
-        "image_diz7qV": {
-          "type": "image",
+        "item_e4TmdM": {
+          "type": "item",
           "settings": {
-            "title": "Promote your products",
-            "heading_tag": "h6",
+            "image": "shopify://shop_images/35mm_no-text.jpg",
+            "stretch_image": true,
+            "link_text": "35 mm: Holds 10 SKUs",
             "link_url": "",
-            "link_text": "",
-            "mobile_text_position": "place-self-end-center text-center",
-            "desktop_column_span": 1,
-            "desktop_row_span": 1,
-            "desktop_text_position": "sm:place-self-end-center sm:text-center",
-            "background": "#000000",
-            "background_gradient": "",
-            "text_color": "#ffffff",
-            "text_gradient": "",
-            "button_background": "#000000",
-            "button_text_color": "#ffffff",
+            "background": "",
+            "text_color": "#1a1b1d",
             "overlay_color": "#000000",
             "overlay_opacity": 0
           }
         },
-        "image_HFLYgT": {
-          "type": "image",
+        "item_nHkNpP": {
+          "type": "item",
           "settings": {
-            "title": "Promote your products",
-            "heading_tag": "h6",
+            "image": "shopify://shop_images/45mm_no-text.jpg",
+            "stretch_image": true,
+            "link_text": "45mm: Holds 8 SKUs",
             "link_url": "",
-            "link_text": "",
-            "mobile_text_position": "place-self-end-center text-center",
-            "desktop_column_span": 1,
-            "desktop_row_span": 1,
-            "desktop_text_position": "sm:place-self-end-center sm:text-center",
-            "background": "#000000",
-            "background_gradient": "",
-            "text_color": "#ffffff",
-            "text_gradient": "",
-            "button_background": "#000000",
-            "button_text_color": "#ffffff",
+            "background": "",
+            "text_color": "#1a1b1d",
             "overlay_color": "#000000",
             "overlay_opacity": 0
           }
         },
-        "image_mBypmw": {
-          "type": "image",
+        "item_hRiLCg": {
+          "type": "item",
           "settings": {
-            "title": "Promote your products",
-            "heading_tag": "h6",
+            "image": "shopify://shop_images/50mm_no-text.jpg",
+            "stretch_image": true,
+            "link_text": "50mm: Holds 7 SKUs",
             "link_url": "",
-            "link_text": "",
-            "mobile_text_position": "place-self-center text-center",
-            "desktop_column_span": 1,
-            "desktop_row_span": 1,
-            "desktop_text_position": "sm:place-self-end-center sm:text-center",
-            "background": "#000000",
-            "background_gradient": "",
-            "text_color": "#ffffff",
-            "text_gradient": "",
-            "button_background": "#000000",
-            "button_text_color": "#ffffff",
+            "background": "",
+            "text_color": "#1a1b1d",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "item_RHkgqf": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/55mm_no-text.jpg",
+            "stretch_image": true,
+            "link_text": "55mm: Holds 6 SKUs",
+            "link_url": "",
+            "background": "",
+            "text_color": "#1a1b1d",
             "overlay_color": "#000000",
             "overlay_opacity": 0
           }
         }
       },
       "block_order": [
-        "image_dKpeQg",
-        "image_diz7qV",
-        "image_HFLYgT",
-        "image_mBypmw"
+        "item_pW96dt",
+        "item_e4TmdM",
+        "item_nHkNpP",
+        "item_hRiLCg",
+        "item_RHkgqf"
       ],
-      "name": "Media grid",
+      "name": "Image link blocks",
       "settings": {
-        "full_width": true,
-        "reduce_width": false,
-        "desktop_row_height": 290,
-        "mobile_row_height": 150,
-        "background": "rgba(0,0,0,0)",
-        "background_gradient": ""
+        "full_width": false,
+        "block_size": "medium",
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "link_url": "",
+        "link_text": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": ""
       }
     },
     "related-products": {
@@ -949,7 +937,7 @@
     "hot_spots_GzCgeB",
     "impact_text_fnAreK",
     "rich_text_NK8WYc",
-    "media_grid_repzwQ",
+    "image_link_blocks_MwCxdJ",
     "related-products",
     "comparison_table_CFTYMk",
     "faq_Whqq6F",
