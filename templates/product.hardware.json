@@ -579,7 +579,7 @@
           "settings": {
             "image": "shopify://shop_images/35mm_no-text.jpg",
             "stretch_image": true,
-            "link_text": "35 mm: Holds 10 SKUs",
+            "link_text": "35mm: Holds 10 SKUs",
             "link_url": "",
             "background": "",
             "text_color": "#1a1b1d",
