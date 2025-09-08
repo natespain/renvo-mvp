@@ -233,8 +233,8 @@
         "background": "rgba(0,0,0,0)",
         "background_gradient": "",
         "text_color": "",
-        "heading_color": "#41b990",
-        "heading_gradient": "linear-gradient(343deg, rgba(26, 27, 29, 1) 15%, rgba(65, 185, 144, 1) 85%)",
+        "heading_color": "#1a1b1d",
+        "heading_gradient": "",
         "button_background": "",
         "button_text_color": "",
         "chart_background": "#fdfeff",
@@ -318,6 +318,7 @@
         "item_rf97kq",
         "item_xqDpPA"
       ],
+      "disabled": true,
       "name": "Text with icons",
       "settings": {
         "full_width": true,
@@ -326,7 +327,7 @@
         "heading_tag": "h5",
         "text_alignment": "center",
         "icon_spacing": "medium",
-        "background": "#fdfeff",
+        "background": "rgba(0,0,0,0)",
         "background_gradient": "",
         "text_color": ""
       }
@@ -334,20 +335,22 @@
     "media_with_text_WFkEfQ": {
       "type": "media-with-text",
       "blocks": {
-        "image_rwnpjk": {
-          "type": "image",
+        "video_aaVtNc": {
+          "type": "video",
           "settings": {
+            "external_video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+            "autoplay": true,
             "media_width": 50,
-            "media_position": "end",
+            "media_position": "start",
             "text_position": "place-self-center-start text-start",
             "icon": "none",
             "icon_width": 48,
             "subheading": "",
-            "title": "Main Content 1",
-            "content": "<p>Main Content 1 In depth description of product Engaging to reader  5-10 sentences.</p>",
+            "title": "Heading",
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>",
             "link_text": "",
             "link_url": "",
-            "background": "#000000",
+            "background": "#1a1b1d",
             "background_gradient": "",
             "text_color": "#ffffff",
             "text_gradient": "",
@@ -357,7 +360,7 @@
         }
       },
       "block_order": [
-        "image_rwnpjk"
+        "video_aaVtNc"
       ],
       "name": "Media with text",
       "settings": {
@@ -392,8 +395,8 @@
         "text_alignment": "center",
         "impact_text_style": "fill",
         "text_divider": "none",
-        "impact_text_size_ratio": 1,
-        "background": "",
+        "impact_text_size_ratio": 0.7,
+        "background": "#41b990",
         "background_gradient": "",
         "heading_text_color": "",
         "heading_gradient": "",
@@ -487,7 +490,7 @@
         "button_text": "",
         "button_url": "",
         "text_position": "start",
-        "background": "",
+        "background": "#fdfeff",
         "background_gradient": "",
         "text_color": "",
         "heading_color": "",
@@ -518,12 +521,12 @@
         "subheading": "",
         "title": "Stock up on extras",
         "content": "",
-        "background": "#ffffff",
+        "background": "rgba(0,0,0,0)",
         "background_gradient": "",
         "text_color": "",
         "heading_color": "",
         "heading_gradient": "",
-        "product_card_background": "",
+        "product_card_background": "rgba(0,0,0,0)",
         "product_card_text_color": ""
       }
     }
