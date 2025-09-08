@@ -46,13 +46,13 @@
         "customer-support"
       ],
       "settings": {
-        "full_width": false,
+        "full_width": true,
         "stack_on_mobile": false,
         "title": "",
         "heading_tag": "h3",
         "text_alignment": "center",
         "icon_spacing": "small",
-        "background": "#1a1a1a",
+        "background": "#f4f4f4",
         "background_gradient": "",
         "text_color": "#ffffff"
       }
