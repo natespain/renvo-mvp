@@ -121,10 +121,10 @@
       "name": "Collection list",
       "settings": {
         "full_width": true,
-        "stack_collections": true,
+        "stack_collections": false,
         "collections_per_row_mobile": "1",
         "collections_per_row": 4,
-        "show_progress_bar": false,
+        "show_progress_bar": true,
         "subheading": "",
         "title": "Smarter Retail Starts Here",
         "content": "<p>Renvo is the first B2B marketplace built for unattended retail. Whether you’re running one vending machine or scaling a full fleet, Renvo helps you stock smarter, brand better, and grow faster. From smart vending machines to white-label snacks and sleek display kits, everything you need is just a click away.</p>",
