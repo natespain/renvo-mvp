@@ -71,7 +71,7 @@
         "links_jprqKY": {
           "type": "links",
           "settings": {
-            "menu": "main-menu",
+            "menu": "footer-catalog-menu",
             "show_menu_title": false,
             "menu_title": ""
           }
