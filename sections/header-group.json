@@ -73,7 +73,7 @@
         "enable_sticky": true,
         "hide_on_scroll": false,
         "logo": "shopify://shop_images/renvo-logo-rgb-color.svg",
-        "logo_max_width": 120,
+        "logo_max_width": 150,
         "logo_mobile_max_width": 100,
         "menu": "mega-menu",
         "sidebar_menu": "mobile-drawer-menu",
