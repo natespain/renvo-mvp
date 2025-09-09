@@ -123,6 +123,7 @@
         "image_XnwHjJ",
         "image_WTEaiW"
       ],
+      "disabled": true,
       "name": "Media grid",
       "settings": {
         "full_width": true,
