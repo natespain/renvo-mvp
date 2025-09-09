@@ -60,7 +60,7 @@
             "subheading": "",
             "title": "Starter Kits",
             "url": "",
-            "heading_tag": "h3",
+            "heading_tag": "h4",
             "text_position": "place-self-start text-start",
             "text_color": "#ffffff",
             "overlay_color": "#000000",
@@ -73,9 +73,9 @@
             "collection": "hardware",
             "image": "shopify://shop_images/mega-wall-high-capacity-wall-mounted-vending-kiosk-vtm-vapetm-408964.webp",
             "subheading": "",
-            "title": "Smart Machines",
+            "title": "Smart Hardware",
             "url": "",
-            "heading_tag": "h3",
+            "heading_tag": "h4",
             "text_position": "place-self-start text-start",
             "text_color": "#ffffff",
             "overlay_color": "#000000",
@@ -90,7 +90,7 @@
             "subheading": "",
             "title": "Consumables",
             "url": "",
-            "heading_tag": "h3",
+            "heading_tag": "h4",
             "text_position": "place-self-start text-start",
             "text_color": "#ffffff",
             "overlay_color": "#000000",
@@ -104,7 +104,7 @@
             "subheading": "",
             "title": "",
             "url": "",
-            "heading_tag": "h3",
+            "heading_tag": "h4",
             "text_position": "place-self-start text-start",
             "text_color": "#ffffff",
             "overlay_color": "#000000",
@@ -825,15 +825,15 @@
           "type": "logo",
           "settings": {
             "logo": "shopify://shop_images/vtm-logo-black.png",
-            "logo_width": 150,
+            "logo_width": 110,
             "link": ""
           }
         },
         "logo_q9nD7r": {
           "type": "logo",
           "settings": {
-            "logo": "shopify://shop_images/vtm-logo-black.png",
-            "logo_width": 150,
+            "logo": "shopify://shop_images/GB-logo-300.png",
+            "logo_width": 300,
             "link": ""
           }
         },
@@ -841,15 +841,15 @@
           "type": "logo",
           "settings": {
             "logo": "shopify://shop_images/vtm-logo-black.png",
-            "logo_width": 150,
+            "logo_width": 110,
             "link": ""
           }
         },
-        "logo_zYGGXT": {
+        "logo_qbxzNK": {
           "type": "logo",
           "settings": {
-            "logo": "shopify://shop_images/vtm-logo-black.png",
-            "logo_width": 150,
+            "logo": "shopify://shop_images/GB-logo-300.png",
+            "logo_width": 300,
             "link": ""
           }
         }
@@ -858,7 +858,7 @@
         "logo_P8Kfe4",
         "logo_q9nD7r",
         "logo_gmBtJX",
-        "logo_zYGGXT"
+        "logo_qbxzNK"
       ],
       "name": "Logo list",
       "settings": {
