@@ -16,7 +16,7 @@
           "type": "video",
           "settings": {
             "video": "shopify://files/videos/home-page-edit_web.mp4",
-            "content_max_width": 700,
+            "content_max_width": 680,
             "mobile_text_position": "place-self-center text-center",
             "desktop_text_position": "sm:place-self-center-start sm:text-start",
             "subheading": "",
