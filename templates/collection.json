@@ -17,18 +17,59 @@
         "enable_parallax": false,
         "show_collection_title": true,
         "show_collection_description": true,
-        "show_collection_image": false,
-        "collection_title_size": "h2",
-        "image_size": "md",
+        "show_collection_image": true,
+        "collection_title_size": "h1",
+        "image_size": "sm",
         "image": "shopify://shop_images/hero-image.jpg",
         "mobile_image": "shopify://shop_images/hero-image.jpg",
-        "mobile_text_position": "place-self-start text-start",
-        "desktop_text_position": "sm:place-self-start sm:text-start",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center-start sm:text-start",
         "featured_product": "",
         "featured_product_heading": "Featured product",
-        "text_color": "#ffffff",
+        "text_color": "#fdfeff",
         "overlay_color": "#000000",
         "overlay_opacity": 30
+      }
+    },
+    "rich_text_AAJXGa": {
+      "type": "rich-text",
+      "blocks": {
+        "subheading_fYCiqB": {
+          "type": "subheading",
+          "settings": {
+            "text": "Subheading"
+          }
+        },
+        "heading_hJFdxE": {
+          "type": "heading",
+          "settings": {
+            "text": "Heading",
+            "heading_tag": "h1",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "richtext_qt9Qip": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_fYCiqB",
+        "heading_hJFdxE",
+        "richtext_qt9Qip"
+      ],
+      "disabled": true,
+      "name": "Rich text",
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "start",
+        "background": "#fdfeff",
+        "background_gradient": "",
+        "text_color": ""
       }
     },
     "media_grid_8JJJhR": {
@@ -129,7 +170,7 @@
       "name": "Media grid",
       "settings": {
         "full_width": true,
-        "reduce_width": false,
+        "reduce_width": true,
         "desktop_row_height": 290,
         "mobile_row_height": 150,
         "background": "",
@@ -148,7 +189,7 @@
             "background": "",
             "text_color": "#ffffff",
             "overlay_color": "#000000",
-            "overlay_opacity": 0
+            "overlay_opacity": 30
           }
         },
         "item_BaeVqX": {
@@ -160,7 +201,7 @@
             "background": "",
             "text_color": "#ffffff",
             "overlay_color": "#000000",
-            "overlay_opacity": 0
+            "overlay_opacity": 30
           }
         },
         "item_4JU7KN": {
@@ -172,7 +213,7 @@
             "background": "",
             "text_color": "#ffffff",
             "overlay_color": "#000000",
-            "overlay_opacity": 0
+            "overlay_opacity": 30
           }
         },
         "item_LcFn8P": {
@@ -184,7 +225,7 @@
             "background": "",
             "text_color": "#ffffff",
             "overlay_color": "#000000",
-            "overlay_opacity": 0
+            "overlay_opacity": 30
           }
         },
         "item_BcGeze": {
@@ -196,7 +237,7 @@
             "background": "",
             "text_color": "#ffffff",
             "overlay_color": "#000000",
-            "overlay_opacity": 0
+            "overlay_opacity": 30
           }
         }
       },
@@ -216,9 +257,9 @@
         "content": "",
         "link_url": "",
         "link_text": "",
-        "background": "",
+        "background": "rgba(0,0,0,0)",
         "background_gradient": "",
-        "text_color": "",
+        "text_color": "#fdfeff",
         "heading_color": "",
         "heading_gradient": ""
       }
@@ -228,11 +269,11 @@
       "settings": {
         "products_per_page": 24,
         "products_per_row_mobile": "2",
-        "products_per_row_desktop": 3,
-        "filter_layout": "horizontal",
+        "products_per_row_desktop": 4,
+        "filter_layout": "drawer",
         "show_sort_by": true,
         "show_filters": true,
-        "show_filter_group_name": false,
+        "show_filter_group_name": true,
         "show_filter_values_count": true,
         "open_first_filter_group": false
       }
@@ -240,6 +281,7 @@
   },
   "order": [
     "banner",
+    "rich_text_AAJXGa",
     "media_grid_8JJJhR",
     "image_link_blocks_eTjW6b",
     "main"
