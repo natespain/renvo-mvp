@@ -184,7 +184,7 @@
           "type": "item",
           "settings": {
             "stretch_image": true,
-            "link_text": "Hospitality",
+            "link_text": "Best Sellers",
             "link_url": "/collections/bundles?filter.p.m.custom.use_cases=Hospitality",
             "background": "",
             "text_color": "#ffffff",
@@ -197,18 +197,6 @@
           "settings": {
             "stretch_image": true,
             "link_text": "Beach",
-            "link_url": "",
-            "background": "",
-            "text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 30
-          }
-        },
-        "item_4JU7KN": {
-          "type": "item",
-          "settings": {
-            "stretch_image": true,
-            "link_text": "Campus",
             "link_url": "",
             "background": "",
             "text_color": "#ffffff",
@@ -232,7 +220,19 @@
           "type": "item",
           "settings": {
             "stretch_image": true,
-            "link_text": "Vape",
+            "link_text": "Campus",
+            "link_url": "shopify://collections/bundles",
+            "background": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "item_iMiUxT": {
+          "type": "item",
+          "settings": {
+            "stretch_image": true,
+            "link_text": "Classics",
             "link_url": "shopify://collections/bundles",
             "background": "",
             "text_color": "#ffffff",
@@ -244,14 +244,14 @@
       "block_order": [
         "item_HF7gpJ",
         "item_BaeVqX",
-        "item_4JU7KN",
         "item_LcFn8P",
-        "item_BcGeze"
+        "item_BcGeze",
+        "item_iMiUxT"
       ],
       "name": "Image link blocks",
       "settings": {
         "full_width": true,
-        "block_size": "small",
+        "block_size": "medium",
         "subheading": "",
         "title": "",
         "content": "",
