@@ -184,7 +184,7 @@
           "type": "item",
           "settings": {
             "stretch_image": true,
-            "link_text": "Hospitality",
+            "link_text": "First Aid",
             "link_url": "/collections/bundles?filter.p.m.custom.use_cases=Hospitality",
             "background": "",
             "text_color": "#ffffff",
@@ -196,7 +196,7 @@
           "type": "item",
           "settings": {
             "stretch_image": true,
-            "link_text": "Beach",
+            "link_text": "Sundries",
             "link_url": "",
             "background": "",
             "text_color": "#ffffff",
@@ -208,7 +208,7 @@
           "type": "item",
           "settings": {
             "stretch_image": true,
-            "link_text": "Campus",
+            "link_text": "Tech",
             "link_url": "",
             "background": "",
             "text_color": "#ffffff",
