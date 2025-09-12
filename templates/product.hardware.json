@@ -60,7 +60,7 @@
             "icon": "none",
             "icon_width": 20,
             "title": "Free Ready-To-Go Wrap",
-            "content": "<p>Add a Ready-to-Go wrap to your cart with the purchase of this hardware and get it for free. Discount will be calculated at checkout.</p>",
+            "content": "<p>Add a <a href=\"/collections/wraps-and-displays\" title=\"Wraps & Displays\">Ready-to-Go</a> wrap to your cart with the purchase of this hardware and get it for free. Discount will be calculated at checkout.</p>",
             "background": "#c5e9de",
             "text_color": "#1a1a1a"
           }
