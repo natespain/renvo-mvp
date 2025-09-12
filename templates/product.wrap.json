@@ -274,7 +274,7 @@
       "name": "Multiple images with text",
       "settings": {
         "full_width": true,
-        "images_layout": "stacked",
+        "images_layout": "collage",
         "collage_images_alignment": "middle",
         "background": "#1a1b1d",
         "background_gradient": "",
