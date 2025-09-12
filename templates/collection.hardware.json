@@ -38,7 +38,7 @@
           "type": "item",
           "settings": {
             "stretch_image": true,
-            "link_text": "Hospitality",
+            "link_text": "Smart Vending",
             "link_url": "/collections/bundles?filter.p.m.custom.use_cases=Hospitality",
             "background": "",
             "text_color": "#ffffff",
@@ -50,7 +50,7 @@
           "type": "item",
           "settings": {
             "stretch_image": true,
-            "link_text": "Beach",
+            "link_text": "Payment Solutions",
             "link_url": "",
             "background": "",
             "text_color": "#ffffff",
@@ -62,7 +62,7 @@
           "type": "item",
           "settings": {
             "stretch_image": true,
-            "link_text": "Campus",
+            "link_text": "Compact",
             "link_url": "",
             "background": "",
             "text_color": "#ffffff",
@@ -74,7 +74,7 @@
           "type": "item",
           "settings": {
             "stretch_image": true,
-            "link_text": "Pets",
+            "link_text": "Cash Conversion",
             "link_url": "",
             "background": "",
             "text_color": "#ffffff",
@@ -86,7 +86,7 @@
           "type": "item",
           "settings": {
             "stretch_image": true,
-            "link_text": "Vape",
+            "link_text": "Point of Sale",
             "link_url": "shopify://collections/bundles",
             "background": "",
             "text_color": "#ffffff",
