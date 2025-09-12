@@ -220,7 +220,7 @@
           "type": "item",
           "settings": {
             "stretch_image": true,
-            "link_text": "Campus",
+            "link_text": "Classics",
             "link_url": "shopify://collections/bundles",
             "background": "",
             "text_color": "#ffffff",
@@ -232,7 +232,7 @@
           "type": "item",
           "settings": {
             "stretch_image": true,
-            "link_text": "Classics",
+            "link_text": "Solids",
             "link_url": "shopify://collections/bundles",
             "background": "",
             "text_color": "#ffffff",
