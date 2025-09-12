@@ -196,7 +196,7 @@
           "type": "item",
           "settings": {
             "stretch_image": true,
-            "link_text": "Beach",
+            "link_text": "Ready-to-Go",
             "link_url": "",
             "background": "",
             "text_color": "#ffffff",
@@ -208,7 +208,7 @@
           "type": "item",
           "settings": {
             "stretch_image": true,
-            "link_text": "Pets",
+            "link_text": "Custom Wraps",
             "link_url": "",
             "background": "",
             "text_color": "#ffffff",
