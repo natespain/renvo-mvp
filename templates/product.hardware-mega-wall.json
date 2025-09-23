@@ -830,29 +830,64 @@
         "item_kNfCxb": {
           "type": "item",
           "settings": {
-            "title": "Do you ship overseas?",
-            "content": "<p>Yes, we ship all over the world. Shipping costs will apply, and will be added at checkout. We run discounts and promotions all year, so stay tuned for exclusive deals.</p>"
+            "title": "How does the electronic lock work?",
+            "content": "<p>The Mega Wall 2.0 is equipped with a password-protected electronic lock, adding an extra layer of security on top of its reinforced 1.8 mm metal casing and double-locking system. Operators set and manage the password for secure access.</p>"
           }
         },
         "item_HB9hDC": {
           "type": "item",
           "settings": {
-            "title": "How long will it take to get my orders?",
-            "content": "<p>It depends on where you are. Orders processed here will take 5-7 business days to arrive. Overseas deliveries can take anywhere from 7-16 days. Delivery details will be provided in your confirmation email.</p>"
+            "title": "Which coil size should I choose?",
+            "content": "<p>The Mega Wall 2.0 supports multiple coil sizes (35 mm, 45 mm, and 55 mm). Smaller coils allow more total units (up to 150), while larger coils are designed for bulkier vape products or box-style packaging.</p>"
           }
         },
         "item_ADiwVP": {
           "type": "item",
           "settings": {
-            "title": "Any question?",
-            "content": "<p>You can contact us through our contact page! We will be happy to assist you.</p>"
+            "title": "What fits in the wider tray?",
+            "content": "<p>The upgraded wider tray is built to accommodate larger box-style products, making it suitable for packaging formats that don't fit into standard coil setups.</p>"
           }
         },
         "item_7KKzzF": {
           "type": "item",
           "settings": {
-            "title": "Question",
-            "content": "<p>Write content to answer to common questions your customers may have about your products, shipping policies..</p>"
+            "title": "What are the payment options?",
+            "content": "<p>The Mega Wall 2.0 supports Nayax and Kiosoft payment modules, enabling credit/debit card, contactless, and mobile wallet transactions. Optional bill validators and ID scanners can also be added.</p>"
+          }
+        },
+        "item_9ynekL": {
+          "type": "item",
+          "settings": {
+            "title": "What is included in the software & at what cost?",
+            "content": "<p>The machine includes remote management software free for the first year. This software enables operators to track sales, monitor inventory, and review reports in real time. After the first year, licensing or subscription fees may apply depending on the provider.</p>"
+          }
+        },
+        "item_gN4RF4": {
+          "type": "item",
+          "settings": {
+            "title": "What's covered by warranty?",
+            "content": "<p>The Mega Wall 2.0 comes with a one-year manufacturer warranty. Coverage details depend on the supplier, but typically this includes protection against hardware defects. Extended warranty options may be available.</p>"
+          }
+        },
+        "item_67bVkm": {
+          "type": "item",
+          "settings": {
+            "title": "How many products can the Mega Wall 2.0 hold?",
+            "content": "<p>Depending on coil size, the Mega Wall 2.0 can store up to 15 SKUs and 150 total units, balancing high capacity with product variety.</p>"
+          }
+        },
+        "item_nRUrX4": {
+          "type": "item",
+          "settings": {
+            "title": "Is installation included?",
+            "content": "<p>Installation details may vary by supplier. The unit ships ready for wall mounting, and many providers offer setup, calibration, and operator training as part of their installation service.</p>"
+          }
+        },
+        "item_a6nhUG": {
+          "type": "item",
+          "settings": {
+            "title": "What venues are best for the Mega Wall 2.0?",
+            "content": "<p>The Mega Wall 2.0 is designed for bars, lounges, retail shops, and high-traffic venues where security, high capacity, and modern touchscreen interaction are important.</p>"
           }
         }
       },
@@ -860,7 +895,12 @@
         "item_kNfCxb",
         "item_HB9hDC",
         "item_ADiwVP",
-        "item_7KKzzF"
+        "item_7KKzzF",
+        "item_9ynekL",
+        "item_gN4RF4",
+        "item_67bVkm",
+        "item_nRUrX4",
+        "item_a6nhUG"
       ],
       "name": "FAQ",
       "settings": {
