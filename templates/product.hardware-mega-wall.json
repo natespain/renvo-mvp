@@ -161,42 +161,42 @@
           "type": "row",
           "settings": {
             "heading": "Aisle Configuration",
-            "value": "<p>Value 1</p>"
+            "value": "<p>15 aisles; up to 150 units with 35 mm coils, 120 units with 45 mm coils, 90 units with 55 mm coils</p>"
           }
         },
         "row_dJapxJ": {
           "type": "row",
           "settings": {
             "heading": "Durability",
-            "value": "<p>Value</p>"
+            "value": "<p>Metal casing 1.8 mm thick; double locking mechanism for added security</p>"
           }
         },
         "row_DXfUTx": {
           "type": "row",
           "settings": {
             "heading": "Display",
-            "value": "<p>Value 2</p>"
+            "value": "<p>32\" touchscreen monitor; high brightness; adjustable for environment</p>"
           }
         },
         "row_MaH3NA": {
           "type": "row",
           "settings": {
             "heading": "Connectivity",
-            "value": "<p>Value 3</p>"
+            "value": "<p>Android board with WiFi receiver and high-gain antenna </p>"
           }
         },
         "row_LeLD3H": {
           "type": "row",
           "settings": {
             "heading": "Payment System",
-            "value": "<p>Value</p>"
+            "value": "<p>Option 1: Nayax cellular card reader with e-SIM; Option 2: Kiosoft card reader</p>"
           }
         },
         "row_pxXCDk": {
           "type": "row",
           "settings": {
             "heading": "Warranty",
-            "value": "<p>30 Day Satisfaction Guarantee. 1-Year Warranty.</p>"
+            "value": "<p>1-year comprehensive warranty; remote management software included for first year, then subscription required</p>"
           }
         },
         "row_rLUpzN": {
@@ -235,8 +235,8 @@
       "name": "Specification table",
       "settings": {
         "full_width": true,
-        "subheading": "About the {{ product.title }}",
-        "title": "H2 Heading with searchable term",
+        "subheading": "{{ product.title }}",
+        "title": "",
         "content": "{{ product.description }}",
         "button_text": "",
         "button_url": "",
