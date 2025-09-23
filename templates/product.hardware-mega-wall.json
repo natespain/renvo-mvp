@@ -490,24 +490,12 @@
     "impact_text_fnAreK": {
       "type": "impact-text",
       "blocks": {
-        "item_rqCXmN": {
-          "type": "item",
-          "settings": {
-            "title": "30",
-            "subheading": "Day Satisfaction Guarantee",
-            "content": "<p>100% Money-Back Guarantee: Return your machine <br/>within 30 days for a full refund.</p>",
-            "button_text": "",
-            "button_url": "",
-            "animate_impact_text": false,
-            "animate_impact_text_duration": 2
-          }
-        },
         "item_JeyQH7": {
           "type": "item",
           "settings": {
-            "title": "1",
-            "subheading": "Year Warranty",
-            "content": "<p>Comprehensive coverage on all parts, monitors, <br/>components, electronics, and software.</p>",
+            "title": "1 year",
+            "subheading": "Warranty",
+            "content": "<p>1 year comprehensive on hardware; remote management software subscription included first year, then monthly fee applies.</p>",
             "button_text": "",
             "button_url": "",
             "animate_impact_text": false,
@@ -516,7 +504,6 @@
         }
       },
       "block_order": [
-        "item_rqCXmN",
         "item_JeyQH7"
       ],
       "name": "Impact text",
@@ -652,7 +639,7 @@
         "block_size": "medium",
         "subheading": "",
         "title": "Flexible Configuration",
-        "content": "<p>This wall-mounted unit holds up to 100 different items and supports 10 different SKUs. A selection of coil sizes allow you to accommodate a variety of products.</p>",
+        "content": "<p>Select coil size for unit count vs product dimensions; modular upgrades; wall-mounted design for high-traffic locations.</p>",
         "link_url": "shopify://pages/partners",
         "link_text": "",
         "background": "",
@@ -695,12 +682,12 @@
         "headings_c9tPGc": {
           "type": "headings",
           "settings": {
-            "heading_1": "Heading 1",
-            "heading_2": "Heading 2",
-            "heading_3": "Heading 3",
-            "heading_4": "",
-            "heading_5": "",
-            "heading_6": "",
+            "heading_1": "Aisle Configuration",
+            "heading_2": "Durability",
+            "heading_3": "Display",
+            "heading_4": "Connectivity",
+            "heading_5": "Payment System",
+            "heading_6": "Warranty",
             "heading_7": "",
             "heading_8": "",
             "heading_9": "",
