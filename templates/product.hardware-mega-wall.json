@@ -367,8 +367,8 @@
             "icon": "none",
             "icon_width": 48,
             "subheading": "",
-            "title": "Main Content 1",
-            "content": "<p>Main Content -  In depth description of product Engaging to reader  5-10 sentences.</p>",
+            "title": "Maximum Capacity with a Modern Design",
+            "content": "<p>The Mega Wall Vape Machine combines maximum capacity and modern design in a sleek, wall-mounted format tailored for high-traffic venues. Offering up to 15 aisles with flexible coil options (35 mm, 45 mm, 55 mm), operators can optimize product variety while balancing unit count and size. Built for reliability, its 1.8 mm reinforced metal casing and double locking system deliver superior security, while the 32-inch interactive touchscreen ensures a smooth, user-friendly experience. The modular build supports upgrades such as ID scanners, bill validators, and customizable payment solutions with Nayax or Kiosoft modules. To streamline operations, the machine includes one year of remote management software for real-time monitoring, inventory tracking, and reporting. With its blend of strength, flexibility, and modern appeal, the Mega Wall Vape Machine is the ultimate vending solution for bars, lounges, retail stores, and entertainment venues.</p>",
             "link_text": "",
             "link_url": "",
             "background": "#fdfeff",
@@ -402,20 +402,20 @@
             "horizontal_position_mobile": 31,
             "vertical_position_mobile": 70,
             "icon_width": 32,
-            "title": "Free Wrap",
-            "content": "<p>Free Ready-to-Go wrap with purchase.</p>"
+            "title": "",
+            "content": "<p>Free Ready-To-Go Wrap with Purchase</p>"
           }
         },
-        "item_QJWRAr": {
+        "item_td6XxG": {
           "type": "item",
           "settings": {
-            "horizontal_position": 52,
-            "vertical_position": 17,
-            "horizontal_position_mobile": 62,
-            "vertical_position_mobile": 14,
+            "horizontal_position": 45,
+            "vertical_position": 72,
+            "horizontal_position_mobile": 30,
+            "vertical_position_mobile": 30,
             "icon_width": 32,
-            "title": "Durable Casing",
-            "content": "<p>Share useful information about your product features.</p>"
+            "title": "",
+            "content": "<p>Modular payment module – choose Nayax or Kiosoft</p>"
           }
         },
         "item_V7tr4m": {
@@ -426,23 +426,49 @@
             "horizontal_position_mobile": 83,
             "vertical_position_mobile": 75,
             "icon_width": 32,
-            "title": "Giant Touchscreen that's cool",
-            "content": "<p>Share useful information about your product features.</p>"
+            "title": "",
+            "content": "<p>Coil configuration options: 35 mm / 45 mm / 55 mm</p>"
+          }
+        },
+        "item_d4BM3e": {
+          "type": "item",
+          "settings": {
+            "horizontal_position": 54,
+            "vertical_position": 46,
+            "horizontal_position_mobile": 30,
+            "vertical_position_mobile": 30,
+            "icon_width": 32,
+            "title": "",
+            "content": "<p>Large capacity: up to 150 units</p>"
+          }
+        },
+        "item_QJWRAr": {
+          "type": "item",
+          "settings": {
+            "horizontal_position": 52,
+            "vertical_position": 17,
+            "horizontal_position_mobile": 62,
+            "vertical_position_mobile": 14,
+            "icon_width": 32,
+            "title": "",
+            "content": "<p>Durable, secure build with double locks</p>"
           }
         }
       },
       "block_order": [
         "item_nxDXa8",
-        "item_QJWRAr",
-        "item_V7tr4m"
+        "item_td6XxG",
+        "item_V7tr4m",
+        "item_d4BM3e",
+        "item_QJWRAr"
       ],
       "name": "Hot spots",
       "settings": {
         "full_width": true,
         "image": "shopify://shop_images/Feature-Dot-Image.jpg",
         "mobile_image": "shopify://shop_images/Feature-Dot-Image_mobile.jpg",
-        "title": "Best in Class Smart Vending",
-        "content": "<p>This is the best smart vending machine on the market. You can make updates straight from your smart phone app, it has a very easy-to-use user interface, and it's super durable.</p>",
+        "title": "This can be another H2 heading",
+        "content": "<p>Need text to Go here</p>",
         "button_text": "",
         "button_url": "",
         "desktop_text_position": "place-self-center-start text-start",
