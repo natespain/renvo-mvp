@@ -704,6 +704,34 @@
             "heading_20": ""
           }
         },
+        "values_g3LGqU": {
+          "type": "values",
+          "settings": {
+            "product": "mega-wall-high-capacity-wall-mounted-vending-kiosk",
+            "value_1": "<p>Value 1</p>",
+            "value_2": "<p>Value 2</p>",
+            "value_3": "<p>Value 3</p>",
+            "value_4": "",
+            "value_5": "",
+            "value_6": "",
+            "value_7": "",
+            "value_8": "",
+            "value_9": "",
+            "value_10": "",
+            "value_11": "",
+            "value_12": "",
+            "value_13": "",
+            "value_14": "",
+            "value_15": "",
+            "value_16": "",
+            "value_17": "",
+            "value_18": "",
+            "value_19": "",
+            "value_20": "",
+            "view_button_background": "",
+            "view_button_text_color": ""
+          }
+        },
         "values_LqPqgP": {
           "type": "values",
           "settings": {
@@ -759,41 +787,13 @@
             "view_button_background": "",
             "view_button_text_color": ""
           }
-        },
-        "values_g3LGqU": {
-          "type": "values",
-          "settings": {
-            "product": "mega-wall-high-capacity-wall-mounted-vending-kiosk",
-            "value_1": "<p>Value 1</p>",
-            "value_2": "<p>Value 2</p>",
-            "value_3": "<p>Value 3</p>",
-            "value_4": "",
-            "value_5": "",
-            "value_6": "",
-            "value_7": "",
-            "value_8": "",
-            "value_9": "",
-            "value_10": "",
-            "value_11": "",
-            "value_12": "",
-            "value_13": "",
-            "value_14": "",
-            "value_15": "",
-            "value_16": "",
-            "value_17": "",
-            "value_18": "",
-            "value_19": "",
-            "value_20": "",
-            "view_button_background": "",
-            "view_button_text_color": ""
-          }
         }
       },
       "block_order": [
         "headings_c9tPGc",
+        "values_g3LGqU",
         "values_LqPqgP",
-        "values_7MgAXz",
-        "values_g3LGqU"
+        "values_7MgAXz"
       ],
       "name": "Comparison table",
       "settings": {
@@ -804,14 +804,14 @@
         "button_text": "",
         "button_url": "",
         "text_position": "start",
-        "max_rows": 5,
+        "max_rows": 6,
         "view_all_text": "View all",
         "view_less_text": "View less",
         "view_product": "View",
         "show_product_info": true,
         "show_product_image": true,
         "show_product_swatch": true,
-        "viewing_product": "",
+        "viewing_product": "Current",
         "background": "rgba(0,0,0,0)",
         "background_gradient": "",
         "text_color": "",
