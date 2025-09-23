@@ -411,8 +411,8 @@
           "settings": {
             "horizontal_position": 45,
             "vertical_position": 72,
-            "horizontal_position_mobile": 30,
-            "vertical_position_mobile": 30,
+            "horizontal_position_mobile": 48,
+            "vertical_position_mobile": 76,
             "icon_width": 32,
             "title": "",
             "content": "<p>Modular payment module – choose Nayax or Kiosoft</p>"
@@ -423,8 +423,8 @@
           "settings": {
             "horizontal_position": 46,
             "vertical_position": 56,
-            "horizontal_position_mobile": 83,
-            "vertical_position_mobile": 75,
+            "horizontal_position_mobile": 46,
+            "vertical_position_mobile": 49,
             "icon_width": 32,
             "title": "",
             "content": "<p>Coil configuration options: 35 mm / 45 mm / 55 mm</p>"
@@ -435,7 +435,7 @@
           "settings": {
             "horizontal_position": 54,
             "vertical_position": 46,
-            "horizontal_position_mobile": 30,
+            "horizontal_position_mobile": 57,
             "vertical_position_mobile": 30,
             "icon_width": 32,
             "title": "",
@@ -448,7 +448,7 @@
             "horizontal_position": 52,
             "vertical_position": 17,
             "horizontal_position_mobile": 62,
-            "vertical_position_mobile": 14,
+            "vertical_position_mobile": 57,
             "icon_width": 32,
             "title": "",
             "content": "<p>Durable, secure build with double locks</p>"
