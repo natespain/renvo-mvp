@@ -760,16 +760,16 @@
             "view_button_text_color": ""
           }
         },
-        "values_7MgAXz": {
+        "values_qc7fXq": {
           "type": "values",
           "settings": {
-            "product": "smart-vending-machine-2",
-            "value_1": "<p>Value 1</p>",
-            "value_2": "<p>Value 2</p>",
-            "value_3": "<p>Value 3</p>",
-            "value_4": "",
-            "value_5": "",
-            "value_6": "",
+            "product": "smart-vending-machine-4",
+            "value_1": "<p>48 aisles; up to 576 units with 12 units per aisle (35 mm coils); 480 units with 10 units/aisle (45 mm); 384 units with 8 units/aisle (55 mm)</p>",
+            "value_2": "<p>Metal casing 1.8 mm thick; double locking mechanism for enhanced security</p>",
+            "value_3": "<p>32\" touchscreen monitor, high brightness, adjustable for varying environments</p>",
+            "value_4": "<p>Android board with WiFi receiver + high-gain antenna</p>",
+            "value_5": "<p>Option 1: Nayax Cellular card reader with e-SIM; Option 2: Kiosoft card reader (both variants) variant adds bill acceptor; also Apple Pay & other payment integrations</p>",
+            "value_6": "<p>1-year comprehensive warranty; remote management software included for first year, then subscription required</p>",
             "value_7": "",
             "value_8": "",
             "value_9": "",
@@ -793,7 +793,7 @@
         "headings_c9tPGc",
         "values_g3LGqU",
         "values_LqPqgP",
-        "values_7MgAXz"
+        "values_qc7fXq"
       ],
       "name": "Comparison table",
       "settings": {
