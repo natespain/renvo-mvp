@@ -268,8 +268,8 @@
             "icon_background_type": "circle",
             "icon_background": "",
             "icon_color": "",
-            "title": "Bodegas",
-            "content": "<p>Lorem Ipsum dolar sit amet</p>"
+            "title": "Bars & nightclubs",
+            "content": "<p>High-frequency sales in compact spaces.</p>"
           }
         },
         "item_dcmehc": {
@@ -281,8 +281,8 @@
             "icon_background_type": "circle",
             "icon_background": "",
             "icon_color": "",
-            "title": "Restaurants",
-            "content": "<p>Lorem Ipsum dolar sit amet</p>"
+            "title": "Restaurants & lounges",
+            "content": "<p>Large product variety in a discreet wall unit.</p>"
           }
         },
         "item_PMfM47": {
@@ -294,8 +294,8 @@
             "icon_background_type": "circle",
             "icon_background": "",
             "icon_color": "",
-            "title": "Bars",
-            "content": "<p>Lorem Ipsum dolar sit amet</p>"
+            "title": "Convenience stores",
+            "content": "<p>Maximize selection with minimal footprint.</p>"
           }
         },
         "item_rf97kq": {
@@ -307,21 +307,8 @@
             "icon_background_type": "circle",
             "icon_background": "",
             "icon_color": "",
-            "title": "Hotels",
-            "content": "<p>Lorem Ipsum dolar sit amet</p>"
-          }
-        },
-        "item_xqDpPA": {
-          "type": "item",
-          "settings": {
-            "icon": "picto-coupon",
-            "mobile_icon_width": 24,
-            "icon_width": 32,
-            "icon_background_type": "circle",
-            "icon_background": "",
-            "icon_color": "",
-            "title": "Convenience Stores",
-            "content": "<p>Lorem Ipsum dolar sit amet</p>"
+            "title": "Large venues",
+            "content": "<p>Handle high-demand crowds without floor clutter.</p>"
           }
         }
       },
@@ -329,8 +316,7 @@
         "item_De4ra3",
         "item_dcmehc",
         "item_PMfM47",
-        "item_rf97kq",
-        "item_xqDpPA"
+        "item_rf97kq"
       ],
       "name": "Text with icons",
       "settings": {
